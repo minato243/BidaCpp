@@ -1,0 +1,174 @@
+
+Giaithebi.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 654, 19
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+Group 139
+  rotate: false
+  xy: 2, 295
+  size: 368, 166
+  orig: 368, 166
+  offset: 0, 0
+  index: -1
+Icon
+  rotate: false
+  xy: 818, 52
+  size: 130, 129
+  orig: 130, 129
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: false
+  xy: 2002, 274
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 328, 284
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 950, 173
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 328, 32
+  size: 8, 9
+  orig: 8, 9
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 2, 2
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+Light/light0001
+  rotate: false
+  xy: 2, 155
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0014
+  rotate: false
+  xy: 2, 155
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0002
+  rotate: false
+  xy: 372, 323
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0003
+  rotate: false
+  xy: 2, 15
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0004
+  rotate: false
+  xy: 698, 323
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0005
+  rotate: false
+  xy: 1024, 323
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0006
+  rotate: false
+  xy: 1350, 323
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0007
+  rotate: false
+  xy: 1676, 323
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0008
+  rotate: false
+  xy: 372, 183
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0009
+  rotate: false
+  xy: 698, 183
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0010
+  rotate: false
+  xy: 1024, 183
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0011
+  rotate: false
+  xy: 1350, 183
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0012
+  rotate: false
+  xy: 1676, 183
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0013
+  rotate: false
+  xy: 328, 43
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Shape 20
+  rotate: false
+  xy: 818, 41
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: -1
+Text
+  rotate: true
+  xy: 2002, 285
+  size: 176, 44
+  orig: 176, 44
+  offset: 0, 0
+  index: -1

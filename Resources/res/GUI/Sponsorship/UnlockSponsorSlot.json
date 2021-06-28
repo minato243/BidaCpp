@@ -1,0 +1,331 @@
+{
+  "ID": "79e89567-d30f-4482-a7f6-10ee55a95e65",
+  "Version": "2.3.4",
+  "Name": "UnlockSponsorSlot",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 203,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -112,
+            "Scale9OriginY": -103,
+            "Scale9Width": 224,
+            "Scale9Height": 206,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -300.0,
+            "RightMargin": -300.0,
+            "TopMargin": -400.0,
+            "BottomMargin": -400.0,
+            "Tag": 204,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "item_blue.png",
+                  "Plist": "ModeSelect/res/MatchMatching.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 631,
+                "Scale9Height": 583,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.8712,
+                  "Y": 400.5279
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4965,
+                  "Y": 0.5007
+                },
+                "PreSize": {
+                  "X": 1.1017,
+                  "Y": 0.7663
+                },
+                "LeftMargin": -32.6288,
+                "RightMargin": -28.3712,
+                "TopMargin": 92.9721,
+                "BottomMargin": 94.0279,
+                "Tag": 54,
+                "ActionTag": 890986303,
+                "Size": {
+                  "X": 661.0,
+                  "Y": 613.0
+                },
+                "Name": "imgBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 58,
+                "LabelText": "___Mở khóa vĩnh  viễn thử thách thứ 3___",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 45,
+                  "G": 45,
+                  "B": 45
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -5.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 300.0,
+                  "Y": 630.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 5.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7875
+                },
+                "PreSize": {
+                  "X": 1.9833,
+                  "Y": 0.1063
+                },
+                "LeftMargin": -295.0,
+                "RightMargin": -295.0,
+                "TopMargin": 127.5,
+                "BottomMargin": 587.5,
+                "Tag": 206,
+                "ActionTag": -2025939496,
+                "Size": {
+                  "X": 1190.0,
+                  "Y": 85.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "select.png",
+                  "Plist": "ModeSelect/res/MatchMatching.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "select.png",
+                  "Plist": "ModeSelect/res/MatchMatching.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "select.png",
+                  "Plist": "ModeSelect/res/MatchMatching.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 190,
+                "Scale9Height": 40,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 290.7907,
+                  "Y": 170.2033
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4847,
+                  "Y": 0.2128
+                },
+                "PreSize": {
+                  "X": 0.5618,
+                  "Y": 0.1187
+                },
+                "LeftMargin": 122.2615,
+                "RightMargin": 140.6801,
+                "TopMargin": 582.3021,
+                "BottomMargin": 122.7087,
+                "Tag": 83,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Entry fee: 123456",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "G": 136,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -3.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 168.5293,
+                      "Y": 55.4927
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 5.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5842
+                    },
+                    "PreSize": {
+                      "X": 0.9197,
+                      "Y": 0.5895
+                    },
+                    "LeftMargin": 13.5293,
+                    "RightMargin": 13.5293,
+                    "TopMargin": 11.4965,
+                    "BottomMargin": 27.4927,
+                    "Tag": 213,
+                    "ActionTag": -1242502755,
+                    "Size": {
+                      "X": 310.0,
+                      "Y": 56.0
+                    },
+                    "Name": "lbPrice",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -374362851,
+                "Size": {
+                  "X": 337.0585,
+                  "Y": 94.9892
+                },
+                "Name": "btnBuy",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1482733541,
+            "Size": {
+              "X": 600.0,
+              "Y": 800.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../ModeSelect/res/MatchMatching.plist",
+        "../ModeSelect/res/MatchMatching.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

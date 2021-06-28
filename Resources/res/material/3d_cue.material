@@ -1,0 +1,18 @@
+material spaceship
+{
+	technique normal
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_position_tex.vert
+				fragmentShader = res/shaders/3d_color_tex.frag
+				sampler u_sampler0
+				{
+					path = res/3d/ball/Ball_No0.png
+				}
+			}
+		}
+	}
+}

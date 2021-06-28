@@ -1,0 +1,169 @@
+{
+  "ID": "a046bfbb-4177-4931-864e-3880c40664b9",
+  "Version": "2.3.4",
+  "Name": "DebugDialogTab",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 26,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "Sponsor_Box_01.png",
+              "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "Sponsor_Box_01.png",
+              "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "Sponsor_Box_01.png",
+              "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 90,
+            "Scale9Height": 21,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -95.4976,
+            "RightMargin": -95.4976,
+            "TopMargin": -37.3474,
+            "BottomMargin": -37.3474,
+            "Tag": 126,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "Text Label\nText lbaelasdf",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 95.4976,
+                  "Y": 37.3474
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8744,
+                  "Y": 0.9371
+                },
+                "LeftMargin": 11.9976,
+                "RightMargin": 11.9976,
+                "TopMargin": 2.3474,
+                "BottomMargin": 2.3474,
+                "Tag": 28,
+                "ActionTag": 31472824,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 70.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -776076372,
+            "Size": {
+              "X": 190.9952,
+              "Y": 74.6947
+            },
+            "Name": "btnBg",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.plist",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,746 @@
+{
+  "ID": "2d8d2adb-802d-4777-b99e-3582daad47bc",
+  "Version": "2.3.4",
+  "Name": "RenameCueUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 458,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 288.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.45
+            },
+            "PreSize": {
+              "X": 0.7482,
+              "Y": 0.2734
+            },
+            "LeftMargin": 143.0,
+            "RightMargin": 143.0,
+            "TopMargin": 264.5,
+            "BottomMargin": 200.5,
+            "Tag": 460,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Box_Purple_Full.png",
+                  "Plist": "Inventory/res/inventory-cue.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 35,
+                "Scale9OriginY": 32,
+                "Scale9Width": 37,
+                "Scale9Height": 44,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.0,
+                  "Y": 87.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 461,
+                "ActionTag": 285045070,
+                "Size": {
+                  "X": 850.0,
+                  "Y": 175.0
+                },
+                "Name": "imgBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "ĐỔI TÊN GẬY",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 56,
+                  "G": 32,
+                  "B": 63
+                },
+                "ShadowOffsetX": -2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.0,
+                  "Y": 149.5074
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 5.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8543
+                },
+                "PreSize": {
+                  "X": 0.2424,
+                  "Y": 0.2686
+                },
+                "LeftMargin": 322.0,
+                "RightMargin": 322.0,
+                "TopMargin": 1.9926,
+                "BottomMargin": 126.0074,
+                "Tag": 464,
+                "ActionTag": -2002451050,
+                "Size": {
+                  "X": 206.0,
+                  "Y": 47.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Back_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Back_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Back_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 32,
+                "Scale9Height": 16,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 41.795,
+                  "Y": 146.7192
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0492,
+                  "Y": 0.8384
+                },
+                "PreSize": {
+                  "X": 0.0729,
+                  "Y": 0.2171
+                },
+                "LeftMargin": 10.795,
+                "RightMargin": 777.205,
+                "TopMargin": 9.2808,
+                "BottomMargin": 127.7192,
+                "Tag": 463,
+                "ActionTag": 1866238223,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 38.0
+                },
+                "Name": "btnBack",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Yellow_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Yellow_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Yellow_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 198,
+                "Scale9Height": 78,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 719.9319,
+                  "Y": 62.4077
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.847,
+                  "Y": 0.3566
+                },
+                "PreSize": {
+                  "X": 0.2512,
+                  "Y": 0.5351
+                },
+                "LeftMargin": 613.1757,
+                "RightMargin": 23.3119,
+                "TopMargin": 65.7694,
+                "BottomMargin": 15.5848,
+                "Tag": 465,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "1.000.000",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 87.3151,
+                      "Y": 52.3273
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 5.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4089,
+                      "Y": 0.5588
+                    },
+                    "PreSize": {
+                      "X": 0.6604,
+                      "Y": 0.4378
+                    },
+                    "LeftMargin": 16.8151,
+                    "RightMargin": 55.6974,
+                    "TopMargin": 20.8185,
+                    "BottomMargin": 31.8273,
+                    "Tag": 466,
+                    "ActionTag": 853577173,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 41.0
+                    },
+                    "Name": "lb",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Chip_icon.png",
+                      "Plist": "MainLobby/res/Lobby_Reworked.plist"
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 1,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 180.3568,
+                      "Y": 48.1744
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8447,
+                      "Y": 0.5144
+                    },
+                    "PreSize": {
+                      "X": 0.1265,
+                      "Y": 0.299
+                    },
+                    "LeftMargin": 166.8568,
+                    "RightMargin": 19.6557,
+                    "TopMargin": 31.4714,
+                    "BottomMargin": 34.1744,
+                    "Tag": 467,
+                    "ActionTag": -24981667,
+                    "Size": {
+                      "X": 27.0,
+                      "Y": 28.0
+                    },
+                    "Name": "imgCoin",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 574865395,
+                "Size": {
+                  "X": 213.5125,
+                  "Y": 93.6458
+                },
+                "Name": "btnRename",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "K/DA AO: Akali Hàng hiệu\n2nd lines in cases",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 12.4874,
+                  "Y": 105.0322
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0147,
+                  "Y": 0.6002
+                },
+                "PreSize": {
+                  "X": 0.2976,
+                  "Y": 0.3314
+                },
+                "LeftMargin": 12.4874,
+                "RightMargin": 584.5126,
+                "TopMargin": 69.9678,
+                "BottomMargin": 47.0322,
+                "Tag": 468,
+                "ActionTag": -228233437,
+                "Size": {
+                  "X": 253.0,
+                  "Y": 58.0
+                },
+                "Name": "lbName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "TabBox_01.png",
+                  "Plist": "Inventory/res/inventory-cue.plist"
+                },
+                "Scale9OriginX": 40,
+                "Scale9OriginY": 34,
+                "Scale9Width": 42,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 446.8009,
+                  "Y": 86.067
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5256,
+                  "Y": 0.4918
+                },
+                "PreSize": {
+                  "X": 0.3582,
+                  "Y": 0.1611
+                },
+                "LeftMargin": 294.5854,
+                "RightMargin": 250.9836,
+                "TopMargin": 74.8408,
+                "BottomMargin": 71.9748,
+                "Tag": 470,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "A new name for this cue",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 7.8729,
+                      "Y": 15.5448
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0259,
+                      "Y": 0.5515
+                    },
+                    "PreSize": {
+                      "X": 0.9865,
+                      "Y": 0.8161
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "LeftMargin": 7.8729,
+                    "RightMargin": -3.7747,
+                    "TopMargin": 1.1397,
+                    "BottomMargin": 4.0448,
+                    "Tag": 473,
+                    "ActionTag": -686325642,
+                    "Size": {
+                      "X": 300.3327,
+                      "Y": 23.0
+                    },
+                    "Name": "tfNewName",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Perfect Execution __________",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 6.1735,
+                      "Y": 18.3913
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 90,
+                      "B": 253
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0203,
+                      "Y": 0.6525
+                    },
+                    "PreSize": {
+                      "X": 0.9756,
+                      "Y": 1.0289
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "LeftMargin": 6.1735,
+                    "RightMargin": 1.2574,
+                    "TopMargin": -4.7068,
+                    "BottomMargin": 3.8913,
+                    "Tag": 471,
+                    "ActionTag": -1063569567,
+                    "Size": {
+                      "X": 297.0,
+                      "Y": 29.0
+                    },
+                    "Name": "lbText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1734441494,
+                "Size": {
+                  "X": 304.4309,
+                  "Y": 28.1845
+                },
+                "Name": "imgTfBackground",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "White_Line.png",
+                  "Plist": "Inventory/res/inventory-cue.plist"
+                },
+                "Scale9OriginY": 11,
+                "Scale9Width": 1,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 279.1969,
+                  "Y": 86.6019
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3285,
+                  "Y": 0.4949
+                },
+                "PreSize": {
+                  "X": 0.0012,
+                  "Y": 0.2057
+                },
+                "LeftMargin": 278.6969,
+                "RightMargin": 570.3031,
+                "TopMargin": 70.3981,
+                "BottomMargin": 68.6019,
+                "Tag": 88,
+                "ActionTag": 800702263,
+                "Size": {
+                  "X": 1.0,
+                  "Y": 36.0
+                },
+                "Name": "whiteLine",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "*Tối đa 15 ký tự ____",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 590.6912,
+                  "Y": 51.3642
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6949,
+                  "Y": 0.2935
+                },
+                "PreSize": {
+                  "X": 0.2494,
+                  "Y": 0.1657
+                },
+                "LeftMargin": 378.6912,
+                "RightMargin": 259.3088,
+                "TopMargin": 109.1358,
+                "BottomMargin": 36.8642,
+                "Tag": 472,
+                "ActionTag": 919478087,
+                "Size": {
+                  "X": 212.0,
+                  "Y": 29.0
+                },
+                "Name": "lbDesc",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 115463850,
+            "Size": {
+              "X": 850.0,
+              "Y": 175.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../Game/res/WinLose.plist",
+        "../Game/res/WinLose.png",
+        "../MainLobby/res/Lobby_Reworked.plist",
+        "../MainLobby/res/Lobby_Reworked.png",
+        "res/inventory-cue.plist",
+        "res/inventory-cue.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,316 @@
+{
+  "ID": "445cf413-d7df-4826-a51c-64ab21411185",
+  "Version": "2.3.4",
+  "Name": "SponsorList",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 203,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -112,
+            "Scale9OriginY": -103,
+            "Scale9Width": 224,
+            "Scale9Height": 206,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.7464,
+              "Y": 1.7465
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -298.2536,
+            "RightMargin": -301.7464,
+            "TopMargin": -401.7465,
+            "BottomMargin": -398.2535,
+            "Tag": 204,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Sponsorship/res/sponsor_detail_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 321,
+                "Scale9Height": 367,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.8712,
+                  "Y": 400.5279
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4965,
+                  "Y": 0.5007
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.125
+                },
+                "LeftMargin": -2.1288,
+                "RightMargin": 2.1288,
+                "TopMargin": 349.4721,
+                "BottomMargin": 350.5279,
+                "Tag": 54,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Sponsorship/res/slot_empty.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 78,
+                    "Scale9OriginY": 47,
+                    "Scale9Width": 82,
+                    "Scale9Height": 51,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.5436,
+                      "Y": 51.0291
+                    },
+                    "Scale": {
+                      "ScaleX": 0.61,
+                      "ScaleY": 0.61
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1259,
+                      "Y": 0.5103
+                    },
+                    "PreSize": {
+                      "X": 0.3967,
+                      "Y": 1.45
+                    },
+                    "LeftMargin": -43.4564,
+                    "RightMargin": 405.4564,
+                    "TopMargin": -23.5291,
+                    "BottomMargin": -21.4709,
+                    "Tag": 135,
+                    "ActionTag": 1417656173,
+                    "Size": {
+                      "X": 238.0,
+                      "Y": 145.0
+                    },
+                    "Name": "slot_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Sponsorship/res/slot_empty.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 78,
+                    "Scale9OriginY": 47,
+                    "Scale9Width": 82,
+                    "Scale9Height": 51,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 225.8729,
+                      "Y": 51.5357
+                    },
+                    "Scale": {
+                      "ScaleX": 0.61,
+                      "ScaleY": 0.61
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3765,
+                      "Y": 0.5154
+                    },
+                    "PreSize": {
+                      "X": 0.3967,
+                      "Y": 1.45
+                    },
+                    "LeftMargin": 106.8729,
+                    "RightMargin": 255.1271,
+                    "TopMargin": -24.0357,
+                    "BottomMargin": -20.9643,
+                    "Tag": 137,
+                    "ActionTag": -4402999,
+                    "Size": {
+                      "X": 238.0,
+                      "Y": 145.0
+                    },
+                    "Name": "slot_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Sponsorship/res/slot_empty.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 78,
+                    "Scale9OriginY": 47,
+                    "Scale9Width": 82,
+                    "Scale9Height": 51,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 377.7112,
+                      "Y": 50.7857
+                    },
+                    "Scale": {
+                      "ScaleX": 0.61,
+                      "ScaleY": 0.61
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6295,
+                      "Y": 0.5079
+                    },
+                    "PreSize": {
+                      "X": 0.3967,
+                      "Y": 1.45
+                    },
+                    "LeftMargin": 258.7112,
+                    "RightMargin": 103.2888,
+                    "TopMargin": -23.2857,
+                    "BottomMargin": -21.7143,
+                    "Tag": 138,
+                    "ActionTag": -1750735087,
+                    "Size": {
+                      "X": 238.0,
+                      "Y": 145.0
+                    },
+                    "Name": "slot_3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Sponsorship/res/slot_empty.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 78,
+                    "Scale9OriginY": 47,
+                    "Scale9Width": 82,
+                    "Scale9Height": 51,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 524.2897,
+                      "Y": 50.5413
+                    },
+                    "Scale": {
+                      "ScaleX": 0.61,
+                      "ScaleY": 0.61
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8738,
+                      "Y": 0.5054
+                    },
+                    "PreSize": {
+                      "X": 0.3967,
+                      "Y": 1.45
+                    },
+                    "LeftMargin": 405.2897,
+                    "RightMargin": -43.2897,
+                    "TopMargin": -23.0413,
+                    "BottomMargin": -21.9587,
+                    "Tag": 139,
+                    "ActionTag": -1701017477,
+                    "Size": {
+                      "X": 238.0,
+                      "Y": 145.0
+                    },
+                    "Name": "slot_4",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 890986303,
+                "Size": {
+                  "X": 600.0,
+                  "Y": 100.0
+                },
+                "Name": "imgBg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1482733541,
+            "Size": {
+              "X": 600.0,
+              "Y": 800.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "res/slot_empty.png",
+        "res/sponsor_detail_bg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

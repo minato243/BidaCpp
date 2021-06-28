@@ -1,0 +1,17 @@
+{
+  "gold": 1,
+  "cue_box_bronze": 2,
+  "cue_box_silver": 3,
+  "cue_box_gold": 4,
+  "coupon": 5,
+  "dust_song_toan": 6,
+  "dust_boc_pha": 7,
+  "dust_cau_bong": 8,
+  "dust_xoan_oc": 9,
+  "cue_box_song_toan": 10,
+  "cue_box_boc_pha": 11,
+  "cue_box_cau_bong": 12,
+  "cue_box_xoan_oc": 13,
+  "chalk": 14,
+  "glove": 15
+}

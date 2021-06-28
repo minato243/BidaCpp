@@ -1,0 +1,140 @@
+{
+  "ID": "908cc6f6-f3d6-48cc-ae1c-53b7accf7059",
+  "Version": "2.3.4",
+  "Name": "DebugFloatingNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1249,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "MOVE_GUI_Round.png",
+              "Plist": "GlobalPopup/res/Gui_Update_pack.plist"
+            },
+            "Scale9OriginX": 36,
+            "Scale9OriginY": 36,
+            "Scale9Width": 39,
+            "Scale9Height": 39,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -31.5,
+            "RightMargin": -31.5,
+            "TopMargin": -31.5,
+            "BottomMargin": -31.5,
+            "Tag": 1250,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -5,
+                "Scale9Width": 30,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.925,
+                  "Y": 31.6255
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5067,
+                  "Y": 0.502
+                },
+                "PreSize": {
+                  "X": 0.8893,
+                  "Y": 0.9415
+                },
+                "LeftMargin": 3.9109,
+                "RightMargin": 3.061,
+                "TopMargin": 1.7184,
+                "BottomMargin": 1.9694,
+                "Tag": 1251,
+                "ActionTag": -794593344,
+                "Size": {
+                  "X": 56.0281,
+                  "Y": 59.3122
+                },
+                "Name": "btnMain",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1172690589,
+            "Size": {
+              "X": 63.0,
+              "Y": 63.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "res/Gui_Update_pack.plist",
+        "res/Gui_Update_pack.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,156 @@
+{
+  "bankList": [
+	{
+	  "code": "CC",
+      "name": "Master Card, Visa Card, JCB",
+      "status": 1
+	},
+    {
+      "code": "ABB",
+      "name": "Ngân hàng TMCP An Bình (ABB)",
+      "status": 1
+    },
+    {
+      "code": "VTB",
+      "name": "Ngân hàng Công Thương Việt Nam (Vietinbank)",
+      "status": 1
+    },
+    {
+      "code": "BIDV",
+      "name": "Ngân hàng đầu tư và phát triển Việt Nam (BIDV)",
+      "status": 1
+    },
+    {
+      "code": "OJB",
+      "name": "Ngân hàng TMCP Đại Dương (OceanBank)",
+      "status": 1
+    },
+    {
+      "code": "TPB",
+      "name": "Ngân hàng Tiền Phong (Tien Phong Bank)",
+      "status": 1
+    },
+    {
+      "code": "HDB",
+      "name": "Ngân Hàng TMCP Phát Triển TPHCM (HDBank)",
+      "status": 1
+    },
+    {
+      "code": "VPB",
+      "name": "Ngân hàng Việt Nam Thịnh Vượng (VPBank) ",
+      "status": 1
+    },
+    {
+      "code": "SHB",
+      "name": "Ngân hàng TMCP Sài Gòn – Hà Nội SHB",
+      "status": 1
+    },
+    {
+      "code": "MB",
+      "name": "Ngân hàng quân đội (MB)",
+      "status": 1
+    },
+    {
+      "code": "SEAB",
+      "name": "Ngân hàng TMCP Đông Nam Á Seabank",
+      "status": 1
+    },
+    {
+      "code": "MSB",
+      "name": "Ngân hàng TMCP Hàng Hải (Maritime Bank)",
+      "status": 1
+    },
+    {
+      "code": "EIB",
+      "name": "Ngân hàng Xuất Nhập Khẩu Việt Nam (Eximbank)",
+      "status": 1
+    },
+    {
+      "code": "ACB",
+      "name": "Ngân hàng Á Châu (ACB)",
+      "status": 1
+    },
+    {
+      "code": "DAB",
+      "name": "Ngân hàng Đông Á bank (DAB)",
+      "status": 1
+    },
+    {
+      "code": "NASB",
+      "name": "Ngân hàng TMCP Bắc Á",
+      "status": 1
+    },
+    {
+      "code": "PGB",
+      "name": "Ngân hàng Dầu Khí (PG Bank)",
+      "status": 1
+    },
+    {
+      "code": "HSBC",
+      "name": "Ngân Hàng HSBC",
+      "status": 1
+    },
+    {
+      "code": "NAB",
+      "name": "Ngân hàng TMCP Nam Á (Nam A Bank)",
+      "status": 1
+    },
+    {
+      "code": "VIB",
+      "name": "Ngân hàng quốc tế (VIB)",
+      "status": 1
+    },
+    {
+      "code": "OCB",
+      "name": "Ngân hàng TMCP Phương Đông (OCB)",
+      "status": 1
+    },
+    {
+      "code": "SGB",
+      "name": "Ngân hàng TMCP Sài Gòn Công Thương (SaigonBank)",
+      "status": 1
+    },
+    {
+      "code": "BVB",
+      "name": "Bảo Việt Bank",
+      "status": 1
+    },
+    {
+      "code": "TCB",
+      "name": "Ngân hàng Kỹ Thương Việt Nam (Techcombank)",
+      "status": 1
+    },
+    {
+      "code": "VARB",
+      "name": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)",
+      "status": 1
+    },
+    {
+      "code": "SCB",
+      "name": "Ngân hàng Sài Gòn Thương Tín (Sacombank)",
+      "status": 1
+    },
+    {
+      "code": "VCB",
+      "name": "Ngân hàng Ngoại Thương Việt Nam (Vietcombank)",
+      "status": 1
+    },
+    {
+      "code": "VAB",
+      "name": "Ngân hàng TMCP Việt Á",
+      "status": 1
+    },
+    {
+      "code": "GPB",
+      "name": "Ngân Hàng Dầu Khí Toàn Cầu (GPBank)",
+      "status": 1
+    },
+    {
+      "code": "NVB",
+      "name": "Ngân hàng TMCP Nam Việt (NaviBank)",
+      "status": 0
+    }
+  ],
+  "returnCode": 1,
+  "returnMessage": ""
+}

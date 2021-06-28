@@ -1,0 +1,2048 @@
+{
+  "ID": "6cfcc07c-f318-4c3c-9e66-1b579fb3fa81",
+  "Version": "2.3.4",
+  "Name": "GambleGUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 239,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 217,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 240,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 284.0,
+                  "Y": 607.232
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.9488
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 284.0,
+                "RightMargin": 852.0,
+                "TopMargin": 32.768,
+                "BottomMargin": 607.232,
+                "Tag": 241,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "MainLobby/res/Avatar_02.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -44.371,
+                      "Y": -45.0955
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -87.871,
+                    "RightMargin": 0.871,
+                    "TopMargin": 1.0955,
+                    "BottomMargin": -89.0955,
+                    "Tag": 242,
+                    "ActionTag": 1578291601,
+                    "Size": {
+                      "X": 87.0,
+                      "Y": 88.0
+                    },
+                    "Name": "imgAvatarBorder",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": -43.2248,
+                      "Y": -44.4731
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -43.2248,
+                    "RightMargin": 43.2248,
+                    "TopMargin": 44.4731,
+                    "BottomMargin": -44.4731,
+                    "Tag": 243,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "MainLobby/res/Avatar_01.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -38.0,
+                        "RightMargin": -38.0,
+                        "TopMargin": -38.0,
+                        "BottomMargin": -38.0,
+                        "Tag": 244,
+                        "ActionTag": 869235554,
+                        "Size": {
+                          "X": 76.0,
+                          "Y": 76.0
+                        },
+                        "Name": "imgAvatarMask",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -384587142,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeAvatar",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "____ P1 Name Placeholder ____",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -94.3142,
+                      "Y": -16.5036
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -446.3142,
+                    "RightMargin": 94.3142,
+                    "TopMargin": 3.0036,
+                    "BottomMargin": -30.0036,
+                    "Tag": 245,
+                    "ActionTag": -442757693,
+                    "Size": {
+                      "X": 352.0,
+                      "Y": 27.0
+                    },
+                    "Name": "lbName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "____ 999.999.999",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -3.688,
+                      "Y": -108.1027
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -164.688,
+                    "RightMargin": 3.688,
+                    "TopMargin": 96.6027,
+                    "BottomMargin": -119.6027,
+                    "Tag": 246,
+                    "ActionTag": -919566526,
+                    "Size": {
+                      "X": 161.0,
+                      "Y": 23.0
+                    },
+                    "Name": "lbMoney",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -570.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -218.1162,
+                    "TopMargin": 158.7305,
+                    "BottomMargin": -570.0,
+                    "Tag": 255,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "___ Gamble moreeee ___",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.0581,
+                          "Y": 394.4074
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.959
+                        },
+                        "PreSize": {
+                          "X": 1.0591,
+                          "Y": 0.0559
+                        },
+                        "LeftMargin": -6.4419,
+                        "RightMargin": -6.4419,
+                        "TopMargin": 5.3621,
+                        "BottomMargin": 382.9074,
+                        "Tag": 254,
+                        "ActionTag": -2065171109,
+                        "Size": {
+                          "X": 231.0,
+                          "Y": 23.0
+                        },
+                        "Name": "lbMore",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 1000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4566,
+                          "Y": 343.3643
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.8349
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8501,
+                        "RightMargin": 12.0531,
+                        "TopMargin": 42.8951,
+                        "BottomMargin": 318.3541,
+                        "Tag": 256,
+                        "ActionTag": -1653156888,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble1",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 2000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4566,
+                          "Y": 284.0993
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.6908
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8501,
+                        "RightMargin": 12.0531,
+                        "TopMargin": 102.16,
+                        "BottomMargin": 259.0891,
+                        "Tag": 257,
+                        "ActionTag": 129023762,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble2",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 3000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4567,
+                          "Y": 224.8347
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.5467
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8502,
+                        "RightMargin": 12.053,
+                        "TopMargin": 161.4247,
+                        "BottomMargin": 199.8246,
+                        "Tag": 258,
+                        "ActionTag": -1377463477,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble3",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 4000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4566,
+                          "Y": 165.571
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.4026
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8501,
+                        "RightMargin": 12.0531,
+                        "TopMargin": 220.6884,
+                        "BottomMargin": 140.5609,
+                        "Tag": 259,
+                        "ActionTag": -1155770403,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble4",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ ALL MONEY ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4567,
+                          "Y": 106.3065
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.2585
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8502,
+                        "RightMargin": 12.053,
+                        "TopMargin": 279.9529,
+                        "BottomMargin": 81.2964,
+                        "Tag": 260,
+                        "ActionTag": 2116503240,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble5",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "ButtonText": "___ READY ___",
+                        "TextColor": {
+                          "R": 0,
+                          "B": 32
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.0581,
+                          "Y": 33.3551
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0811
+                        },
+                        "PreSize": {
+                          "X": 0.8719,
+                          "Y": 0.1242
+                        },
+                        "LeftMargin": 13.9686,
+                        "RightMargin": 13.9686,
+                        "TopMargin": 352.3827,
+                        "BottomMargin": 7.8233,
+                        "Tag": 261,
+                        "ActionTag": -2122337762,
+                        "Size": {
+                          "X": 190.1791,
+                          "Y": 51.0635
+                        },
+                        "Name": "btnReady",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -1016546286,
+                    "Size": {
+                      "X": 218.1162,
+                      "Y": 411.2695
+                    },
+                    "Name": "pnGambleCtrl",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "READY",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -191.5357,
+                      "Y": -62.9847
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 144,
+                      "G": 238,
+                      "B": 144
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -242.0357,
+                    "RightMargin": 141.0357,
+                    "TopMargin": 40.9847,
+                    "BottomMargin": -84.9847,
+                    "Tag": 760,
+                    "ActionTag": 1264002569,
+                    "Size": {
+                      "X": 101.0,
+                      "Y": 44.0
+                    },
+                    "Name": "lbReady",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -518849362,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeP1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 852.0,
+                  "Y": 607.232
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.75,
+                  "Y": 0.9488
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 852.0,
+                "RightMargin": 284.0,
+                "TopMargin": 32.768,
+                "BottomMargin": 607.232,
+                "Tag": 247,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "MainLobby/res/Avatar_02.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 44.37,
+                      "Y": -45.0955
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.87,
+                    "RightMargin": -87.87,
+                    "TopMargin": 1.0955,
+                    "BottomMargin": -89.0955,
+                    "Tag": 248,
+                    "ActionTag": 70059846,
+                    "Size": {
+                      "X": 87.0,
+                      "Y": 88.0
+                    },
+                    "Name": "imgAvatarBorder",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 45.691,
+                      "Y": -43.7453
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 45.691,
+                    "RightMargin": -45.691,
+                    "TopMargin": 43.7453,
+                    "BottomMargin": -43.7453,
+                    "Tag": 249,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "MainLobby/res/Avatar_01.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -38.0,
+                        "RightMargin": -38.0,
+                        "TopMargin": -38.0,
+                        "BottomMargin": -38.0,
+                        "Tag": 250,
+                        "ActionTag": 1665208508,
+                        "Size": {
+                          "X": 76.0,
+                          "Y": 76.0
+                        },
+                        "Name": "imgAvatarMask",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1349944391,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeAvatar",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "____ P2 Name Placeholder ____",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 94.31,
+                      "Y": -16.5036
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 94.31,
+                    "RightMargin": -446.31,
+                    "TopMargin": 3.0036,
+                    "BottomMargin": -30.0036,
+                    "Tag": 252,
+                    "ActionTag": -94314231,
+                    "Size": {
+                      "X": 352.0,
+                      "Y": 27.0
+                    },
+                    "Name": "lbName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "____ 999.999.999",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 3.69,
+                      "Y": -108.1027
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 3.69,
+                    "RightMargin": -164.69,
+                    "TopMargin": 96.6027,
+                    "BottomMargin": -119.6027,
+                    "Tag": 253,
+                    "ActionTag": -678017181,
+                    "Size": {
+                      "X": 161.0,
+                      "Y": 23.0
+                    },
+                    "Name": "lbMoney",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": -570.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": -218.1162,
+                    "TopMargin": 158.7305,
+                    "BottomMargin": -570.0,
+                    "Tag": 262,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "___ Gamble moreeee ___",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.0581,
+                          "Y": 394.4074
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.959
+                        },
+                        "PreSize": {
+                          "X": 1.0591,
+                          "Y": 0.0559
+                        },
+                        "LeftMargin": -6.4419,
+                        "RightMargin": -6.4419,
+                        "TopMargin": 5.3621,
+                        "BottomMargin": 382.9074,
+                        "Tag": 263,
+                        "ActionTag": 181539906,
+                        "Size": {
+                          "X": 231.0,
+                          "Y": 23.0
+                        },
+                        "Name": "lbMore",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 1000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4566,
+                          "Y": 343.3643
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.8349
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8501,
+                        "RightMargin": 12.0531,
+                        "TopMargin": 42.8951,
+                        "BottomMargin": 318.3541,
+                        "Tag": 264,
+                        "ActionTag": -2094973558,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble1",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 2000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4566,
+                          "Y": 284.0993
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.6908
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8501,
+                        "RightMargin": 12.0531,
+                        "TopMargin": 102.16,
+                        "BottomMargin": 259.0891,
+                        "Tag": 265,
+                        "ActionTag": -2117185438,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble2",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 3000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4567,
+                          "Y": 224.8347
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.5467
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8502,
+                        "RightMargin": 12.053,
+                        "TopMargin": 161.4247,
+                        "BottomMargin": 199.8246,
+                        "Tag": 266,
+                        "ActionTag": -1111225359,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble3",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ 4000 xxx ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4566,
+                          "Y": 165.571
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.4026
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8501,
+                        "RightMargin": 12.0531,
+                        "TopMargin": 220.6884,
+                        "BottomMargin": 140.5609,
+                        "Tag": 267,
+                        "ActionTag": 1056966654,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble4",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 20,
+                        "ButtonText": "___ ALL MONEY ___",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.4567,
+                          "Y": 106.3065
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5018,
+                          "Y": 0.2585
+                        },
+                        "PreSize": {
+                          "X": 0.8858,
+                          "Y": 0.1216
+                        },
+                        "LeftMargin": 12.8502,
+                        "RightMargin": 12.053,
+                        "TopMargin": 279.9529,
+                        "BottomMargin": 81.2964,
+                        "Tag": 268,
+                        "ActionTag": 416566814,
+                        "Size": {
+                          "X": 193.213,
+                          "Y": 50.0203
+                        },
+                        "Name": "btnGamble5",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "ButtonText": "___ READY ___",
+                        "TextColor": {
+                          "R": 0,
+                          "B": 32
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 16,
+                        "Scale9Height": 14,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 109.0581,
+                          "Y": 33.3551
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0811
+                        },
+                        "PreSize": {
+                          "X": 0.8719,
+                          "Y": 0.1242
+                        },
+                        "LeftMargin": 13.9686,
+                        "RightMargin": 13.9686,
+                        "TopMargin": 352.3827,
+                        "BottomMargin": 7.8233,
+                        "Tag": 269,
+                        "ActionTag": -393394731,
+                        "Size": {
+                          "X": 190.1791,
+                          "Y": 51.0635
+                        },
+                        "Name": "btnReady",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -1617664510,
+                    "Size": {
+                      "X": 218.1162,
+                      "Y": 411.2695
+                    },
+                    "Name": "pnGambleCtrl",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "READY",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.54,
+                      "Y": -62.98
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 144,
+                      "G": 238,
+                      "B": 144
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 141.04,
+                    "RightMargin": -242.04,
+                    "TopMargin": 40.98,
+                    "BottomMargin": -84.98,
+                    "Tag": 761,
+                    "ActionTag": 50347414,
+                    "Size": {
+                      "X": 101.0,
+                      "Y": 44.0
+                    },
+                    "Name": "lbReady",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 497746496,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeP2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "___ 10.000.000 ___",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 395.896,
+                  "Y": 231.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3485,
+                  "Y": 0.361
+                },
+                "PreSize": {
+                  "X": 0.2658,
+                  "Y": 0.0609
+                },
+                "LeftMargin": 244.896,
+                "RightMargin": 589.104,
+                "TopMargin": 389.46,
+                "BottomMargin": 211.54,
+                "Tag": 270,
+                "ActionTag": -1334391337,
+                "Size": {
+                  "X": 302.0,
+                  "Y": 39.0
+                },
+                "Name": "lbBetP1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "___ 10.000.000 ___",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 724.8817,
+                  "Y": 231.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 165,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6381,
+                  "Y": 0.361
+                },
+                "PreSize": {
+                  "X": 0.2658,
+                  "Y": 0.0609
+                },
+                "LeftMargin": 573.8817,
+                "RightMargin": 260.1183,
+                "TopMargin": 389.46,
+                "BottomMargin": 211.54,
+                "Tag": 271,
+                "ActionTag": 1921720022,
+                "Size": {
+                  "X": 302.0,
+                  "Y": 39.0
+                },
+                "Name": "lbBetP2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "Text Label",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.9737,
+                  "Y": 445.3371
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5009,
+                  "Y": 0.6958
+                },
+                "PreSize": {
+                  "X": 0.1919,
+                  "Y": 0.0859
+                },
+                "LeftMargin": 459.9737,
+                "RightMargin": 458.0263,
+                "TopMargin": 167.1629,
+                "BottomMargin": 417.8371,
+                "Tag": 36,
+                "ActionTag": -1378297891,
+                "Size": {
+                  "X": 218.0,
+                  "Y": 55.0
+                },
+                "Name": "lbTime",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "__ First turn: Player Dummy 1___",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 555.136
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8674
+                },
+                "PreSize": {
+                  "X": 0.4692,
+                  "Y": 0.0641
+                },
+                "LeftMargin": 301.5,
+                "RightMargin": 301.5,
+                "TopMargin": 64.364,
+                "BottomMargin": 534.636,
+                "Tag": 272,
+                "ActionTag": 1136004076,
+                "Size": {
+                  "X": 533.0,
+                  "Y": 41.0
+                },
+                "Name": "lbFirstTurn",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1657592108,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/Button_Normal.png",
+        "../Default/Button_Press.png",
+        "../Font/facebook.TTF",
+        "../MainLobby/res/Avatar_01.png",
+        "../MainLobby/res/Avatar_02.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

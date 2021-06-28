@@ -1,0 +1,46 @@
+{
+  "1": {
+    "id": 1,
+    "type": 1,
+    "name": "name_cue_song_toan",
+    "tip_coef": 0.3,
+    "angle": [
+      3,
+      30
+    ],
+    "force": 300
+  },
+  "2": {
+    "id": 2,
+    "type": 2,
+    "name": "name_cue_boc_pha",
+    "tip_coef": 0.1,
+    "angle": [
+      3,
+      20
+    ],
+    "force": 500
+  },
+  "3": {
+    "id": 3,
+    "type": 3,
+    "name": "name_cue_cau_bong",
+    "tip_coef": 0.3,
+    "angle": [
+      30,
+      55
+    ],
+    "force": 400
+  },
+  "4": {
+    "id": 4,
+    "type": 4,
+    "name": "name_cue_xoan_oc",
+    "tip_coef": 0.7,
+    "angle": [
+      70,
+      85
+    ],
+    "force": 500
+  }
+}

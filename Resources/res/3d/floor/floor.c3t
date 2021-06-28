@@ -1,0 +1,70 @@
+{
+	"version": "0.7", 
+	"id": "", 
+	"meshes": [
+		{
+			"attributes": [{
+					"size":   3, 
+					"type": "GL_FLOAT", 
+					"attribute": "VERTEX_ATTRIB_POSITION"
+				}, {
+					"size":   3, 
+					"type": "GL_FLOAT", 
+					"attribute": "VERTEX_ATTRIB_NORMAL"
+				}, {
+					"size":   2, 
+					"type": "GL_FLOAT", 
+					"attribute": "VERTEX_ATTRIB_TEX_COORD"
+				}], 
+			"vertices": [
+				 0.990000,  0.990000,  0.000000,  0.000000,  0.000000,  1.000000,  1.000000,  1.000000, 
+				-0.990000,  0.990000,  0.000000,  0.000000,  0.000000,  1.000000,  0.000000,  1.000000, 
+				-0.990000, -0.990000,  0.000000,  0.000000,  0.000000,  1.000000,  0.000000,  0.000000, 
+				 0.990000, -0.990000,  0.000000,  0.000000,  0.000000,  1.000000,  1.000000,  0.000000
+			], 
+			"parts": [
+				{
+					"id": "Plane_part1", 
+					"type": "TRIANGLES", 
+					"indices": [  0,   1,   2,   0,   2,   3], 
+					"aabb": [-0.990000, -0.990000,  0.000000,  0.990000,  0.990000,  0.000000]
+				}
+			]
+		}
+	], 
+	"materials": [
+		{
+			"id": "Material", 
+			"ambient": [ 0.050876,  0.050876,  0.050876], 
+			"diffuse": [ 0.800000,  0.800000,  0.800000], 
+			"emissive": [ 0.000000,  0.000000,  0.000000], 
+			"opacity":  0.000000, 
+			"specular": [ 0.800000,  0.800000,  0.800000], 
+			"shininess":  36.000000, 
+			"textures": [
+				{
+					"id": "base_color_texture", 
+					"filename": "floor.png", 
+					"type": "DIFFUSE", 
+					"wrapModeU": "REPEAT", 
+					"wrapModeV": "REPEAT"
+				}
+			]
+		}
+	], 
+	"nodes": [
+		{
+			"id": "Plane", 
+			"skeleton": false, 
+			"transform": [ 100.000000,  0.000000,  0.000000,  0.000000,  0.000000, -0.000008, -50.000000,  0.000000,  0.000000,  100.000000, -0.000016,  0.000000,  0.000000,  0.000000,  0.000000,  1.000000], 
+			"parts": [
+				{
+					"meshpartid": "Plane_part1", 
+					"materialid": "Material", 
+					"uvMapping": [[]]
+				}
+			]
+		}
+	], 
+	"animations": []
+}

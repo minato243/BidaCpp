@@ -1,0 +1,1511 @@
+{
+  "ID": "b904596f-0cbe-4170-ab1b-f060977bbfdc",
+  "Version": "2.3.4",
+  "Name": "FindMatch",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 199,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 206,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 202,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "quick.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "Scale9OriginX": 22,
+                "Scale9OriginY": 21,
+                "Scale9Width": 113,
+                "Scale9Height": 67,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0001,
+                  "Y": 551.8175
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8622
+                },
+                "PreSize": {
+                  "X": 0.1382,
+                  "Y": 0.1703
+                },
+                "LeftMargin": 489.5001,
+                "RightMargin": 489.4999,
+                "TopMargin": 33.6825,
+                "BottomMargin": 497.3175,
+                "Tag": 218,
+                "ActionTag": -2147210330,
+                "Size": {
+                  "X": 157.0,
+                  "Y": 109.0
+                },
+                "Name": "imgItem",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "___ Quick Match ___",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 443.7772
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 5.0002,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6934
+                },
+                "PreSize": {
+                  "X": 0.4419,
+                  "Y": 0.1094
+                },
+                "LeftMargin": 317.0,
+                "RightMargin": 317.0,
+                "TopMargin": 161.2228,
+                "BottomMargin": 408.7772,
+                "Tag": 220,
+                "ActionTag": 1096663552,
+                "Size": {
+                  "X": 502.0,
+                  "Y": 70.0
+                },
+                "Name": "lbSubtitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "____ CCU : 99999999 ____",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0001,
+                  "Y": 385.103
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6017
+                },
+                "PreSize": {
+                  "X": 0.3768,
+                  "Y": 0.0641
+                },
+                "LeftMargin": 354.0001,
+                "RightMargin": 353.9999,
+                "TopMargin": 234.397,
+                "BottomMargin": 364.603,
+                "Tag": 226,
+                "ActionTag": -2015347266,
+                "Size": {
+                  "X": 428.0,
+                  "Y": 41.0
+                },
+                "Name": "lbCCU",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "____ Estimate time remaining: 99:99:99 ____",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 225.3824,
+                  "Y": 585.4519
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.1984,
+                  "Y": 0.9148
+                },
+                "PreSize": {
+                  "X": 0.3521,
+                  "Y": 0.0359
+                },
+                "LeftMargin": 25.3824,
+                "RightMargin": 710.6176,
+                "TopMargin": 43.0481,
+                "BottomMargin": 573.9519,
+                "Tag": 227,
+                "ActionTag": 1294436011,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 23.0
+                },
+                "Name": "lbEstimate",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "00:99.00s",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 339.5669
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 254,
+                  "B": 194
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5306
+                },
+                "PreSize": {
+                  "X": 0.1752,
+                  "Y": 0.0812
+                },
+                "LeftMargin": 468.5,
+                "RightMargin": 468.5,
+                "TopMargin": 274.4331,
+                "BottomMargin": 313.5669,
+                "Tag": 235,
+                "ActionTag": -683636927,
+                "Size": {
+                  "X": 199.0,
+                  "Y": 52.0
+                },
+                "Name": "lbTime",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -0.0005,
+                  "Y": 145.5981
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.2275
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -0.0005,
+                "RightMargin": 1136.0005,
+                "TopMargin": 494.4019,
+                "BottomMargin": 145.5981,
+                "Tag": 386,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Blue_Panel_02.png",
+                      "Plist": "Game/res/WinLose.plist"
+                    },
+                    "Scale9OriginX": 164,
+                    "Scale9OriginY": 52,
+                    "Scale9Width": 163,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": -488.0,
+                    "TopMargin": -158.0,
+                    "Tag": 387,
+                    "ActionTag": -406745607,
+                    "Size": {
+                      "X": 488.0,
+                      "Y": 158.0
+                    },
+                    "Name": "imgBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "MainLobby/res/Avatar_02.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.2225,
+                      "Y": 131.0482
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0829,
+                      "ScaleY": 1.0829
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 52.7225,
+                    "RightMargin": -139.7225,
+                    "TopMargin": -175.0482,
+                    "BottomMargin": 87.0482,
+                    "Tag": 388,
+                    "ActionTag": 1500916003,
+                    "Size": {
+                      "X": 87.0,
+                      "Y": 88.0
+                    },
+                    "Name": "imgAvatarBorder",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 94.5923,
+                      "Y": 128.5147
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8022,
+                      "ScaleY": 0.8022
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 94.5923,
+                    "RightMargin": -94.5923,
+                    "TopMargin": -128.5147,
+                    "BottomMargin": 128.5147,
+                    "Tag": 389,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "MainLobby/res/Avatar_01.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 2.8398,
+                          "Y": 4.2433
+                        },
+                        "Scale": {
+                          "ScaleX": 1.3311,
+                          "ScaleY": 1.4051
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.1602,
+                        "RightMargin": -40.8398,
+                        "TopMargin": -42.2433,
+                        "BottomMargin": -33.7567,
+                        "Tag": 390,
+                        "ActionTag": -802787003,
+                        "Size": {
+                          "X": 76.0,
+                          "Y": 76.0
+                        },
+                        "Name": "imgAvatarMask",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1065417426,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeAvatar",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "P1 Name Place...",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -4.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 161.6585,
+                      "Y": 132.9524
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 161.6585,
+                    "RightMargin": -437.6585,
+                    "TopMargin": -158.9524,
+                    "BottomMargin": 106.9524,
+                    "Tag": 391,
+                    "ActionTag": 1229148752,
+                    "Size": {
+                      "X": 276.0,
+                      "Y": 52.0
+                    },
+                    "Name": "lbName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Blue_Box_02.png",
+                      "Plist": "Game/res/WinLose.plist"
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 22,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 221.8419,
+                      "Y": 77.9783
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 178.3419,
+                    "RightMargin": -265.3419,
+                    "TopMargin": -95.4783,
+                    "BottomMargin": 60.4783,
+                    "Tag": 392,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Trophy.png",
+                          "Plist": "Game/res/WinLose.plist"
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 18,
+                        "Scale9Height": 16,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -0.4853,
+                          "Y": 16.0261
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.0056,
+                          "Y": 0.4579
+                        },
+                        "PreSize": {
+                          "X": 0.4624,
+                          "Y": 1.1015
+                        },
+                        "LeftMargin": -20.6,
+                        "RightMargin": 67.3707,
+                        "TopMargin": -0.3027,
+                        "BottomMargin": -3.2505,
+                        "Tag": 393,
+                        "ActionTag": 1629840077,
+                        "Size": {
+                          "X": 40.2293,
+                          "Y": 38.5531
+                        },
+                        "Name": "trophy",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Blue_Box_01.png",
+                          "Plist": "Game/res/WinLose.plist"
+                        },
+                        "Scale9OriginX": 37,
+                        "Scale9OriginY": 17,
+                        "Scale9Width": 13,
+                        "Scale9Height": 20,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 102.1803,
+                          "Y": 17.5
+                        },
+                        "Scale": {
+                          "ScaleX": -1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.1745,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3678,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 86.1803,
+                        "RightMargin": -31.1803,
+                        "Tag": 394,
+                        "ActionTag": -726730233,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 35.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "4444",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Font/facebook.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 110.8671,
+                          "Y": 20.8826
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.2743,
+                          "Y": 0.5966
+                        },
+                        "PreSize": {
+                          "X": 0.8161,
+                          "Y": 1.0857
+                        },
+                        "LeftMargin": 39.8671,
+                        "RightMargin": -23.8671,
+                        "TopMargin": -4.8826,
+                        "BottomMargin": 1.8826,
+                        "Tag": 395,
+                        "ActionTag": -60037593,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 38.0
+                        },
+                        "Name": "lbValue",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1793184138,
+                    "Size": {
+                      "X": 87.0,
+                      "Y": 35.0
+                    },
+                    "Name": "trophyBox",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1242241578,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeP1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1136.1389,
+                  "Y": 115.3454
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0001,
+                  "Y": 0.1802
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1136.1389,
+                "RightMargin": -0.1389,
+                "TopMargin": 524.6547,
+                "BottomMargin": 115.3454,
+                "Tag": 396,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Red_Panel_02.png",
+                      "Plist": "Game/res/WinLose.plist"
+                    },
+                    "Scale9OriginX": 164,
+                    "Scale9OriginY": 52,
+                    "Scale9Width": 174,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -502.0,
+                    "TopMargin": -164.0,
+                    "Tag": 397,
+                    "ActionTag": -342521798,
+                    "Size": {
+                      "X": 502.0,
+                      "Y": 164.0
+                    },
+                    "Name": "imgBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Avatar_Red.png",
+                      "Plist": "Game/res/WinLose.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -104.2985,
+                      "Y": 125.2713
+                    },
+                    "Scale": {
+                      "ScaleX": 0.972,
+                      "ScaleY": 0.8695
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -162.2985,
+                    "RightMargin": 46.2985,
+                    "TopMargin": -188.2713,
+                    "BottomMargin": 62.2713,
+                    "Tag": 398,
+                    "ActionTag": 2033538305,
+                    "Size": {
+                      "X": 116.0,
+                      "Y": 126.0
+                    },
+                    "Name": "imgAvatarBorder",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": -105.6156,
+                      "Y": 123.2373
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6441,
+                      "ScaleY": 0.6441
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -105.6156,
+                    "RightMargin": 105.6156,
+                    "TopMargin": -123.2373,
+                    "BottomMargin": 123.2373,
+                    "Tag": 399,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "MainLobby/res/Avatar_01.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 2.1118,
+                          "Y": 7.6279
+                        },
+                        "Scale": {
+                          "ScaleX": 1.9058,
+                          "ScaleY": 1.8112
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.8882,
+                        "RightMargin": -40.1118,
+                        "TopMargin": -45.6279,
+                        "BottomMargin": -30.3721,
+                        "Tag": 400,
+                        "ActionTag": -1677108594,
+                        "Size": {
+                          "X": 76.0,
+                          "Y": 76.0
+                        },
+                        "Name": "imgAvatarMask",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1500027334,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeAvatar",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "P1 Name Place...",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -4.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -168.052,
+                      "Y": 135.4274
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -444.052,
+                    "RightMargin": 168.052,
+                    "TopMargin": -161.4274,
+                    "BottomMargin": 109.4274,
+                    "Tag": 401,
+                    "ActionTag": -1129459649,
+                    "Size": {
+                      "X": 276.0,
+                      "Y": 52.0
+                    },
+                    "Name": "lbName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Red_Box_02.png",
+                      "Plist": "Game/res/WinLose.plist"
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 22,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -231.1765,
+                      "Y": 76.1102
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -274.6765,
+                    "RightMargin": 187.6765,
+                    "TopMargin": -93.6102,
+                    "BottomMargin": 58.6102,
+                    "Tag": 402,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Trophy.png",
+                          "Plist": "Game/res/WinLose.plist"
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 15,
+                        "Scale9Width": 18,
+                        "Scale9Height": 16,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 87.2592,
+                          "Y": 16.0261
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.003,
+                          "Y": 0.4579
+                        },
+                        "PreSize": {
+                          "X": 0.4624,
+                          "Y": 1.1015
+                        },
+                        "LeftMargin": 67.1446,
+                        "RightMargin": -20.3739,
+                        "TopMargin": -0.3027,
+                        "BottomMargin": -3.2505,
+                        "Tag": 403,
+                        "ActionTag": -1876728198,
+                        "Size": {
+                          "X": 40.2293,
+                          "Y": 38.5531
+                        },
+                        "Name": "trophy",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Red_Box_01.png",
+                          "Plist": "Game/res/WinLose.plist"
+                        },
+                        "Scale9OriginX": 37,
+                        "Scale9OriginY": 17,
+                        "Scale9Width": 13,
+                        "Scale9Height": 20,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -12.0033,
+                          "Y": 17.5001
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": -0.138,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3448,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": -27.0033,
+                        "RightMargin": 84.0033,
+                        "TopMargin": -0.0001,
+                        "BottomMargin": 0.0001,
+                        "Tag": 404,
+                        "ActionTag": -2037225420,
+                        "Size": {
+                          "X": 30.0,
+                          "Y": 35.0
+                        },
+                        "Name": "img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "4444",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Font/facebook.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 65.9017,
+                          "Y": 20.591
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7575,
+                          "Y": 0.5883
+                        },
+                        "PreSize": {
+                          "X": 0.8161,
+                          "Y": 1.0857
+                        },
+                        "LeftMargin": -5.0983,
+                        "RightMargin": 21.0983,
+                        "TopMargin": -4.591,
+                        "BottomMargin": 1.591,
+                        "Tag": 405,
+                        "ActionTag": -2035999959,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 38.0
+                        },
+                        "Name": "lbValue",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1842664967,
+                    "Size": {
+                      "X": 87.0,
+                      "Y": 35.0
+                    },
+                    "Name": "trophyBox",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1988785208,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeP2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "FindMatch/res/VS.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 567.9991,
+                  "Y": 213.6199
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3338
+                },
+                "PreSize": {
+                  "X": 0.0924,
+                  "Y": 0.1391
+                },
+                "LeftMargin": 515.4991,
+                "RightMargin": 515.5009,
+                "TopMargin": 381.8801,
+                "BottomMargin": 169.1199,
+                "Tag": 408,
+                "ActionTag": 1846797190,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 89.0
+                },
+                "Name": "VS_10",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "__Matching ching ching__",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 968.7648,
+                  "Y": 222.565
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8528,
+                  "Y": 0.3478
+                },
+                "PreSize": {
+                  "X": 0.3908,
+                  "Y": 0.0812
+                },
+                "LeftMargin": 524.7648,
+                "RightMargin": 167.2352,
+                "TopMargin": 391.435,
+                "BottomMargin": 196.565,
+                "Tag": 409,
+                "ActionTag": -1148158427,
+                "Size": {
+                  "X": 444.0,
+                  "Y": 52.0
+                },
+                "Name": "lbMatching",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Blue_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Blue_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Blue_Button.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 204,
+                "Scale9Height": 95,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 57.8881
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0905
+                },
+                "PreSize": {
+                  "X": 0.206,
+                  "Y": 0.1828
+                },
+                "LeftMargin": 451.0,
+                "RightMargin": 451.0,
+                "TopMargin": 523.6119,
+                "BottomMargin": -0.6119,
+                "Tag": 234,
+                "Children": [
+                  {
+                    "FontSize": 48,
+                    "LabelText": "Text Label",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 1.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 122.9998,
+                      "Y": 73.4588
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 7.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5256,
+                      "Y": 0.6279
+                    },
+                    "PreSize": {
+                      "X": 1.0385,
+                      "Y": 0.5983
+                    },
+                    "LeftMargin": 1.4998,
+                    "RightMargin": -10.4998,
+                    "TopMargin": 8.5412,
+                    "BottomMargin": 38.4588,
+                    "Tag": 184,
+                    "ActionTag": -1391926132,
+                    "Size": {
+                      "X": 243.0,
+                      "Y": 70.0
+                    },
+                    "Name": "lb",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1987301460,
+                "Size": {
+                  "X": 234.0,
+                  "Y": 117.0
+                },
+                "Name": "btnCancel",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 893125668,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../Game/res/WinLose.plist",
+        "../Game/res/WinLose.png",
+        "../MainLobby/res/Avatar_01.png",
+        "../MainLobby/res/Avatar_02.png",
+        "../ModeSelect/res/ModeSelect.plist",
+        "../ModeSelect/res/ModeSelect.png",
+        "res/VS.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,138 @@
+{
+  "ID": "53456022-50ea-4a5a-9f57-d6c7230a8905",
+  "Version": "2.3.4",
+  "Name": "LoadingPopup",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 456,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Infor_Box.png",
+              "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+            },
+            "Scale9OriginX": 97,
+            "Scale9OriginY": 54,
+            "Scale9Width": 101,
+            "Scale9Height": 58,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -147.5,
+            "RightMargin": -147.5,
+            "TopMargin": -83.0,
+            "BottomMargin": -83.0,
+            "Tag": 457,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Loading...\nSome placeholder in case you need \nan extra space for this notify",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 147.496,
+                  "Y": 88.727
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5345
+                },
+                "PreSize": {
+                  "X": 1.139,
+                  "Y": 0.5241
+                },
+                "LeftMargin": -20.504,
+                "RightMargin": -20.496,
+                "TopMargin": 33.773,
+                "BottomMargin": 45.227,
+                "Tag": 458,
+                "ActionTag": 1064577338,
+                "Size": {
+                  "X": 336.0,
+                  "Y": 87.0
+                },
+                "Name": "lbDesc",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -691542058,
+            "Size": {
+              "X": 295.0,
+              "Y": 166.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.plist",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

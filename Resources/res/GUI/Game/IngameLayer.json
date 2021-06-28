@@ -1,0 +1,4669 @@
+{
+  "ID": "6cbf88ac-6210-475f-a0af-9eb2ecc5fdf1",
+  "Version": "2.3.4",
+  "Name": "IngameLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 61,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 62,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Fake_Ingame_01_i5.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 165,
+                "ActionTag": 922096094,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 640.0
+                },
+                "Name": "Fake_Ingame_01_i5_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 65,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 399.2578,
+                      "Y": 551.1531
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3515,
+                      "Y": 0.8612
+                    },
+                    "PreSize": {
+                      "X": 0.0287,
+                      "Y": 0.0495
+                    },
+                    "LeftMargin": 399.2578,
+                    "RightMargin": 704.0892,
+                    "TopMargin": 57.1413,
+                    "BottomMargin": 551.1531,
+                    "Tag": 210,
+                    "ActionTag": 1396506773,
+                    "Size": {
+                      "X": 32.653,
+                      "Y": 31.7056
+                    },
+                    "Name": "pnSizeBallSlot",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 568.0,
+                      "Y": 640.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.735,
+                      "Y": 0.1578
+                    },
+                    "LeftMargin": 150.5,
+                    "RightMargin": 150.5,
+                    "BottomMargin": 539.0,
+                    "Tag": 211,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Round_Box.png",
+                          "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                        },
+                        "Scale9OriginX": 54,
+                        "Scale9OriginY": 6,
+                        "Scale9Width": 56,
+                        "Scale9Height": 9,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 417.5,
+                          "Y": 18.611
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.1843
+                        },
+                        "PreSize": {
+                          "X": 0.1964,
+                          "Y": 0.2079
+                        },
+                        "LeftMargin": 335.5,
+                        "RightMargin": 335.5,
+                        "TopMargin": 71.889,
+                        "BottomMargin": 8.111,
+                        "Tag": 78,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "Round 2",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 82.0,
+                              "Y": 14.4998
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 0,
+                              "G": 245
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6905
+                            },
+                            "PreSize": {
+                              "X": 0.4817,
+                              "Y": 1.381
+                            },
+                            "LeftMargin": 42.5,
+                            "RightMargin": 42.5,
+                            "TopMargin": -7.9998,
+                            "BottomMargin": -0.0002,
+                            "Tag": 79,
+                            "ActionTag": -395140650,
+                            "Size": {
+                              "X": 79.0,
+                              "Y": 29.0
+                            },
+                            "Name": "lbRound",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1141824957,
+                        "Size": {
+                          "X": 164.0,
+                          "Y": 21.0
+                        },
+                        "Name": "imgRound",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 417.5,
+                          "Y": 101.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 1.0
+                        },
+                        "PreSize": {
+                          "X": 0.1497,
+                          "Y": 1.0099
+                        },
+                        "LeftMargin": 355.0,
+                        "RightMargin": 355.0,
+                        "BottomMargin": -1.0,
+                        "Tag": 293,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Money_Icon.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 63.8875,
+                              "Y": 67.9218
+                            },
+                            "Scale": {
+                              "ScaleX": 1.2446,
+                              "ScaleY": 1.2446
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5111,
+                              "Y": 0.6659
+                            },
+                            "PreSize": {
+                              "X": 0.432,
+                              "Y": 0.3529
+                            },
+                            "LeftMargin": 36.8875,
+                            "RightMargin": 34.1125,
+                            "TopMargin": 16.0782,
+                            "BottomMargin": 49.9218,
+                            "Tag": 86,
+                            "ActionTag": -1245101100,
+                            "Size": {
+                              "X": 54.0,
+                              "Y": 36.0
+                            },
+                            "Name": "imgGold",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FontSize": 24,
+                            "LabelText": "999999999",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineSize": 2,
+                            "OutlineColor": {
+                              "R": 117,
+                              "G": 37,
+                              "B": 13
+                            },
+                            "OutlineEnabled": true,
+                            "ShadowColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowOffsetX": 0.0,
+                            "ShadowOffsetY": 3.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 62.5,
+                              "Y": 46.2909
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.4538
+                            },
+                            "PreSize": {
+                              "X": 1.12,
+                              "Y": 0.3824
+                            },
+                            "LeftMargin": -7.5,
+                            "RightMargin": -7.5,
+                            "TopMargin": 36.2091,
+                            "BottomMargin": 26.7909,
+                            "Tag": 117,
+                            "ActionTag": -1536016836,
+                            "Size": {
+                              "X": 140.0,
+                              "Y": 39.0
+                            },
+                            "Name": "lbGold",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 245030677,
+                        "Size": {
+                          "X": 125.0,
+                          "Y": 102.0
+                        },
+                        "Alpha": 0,
+                        "Name": "goldBox",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 356.2945,
+                          "Y": 101.4343
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": true,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4267,
+                          "Y": 1.0043
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 356.2945,
+                        "RightMargin": 478.7055,
+                        "TopMargin": -0.4343,
+                        "BottomMargin": 101.4343,
+                        "Tag": 67,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Board_Box_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "Scale9OriginX": 117,
+                            "Scale9OriginY": 27,
+                            "Scale9Width": 128,
+                            "Scale9Height": 35,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 12.7986,
+                              "Y": -4.4131
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -349.2014,
+                            "RightMargin": -12.7986,
+                            "TopMargin": 4.4131,
+                            "BottomMargin": -93.4131,
+                            "Tag": 82,
+                            "ActionTag": 2101643600,
+                            "Size": {
+                              "X": 362.0,
+                              "Y": 89.0
+                            },
+                            "Name": "bg",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Level_Box_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -66.2573,
+                              "Y": -26.9844
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -103.7573,
+                            "RightMargin": 28.7573,
+                            "TopMargin": 11.4844,
+                            "BottomMargin": -42.4844,
+                            "Tag": 72,
+                            "Children": [
+                              {
+                                "FontSize": 20,
+                                "LabelText": "53",
+                                "FontResource": {
+                                  "Type": "Normal",
+                                  "Path": "Font/facebook.TTF",
+                                  "Plist": ""
+                                },
+                                "HorizontalAlignmentType": "HT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 20.9333,
+                                  "Y": 19.9397
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "RotationSkewX": 7.0,
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.2791,
+                                  "Y": 0.6432
+                                },
+                                "PreSize": {
+                                  "X": 0.3467,
+                                  "Y": 0.9355
+                                },
+                                "LeftMargin": 7.9333,
+                                "RightMargin": 41.0667,
+                                "TopMargin": -3.4397,
+                                "BottomMargin": 5.4397,
+                                "Tag": 73,
+                                "ActionTag": -1332536150,
+                                "Size": {
+                                  "X": 26.0,
+                                  "Y": 29.0
+                                },
+                                "Name": "lbLevel",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1613818182,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 31.0
+                            },
+                            "Name": "levelBox",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Avatar_Box_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -30.9707,
+                              "Y": -49.4076
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -71.4707,
+                            "RightMargin": -9.5293,
+                            "TopMargin": 8.4076,
+                            "BottomMargin": -90.4076,
+                            "Tag": 68,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 41.608,
+                                  "Y": 38.9972
+                                },
+                                "Scale": {
+                                  "ScaleX": 2.3792,
+                                  "ScaleY": 2.3792
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.5137,
+                                  "Y": 0.4756
+                                },
+                                "PreSize": {
+                                  "X": 0.4198,
+                                  "Y": 0.4024
+                                },
+                                "LeftMargin": 24.608,
+                                "RightMargin": 22.392,
+                                "TopMargin": 26.5028,
+                                "BottomMargin": 22.4972,
+                                "Tag": 69,
+                                "ActionTag": -941772164,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "avatarMask",
+                                "ctype": "SpriteObjectData"
+                              }
+                            ],
+                            "ActionTag": 1418569284,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "avatarBorder",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Countdown_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -30.7868,
+                              "Y": -49.667
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -71.2868,
+                            "RightMargin": -9.7132,
+                            "TopMargin": 8.667,
+                            "BottomMargin": -90.667,
+                            "Tag": 81,
+                            "ActionTag": -506396450,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "countDownDummy",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Ext_Button.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -29.4858,
+                              "Y": -85.9919
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -43.4858,
+                            "RightMargin": 15.4858,
+                            "TopMargin": 71.9919,
+                            "BottomMargin": -99.9919,
+                            "Tag": 106,
+                            "ActionTag": -847192214,
+                            "Size": {
+                              "X": 28.0,
+                              "Y": 28.0
+                            },
+                            "Name": "imgBtnExt",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "Rank of player 1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Right",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -112.6149,
+                              "Y": -14.3359
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0002,
+                            "CColor": {
+                              "G": 176,
+                              "B": 39
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -253.6149,
+                            "RightMargin": 112.6149,
+                            "TopMargin": 1.3359,
+                            "BottomMargin": -27.3359,
+                            "Tag": 75,
+                            "ActionTag": -1637112362,
+                            "Size": {
+                              "X": 141.0,
+                              "Y": 26.0
+                            },
+                            "Name": "lbRank",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "____ Name of player 1 ____",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Right",
+                            "OutlineColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "OutlineEnabled": true,
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -110.0838,
+                              "Y": -33.1056
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0002,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -360.0838,
+                            "RightMargin": 110.0838,
+                            "TopMargin": 19.1056,
+                            "BottomMargin": -47.1056,
+                            "Tag": 74,
+                            "ActionTag": 1050064901,
+                            "Size": {
+                              "X": 250.0,
+                              "Y": 28.0
+                            },
+                            "Name": "lbName",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": true,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Tag": 76,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -91.1998,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -108.1998,
+                                "RightMargin": 74.1998,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 761,
+                                "ActionTag": -149207849,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -127.9603,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -144.9603,
+                                "RightMargin": 110.9603,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 762,
+                                "ActionTag": -344434200,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27_0",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -164.72,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -181.72,
+                                "RightMargin": 147.72,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 763,
+                                "ActionTag": 863289637,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27_1",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -201.4814,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -218.4814,
+                                "RightMargin": 184.4814,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 764,
+                                "ActionTag": -2010430336,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27_2",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -238.24,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -255.24,
+                                "RightMargin": 221.24,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 765,
+                                "ActionTag": -1753389443,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27_3",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -275.0,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -292.0,
+                                "RightMargin": 258.0,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 766,
+                                "ActionTag": 758642758,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27_4",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -311.76,
+                                  "Y": -73.58
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -328.76,
+                                "RightMargin": 294.76,
+                                "TopMargin": 57.08,
+                                "BottomMargin": -90.08,
+                                "Tag": 767,
+                                "ActionTag": 6267503,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_27_5",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -91.9,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -114.9,
+                                "RightMargin": 68.9,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 84,
+                                "ActionTag": -1262588981,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_0",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -128.26,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -151.26,
+                                "RightMargin": 105.26,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 77,
+                                "ActionTag": 1066575004,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_1",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -164.77,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -187.77,
+                                "RightMargin": 141.77,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 78,
+                                "ActionTag": -1659466809,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_2",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -201.48,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -224.48,
+                                "RightMargin": 178.48,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 79,
+                                "ActionTag": 809388255,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_3",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -237.93,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -260.93,
+                                "RightMargin": 214.93,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 81,
+                                "ActionTag": 1858145048,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_4",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -275.0,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -298.0,
+                                "RightMargin": 252.0,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 80,
+                                "ActionTag": 1094422840,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_5",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -311.38,
+                                  "Y": -74.08
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -334.38,
+                                "RightMargin": 288.38,
+                                "TopMargin": 51.08,
+                                "BottomMargin": -97.08,
+                                "Tag": 82,
+                                "ActionTag": 927131845,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_6",
+                                "ctype": "SpriteObjectData"
+                              }
+                            ],
+                            "ActionTag": 1552200792,
+                            "Size": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Name": "pocketedBall",
+                            "ctype": "SingleNodeObjectData"
+                          }
+                        ],
+                        "ActionTag": -1418683804,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "nodeP1",
+                        "ctype": "SingleNodeObjectData"
+                      },
+                      {
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 479.0395,
+                          "Y": 101.3636
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": true,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5737,
+                          "Y": 1.0036
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 479.0395,
+                        "RightMargin": 355.9605,
+                        "TopMargin": -0.3636,
+                        "BottomMargin": 101.3636,
+                        "Tag": 83,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Board_Box_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "Scale9OriginX": 117,
+                            "Scale9OriginY": 27,
+                            "Scale9Width": 129,
+                            "Scale9Height": 36,
+                            "AnchorPoint": {
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": -13.0967,
+                              "Y": -3.8191
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -13.0967,
+                            "RightMargin": -349.9033,
+                            "TopMargin": 3.8191,
+                            "BottomMargin": -93.8191,
+                            "Tag": 84,
+                            "ActionTag": -529405876,
+                            "Size": {
+                              "X": 363.0,
+                              "Y": 90.0
+                            },
+                            "Name": "bg",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Level_Box_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 63.9121,
+                              "Y": -25.3973
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 26.4121,
+                            "RightMargin": -101.4121,
+                            "TopMargin": 9.8973,
+                            "BottomMargin": -40.8973,
+                            "Tag": 92,
+                            "Children": [
+                              {
+                                "FontSize": 20,
+                                "LabelText": "53",
+                                "FontResource": {
+                                  "Type": "Normal",
+                                  "Path": "Font/facebook.TTF",
+                                  "Plist": ""
+                                },
+                                "HorizontalAlignmentType": "HT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 56.0277,
+                                  "Y": 17.6462
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "RotationSkewX": 7.0,
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.747,
+                                  "Y": 0.5692
+                                },
+                                "PreSize": {
+                                  "X": 0.3467,
+                                  "Y": 0.9355
+                                },
+                                "LeftMargin": 43.0277,
+                                "RightMargin": 5.9723,
+                                "TopMargin": -1.1462,
+                                "BottomMargin": 3.1462,
+                                "Tag": 93,
+                                "ActionTag": 228340856,
+                                "Size": {
+                                  "X": 26.0,
+                                  "Y": 29.0
+                                },
+                                "Name": "lbLevel",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 576292834,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 31.0
+                            },
+                            "Name": "levelBox",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Avatar_Box_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 30.0094,
+                              "Y": -50.6648
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -10.4906,
+                            "RightMargin": -70.5094,
+                            "TopMargin": 9.6648,
+                            "BottomMargin": -91.6648,
+                            "Tag": 87,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 40.1625,
+                                  "Y": 40.9444
+                                },
+                                "Scale": {
+                                  "ScaleX": 2.6515,
+                                  "ScaleY": 2.5715
+                                },
+                                "CColor": {
+                                  "R": 0,
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.4958,
+                                  "Y": 0.4993
+                                },
+                                "PreSize": {
+                                  "X": 0.4198,
+                                  "Y": 0.4024
+                                },
+                                "LeftMargin": 23.1625,
+                                "RightMargin": 23.8375,
+                                "TopMargin": 24.5556,
+                                "BottomMargin": 24.4444,
+                                "Tag": 88,
+                                "ActionTag": -547401796,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "avatarMask",
+                                "ctype": "SpriteObjectData"
+                              }
+                            ],
+                            "ActionTag": -1657263310,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "avatarBorder",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Countdown_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 29.6275,
+                              "Y": -50.1418
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -10.8725,
+                            "RightMargin": -70.1275,
+                            "TopMargin": 9.1418,
+                            "BottomMargin": -91.1418,
+                            "Tag": 80,
+                            "ActionTag": 186450146,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "countDownDummy",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Ext_Button.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 30.1541,
+                              "Y": -86.9959
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 16.1541,
+                            "RightMargin": -44.1541,
+                            "TopMargin": 72.9959,
+                            "BottomMargin": -100.9959,
+                            "Tag": 107,
+                            "ActionTag": -631814103,
+                            "Size": {
+                              "X": 28.0,
+                              "Y": 28.0
+                            },
+                            "Name": "imgBtnExt",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "Rank of player 1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 106.0134,
+                              "Y": -13.4475
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0,
+                            "CColor": {
+                              "G": 176,
+                              "B": 39
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 106.0134,
+                            "RightMargin": -247.0134,
+                            "TopMargin": 0.4475,
+                            "BottomMargin": -26.4475,
+                            "Tag": 90,
+                            "ActionTag": 958946382,
+                            "Size": {
+                              "X": 141.0,
+                              "Y": 26.0
+                            },
+                            "Name": "lbRank",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "____ Name of player 1 ____",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "OutlineEnabled": true,
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 106.0128,
+                              "Y": -33.6136
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 106.0128,
+                            "RightMargin": -356.0128,
+                            "TopMargin": 19.6136,
+                            "BottomMargin": -47.6136,
+                            "Tag": 91,
+                            "ActionTag": 582375765,
+                            "Size": {
+                              "X": 250.0,
+                              "Y": 28.0
+                            },
+                            "Name": "lbName",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": -1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": true,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Tag": 94,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -84.5687,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -101.5687,
+                                "RightMargin": 67.5687,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 768,
+                                "ActionTag": -1044983290,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -121.5943,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -138.5943,
+                                "RightMargin": 104.5943,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 769,
+                                "ActionTag": 1407244983,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34_0",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -158.6199,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -175.6199,
+                                "RightMargin": 141.6199,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 770,
+                                "ActionTag": 1934180942,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34_1",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -195.6455,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -212.6455,
+                                "RightMargin": 178.6455,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 771,
+                                "ActionTag": -1472830714,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34_2",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -232.6711,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -249.6711,
+                                "RightMargin": 215.6711,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 772,
+                                "ActionTag": -373102439,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34_3",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -269.6968,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -286.6968,
+                                "RightMargin": 252.6968,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 773,
+                                "ActionTag": 728236780,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34_4",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -306.7224,
+                                  "Y": -73.05
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -323.7224,
+                                "RightMargin": 289.7224,
+                                "TopMargin": 56.55,
+                                "BottomMargin": -89.55,
+                                "Tag": 774,
+                                "ActionTag": -1573167091,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "Image_34_5",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -83.83,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -106.83,
+                                "RightMargin": 60.83,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 95,
+                                "ActionTag": -1985656385,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_0",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -121.33,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -144.33,
+                                "RightMargin": 98.33,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 96,
+                                "ActionTag": -1760427627,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_1",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -159.5252,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -182.5252,
+                                "RightMargin": 136.5252,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 97,
+                                "ActionTag": 268799949,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_2",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -196.0399,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -219.0399,
+                                "RightMargin": 173.0399,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 98,
+                                "ActionTag": -1277670132,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_3",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -233.5165,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -256.5165,
+                                "RightMargin": 210.5165,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 100,
+                                "ActionTag": 381899712,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_4",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -270.4677,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -293.4677,
+                                "RightMargin": 247.4677,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 99,
+                                "ActionTag": 1357078258,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_5",
+                                "ctype": "SpriteObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "Default",
+                                  "Path": "Default/Sprite.png",
+                                  "Plist": ""
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -307.6394,
+                                  "Y": -72.5038
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -330.6394,
+                                "RightMargin": 284.6394,
+                                "TopMargin": 49.5038,
+                                "BottomMargin": -95.5038,
+                                "Tag": 101,
+                                "ActionTag": -72886809,
+                                "Size": {
+                                  "X": 46.0,
+                                  "Y": 46.0
+                                },
+                                "Name": "ball_6",
+                                "ctype": "SpriteObjectData"
+                              }
+                            ],
+                            "ActionTag": -204212585,
+                            "Size": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Name": "pocketedBall",
+                            "ctype": "SingleNodeObjectData"
+                          }
+                        ],
+                        "ActionTag": 183909116,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "nodeP2",
+                        "ctype": "SingleNodeObjectData"
+                      },
+                      {
+                        "FontSize": 48,
+                        "LabelText": "0 : 1",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 417.5,
+                          "Y": 59.9309
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5934
+                        },
+                        "PreSize": {
+                          "X": 0.1114,
+                          "Y": 0.5446
+                        },
+                        "LeftMargin": 371.0,
+                        "RightMargin": 371.0,
+                        "TopMargin": 13.5691,
+                        "BottomMargin": 32.4309,
+                        "Tag": 130,
+                        "ActionTag": 1670791699,
+                        "Size": {
+                          "X": 93.0,
+                          "Y": 55.0
+                        },
+                        "Name": "lbScore",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 238.5595,
+                          "Y": -10.4939
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": true,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.2857,
+                          "Y": -0.1039
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 238.5595,
+                        "RightMargin": 596.4405,
+                        "TopMargin": 111.4939,
+                        "BottomMargin": -10.4939,
+                        "Tag": 422,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Board_Box_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "Scale9OriginX": 117,
+                            "Scale9OriginY": 27,
+                            "Scale9Width": 128,
+                            "Scale9Height": 35,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 12.7986,
+                              "Y": -4.4131
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -349.2014,
+                            "RightMargin": -12.7986,
+                            "TopMargin": 4.4131,
+                            "BottomMargin": -93.4131,
+                            "Tag": 423,
+                            "ActionTag": 181938700,
+                            "Size": {
+                              "X": 362.0,
+                              "Y": 89.0
+                            },
+                            "Name": "bg",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Level_Box_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -66.2573,
+                              "Y": -26.9844
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -103.7573,
+                            "RightMargin": 28.7573,
+                            "TopMargin": 11.4844,
+                            "BottomMargin": -42.4844,
+                            "Tag": 424,
+                            "Children": [
+                              {
+                                "FontSize": 20,
+                                "LabelText": "53",
+                                "FontResource": {
+                                  "Type": "Normal",
+                                  "Path": "Font/facebook.TTF",
+                                  "Plist": ""
+                                },
+                                "HorizontalAlignmentType": "HT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 20.9333,
+                                  "Y": 19.9397
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "RotationSkewX": 7.0,
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.2791,
+                                  "Y": 0.6432
+                                },
+                                "PreSize": {
+                                  "X": 0.3467,
+                                  "Y": 0.9355
+                                },
+                                "LeftMargin": 7.9333,
+                                "RightMargin": 41.0667,
+                                "TopMargin": -3.4397,
+                                "BottomMargin": 5.4397,
+                                "Tag": 425,
+                                "ActionTag": -1675766558,
+                                "Size": {
+                                  "X": 26.0,
+                                  "Y": 29.0
+                                },
+                                "Name": "lbLevel",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -194145646,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 31.0
+                            },
+                            "Name": "levelBox",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Avatar_Box_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -30.9707,
+                              "Y": -49.4076
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -71.4707,
+                            "RightMargin": -9.5293,
+                            "TopMargin": 8.4076,
+                            "BottomMargin": -90.4076,
+                            "Tag": 426,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 41.608,
+                                  "Y": 38.9972
+                                },
+                                "Scale": {
+                                  "ScaleX": 2.3792,
+                                  "ScaleY": 2.3792
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.5137,
+                                  "Y": 0.4756
+                                },
+                                "PreSize": {
+                                  "X": 0.4198,
+                                  "Y": 0.4024
+                                },
+                                "LeftMargin": 24.608,
+                                "RightMargin": 22.392,
+                                "TopMargin": 26.5028,
+                                "BottomMargin": 22.4972,
+                                "Tag": 427,
+                                "ActionTag": -1454726712,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "avatarMask",
+                                "ctype": "SpriteObjectData"
+                              }
+                            ],
+                            "ActionTag": -953131639,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "avatarBorder",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Countdown_Blue.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -30.7868,
+                              "Y": -49.667
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -71.2868,
+                            "RightMargin": -9.7132,
+                            "TopMargin": 8.667,
+                            "BottomMargin": -90.667,
+                            "Tag": 428,
+                            "ActionTag": -1103865665,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "countDownDummy",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Ext_Button.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -29.4858,
+                              "Y": -85.9919
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -43.4858,
+                            "RightMargin": 15.4858,
+                            "TopMargin": 71.9919,
+                            "BottomMargin": -99.9919,
+                            "Tag": 429,
+                            "ActionTag": -297680117,
+                            "Size": {
+                              "X": 28.0,
+                              "Y": 28.0
+                            },
+                            "Name": "imgBtnExt",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "Rank of player 1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Right",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -112.6149,
+                              "Y": -14.3359
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0002,
+                            "CColor": {
+                              "G": 176,
+                              "B": 39
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -253.6149,
+                            "RightMargin": 112.6149,
+                            "TopMargin": 1.3359,
+                            "BottomMargin": -27.3359,
+                            "Tag": 430,
+                            "ActionTag": -1327293158,
+                            "Size": {
+                              "X": 141.0,
+                              "Y": 26.0
+                            },
+                            "Name": "lbRank",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "____ Name of player 1 ____",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Right",
+                            "OutlineColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "OutlineEnabled": true,
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": -110.0838,
+                              "Y": -33.1056
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0002,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -360.0838,
+                            "RightMargin": 110.0838,
+                            "TopMargin": 19.1056,
+                            "BottomMargin": -47.1056,
+                            "Tag": 431,
+                            "ActionTag": -2047103940,
+                            "Size": {
+                              "X": 250.0,
+                              "Y": 28.0
+                            },
+                            "Name": "lbName",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 457074937,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "nodeP3",
+                        "ctype": "SingleNodeObjectData"
+                      },
+                      {
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 596.4405,
+                          "Y": -10.5646
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": true,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.7143,
+                          "Y": -0.1046
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 596.4405,
+                        "RightMargin": 238.5595,
+                        "TopMargin": 111.5646,
+                        "BottomMargin": -10.5646,
+                        "Tag": 447,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Board_Box_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "Scale9OriginX": 117,
+                            "Scale9OriginY": 27,
+                            "Scale9Width": 129,
+                            "Scale9Height": 36,
+                            "AnchorPoint": {
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": -13.0967,
+                              "Y": -3.8191
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -13.0967,
+                            "RightMargin": -349.9033,
+                            "TopMargin": 3.8191,
+                            "BottomMargin": -93.8191,
+                            "Tag": 448,
+                            "ActionTag": -781164751,
+                            "Size": {
+                              "X": 363.0,
+                              "Y": 90.0
+                            },
+                            "Name": "bg",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Level_Box_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 63.9121,
+                              "Y": -25.3973
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 26.4121,
+                            "RightMargin": -101.4121,
+                            "TopMargin": 9.8973,
+                            "BottomMargin": -40.8973,
+                            "Tag": 449,
+                            "Children": [
+                              {
+                                "FontSize": 20,
+                                "LabelText": "53",
+                                "FontResource": {
+                                  "Type": "Normal",
+                                  "Path": "Font/facebook.TTF",
+                                  "Plist": ""
+                                },
+                                "HorizontalAlignmentType": "HT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 56.0277,
+                                  "Y": 17.6462
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "RotationSkewX": 7.0,
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.747,
+                                  "Y": 0.5692
+                                },
+                                "PreSize": {
+                                  "X": 0.3467,
+                                  "Y": 0.9355
+                                },
+                                "LeftMargin": 43.0277,
+                                "RightMargin": 5.9723,
+                                "TopMargin": -1.1462,
+                                "BottomMargin": 3.1462,
+                                "Tag": 450,
+                                "ActionTag": -67034702,
+                                "Size": {
+                                  "X": 26.0,
+                                  "Y": 29.0
+                                },
+                                "Name": "lbLevel",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1019331233,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 31.0
+                            },
+                            "Name": "levelBox",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Avatar_Box_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 30.0094,
+                              "Y": -50.6648
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -10.4906,
+                            "RightMargin": -70.5094,
+                            "TopMargin": 9.6648,
+                            "BottomMargin": -91.6648,
+                            "Tag": 451,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Red.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "BlendFunc": {
+                                  "Src": 1,
+                                  "Dst": 771
+                                },
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 40.1625,
+                                  "Y": 40.9444
+                                },
+                                "Scale": {
+                                  "ScaleX": 2.6515,
+                                  "ScaleY": 2.5715
+                                },
+                                "CColor": {
+                                  "R": 0,
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.4958,
+                                  "Y": 0.4993
+                                },
+                                "PreSize": {
+                                  "X": 0.4198,
+                                  "Y": 0.4024
+                                },
+                                "LeftMargin": 23.1625,
+                                "RightMargin": 23.8375,
+                                "TopMargin": 24.5556,
+                                "BottomMargin": 24.4444,
+                                "Tag": 452,
+                                "ActionTag": -769727613,
+                                "Size": {
+                                  "X": 34.0,
+                                  "Y": 33.0
+                                },
+                                "Name": "avatarMask",
+                                "ctype": "SpriteObjectData"
+                              }
+                            ],
+                            "ActionTag": -461299508,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "avatarBorder",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Countdown_Red.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 29.6275,
+                              "Y": -50.1418
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -10.8725,
+                            "RightMargin": -70.1275,
+                            "TopMargin": 9.1418,
+                            "BottomMargin": -91.1418,
+                            "Tag": 453,
+                            "ActionTag": -483436955,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "countDownDummy",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Ext_Button.png",
+                              "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 30.1541,
+                              "Y": -86.9959
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 16.1541,
+                            "RightMargin": -44.1541,
+                            "TopMargin": 72.9959,
+                            "BottomMargin": -100.9959,
+                            "Tag": 454,
+                            "ActionTag": -1052080493,
+                            "Size": {
+                              "X": 28.0,
+                              "Y": 28.0
+                            },
+                            "Name": "imgBtnExt",
+                            "ctype": "SpriteObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "Rank of player 1",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 106.0134,
+                              "Y": -13.4475
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0,
+                            "CColor": {
+                              "G": 176,
+                              "B": 39
+                            },
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 106.0134,
+                            "RightMargin": -247.0134,
+                            "TopMargin": 0.4475,
+                            "BottomMargin": -26.4475,
+                            "Tag": 455,
+                            "ActionTag": -314474767,
+                            "Size": {
+                              "X": 141.0,
+                              "Y": 26.0
+                            },
+                            "Name": "lbRank",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 18,
+                            "LabelText": "____ Name of player 1 ____",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "OutlineEnabled": true,
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 106.0128,
+                              "Y": -33.6136
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "RotationSkewX": 7.0,
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": 106.0128,
+                            "RightMargin": -356.0128,
+                            "TopMargin": 19.6136,
+                            "BottomMargin": -47.6136,
+                            "Tag": 456,
+                            "ActionTag": 1576567302,
+                            "Size": {
+                              "X": 250.0,
+                              "Y": 28.0
+                            },
+                            "Name": "lbName",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 312489168,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "nodeP4",
+                        "ctype": "SingleNodeObjectData"
+                      }
+                    ],
+                    "ActionTag": -1387912487,
+                    "Size": {
+                      "X": 835.0,
+                      "Y": 101.0
+                    },
+                    "Name": "playerInfo",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -1515493356,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 640.0
+                },
+                "Name": "EightBallPoolMode",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "3_Buttons_Box.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "Scale9OriginX": 91,
+                "Scale9OriginY": 26,
+                "Scale9Width": 94,
+                "Scale9Height": 29,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.6883,
+                  "Y": 46.7598
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1291,
+                  "Y": 0.0731
+                },
+                "PreSize": {
+                  "X": 0.243,
+                  "Y": 0.1266
+                },
+                "LeftMargin": 8.6883,
+                "RightMargin": 851.3117,
+                "TopMargin": 552.7402,
+                "BottomMargin": 6.2598,
+                "Tag": 167,
+                "ActionTag": 1346868564,
+                "Size": {
+                  "X": 276.0,
+                  "Y": 81.0
+                },
+                "Name": "3ButtonsBox",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -11,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 63.4084,
+                  "Y": 46.312
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 7.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0558,
+                  "Y": 0.0724
+                },
+                "PreSize": {
+                  "X": 0.0729,
+                  "Y": 0.1047
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 21.9895,
+                "RightMargin": 1031.1727,
+                "TopMargin": 560.188,
+                "BottomMargin": 12.812,
+                "Tag": 107,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Menu_Icon.png",
+                      "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 44.3042,
+                      "Y": 31.6872
+                    },
+                    "Scale": {
+                      "ScaleX": 0.5571,
+                      "ScaleY": 0.5571
+                    },
+                    "RotationSkewX": -7.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5348,
+                      "Y": 0.4729
+                    },
+                    "PreSize": {
+                      "X": 1.2796,
+                      "Y": 1.0149
+                    },
+                    "LeftMargin": -8.6958,
+                    "RightMargin": -14.4664,
+                    "TopMargin": 1.3128,
+                    "BottomMargin": -2.3128,
+                    "Tag": 123,
+                    "ActionTag": -735232679,
+                    "Size": {
+                      "X": 106.0,
+                      "Y": 68.0
+                    },
+                    "Alpha": 179,
+                    "Name": "Sprite_33",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -221235845,
+                "Size": {
+                  "X": 82.8378,
+                  "Y": 67.0
+                },
+                "Name": "btnMenu",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -11,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.0,
+                  "Y": 46.9585
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 7.0002,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.132,
+                  "Y": 0.0734
+                },
+                "PreSize": {
+                  "X": 0.0763,
+                  "Y": 0.1047
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 106.6667,
+                "RightMargin": 942.6667,
+                "TopMargin": 559.5415,
+                "BottomMargin": 13.4585,
+                "Tag": 108,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Chat_Icon.png",
+                      "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 44.1978,
+                      "Y": 29.8222
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -7.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.51,
+                      "Y": 0.4451
+                    },
+                    "PreSize": {
+                      "X": 0.5654,
+                      "Y": 0.6269
+                    },
+                    "LeftMargin": 19.6978,
+                    "RightMargin": 17.9688,
+                    "TopMargin": 16.1778,
+                    "BottomMargin": 8.8222,
+                    "Tag": 126,
+                    "ActionTag": 1266060740,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 42.0
+                    },
+                    "Alpha": 177,
+                    "Name": "Sprite_35",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1939288337,
+                "Size": {
+                  "X": 86.6666,
+                  "Y": 67.0
+                },
+                "Name": "btnChat",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -11,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 232.2253,
+                  "Y": 47.7677
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 7.0002,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2044,
+                  "Y": 0.0746
+                },
+                "PreSize": {
+                  "X": 0.0754,
+                  "Y": 0.1047
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 189.4036,
+                "RightMargin": 860.9529,
+                "TopMargin": 558.7323,
+                "BottomMargin": 14.2677,
+                "Tag": 109,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Camera_2D_Icon.png",
+                      "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 41.8863,
+                      "Y": 32.189
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": -7.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4891,
+                      "Y": 0.4804
+                    },
+                    "PreSize": {
+                      "X": 0.5605,
+                      "Y": 0.5224
+                    },
+                    "LeftMargin": 17.8863,
+                    "RightMargin": 19.7572,
+                    "TopMargin": 17.311,
+                    "BottomMargin": 14.689,
+                    "Tag": 125,
+                    "ActionTag": -966710622,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 35.0
+                    },
+                    "Alpha": 179,
+                    "Name": "Sprite_34",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1478701686,
+                "Size": {
+                  "X": 85.6435,
+                  "Y": 67.0
+                },
+                "Name": "btnCamera",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ChangeStick_Icon.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 102,
+                "Scale9Width": 36,
+                "Scale9Height": 6,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 1077.0697,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9481,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0915,
+                  "Y": 0.1742
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 1025.0697,
+                "RightMargin": 6.9303,
+                "TopMargin": 528.5255,
+                "Tag": 231,
+                "ActionTag": -1454531324,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 111.4745
+                },
+                "Name": "imgBtnCue",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -11,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1077.7683,
+                  "Y": 56.1127
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9487,
+                  "Y": 0.0877
+                },
+                "PreSize": {
+                  "X": 0.0799,
+                  "Y": 0.1417
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 1032.411,
+                "RightMargin": 12.8744,
+                "TopMargin": 538.5299,
+                "BottomMargin": 10.7554,
+                "Tag": 110,
+                "ActionTag": 1314150070,
+                "Size": {
+                  "X": 90.7147,
+                  "Y": 90.7147
+                },
+                "Name": "btnCue",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Clock_Icon.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Clock_Icon.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Clock_Icon.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 57,
+                "Scale9Height": 64,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 981.2593,
+                  "Y": 47.1412
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8638,
+                  "Y": 0.0737
+                },
+                "PreSize": {
+                  "X": 0.0766,
+                  "Y": 0.1344
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 937.7593,
+                "RightMargin": 111.2407,
+                "TopMargin": 549.8588,
+                "BottomMargin": 4.1412,
+                "Tag": 253,
+                "ActionTag": -1474304881,
+                "Size": {
+                  "X": 87.0,
+                  "Y": 86.0
+                },
+                "Name": "btnExtReal",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Angle_Box.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "Scale9OriginX": 38,
+                "Scale9OriginY": 31,
+                "Scale9Width": 4,
+                "Scale9Height": 18,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 12.4318,
+                  "Y": 629.1073
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0109,
+                  "Y": 0.983
+                },
+                "PreSize": {
+                  "X": 0.0704,
+                  "Y": 0.125
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 12.4318,
+                "RightMargin": 1043.5682,
+                "TopMargin": 10.8927,
+                "BottomMargin": 549.1073,
+                "Tag": 111,
+                "Children": [
+                  {
+                    "FontSize": 18,
+                    "LabelText": "-99°",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 38.9202,
+                      "Y": 21.776
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 242,
+                      "B": 238
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4865,
+                      "Y": 0.2722
+                    },
+                    "PreSize": {
+                      "X": 0.45,
+                      "Y": 0.325
+                    },
+                    "LeftMargin": 20.9202,
+                    "RightMargin": 23.0798,
+                    "TopMargin": 45.224,
+                    "BottomMargin": 8.776,
+                    "Tag": 112,
+                    "ActionTag": -1518999896,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 26.0
+                    },
+                    "Name": "lbAngle",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1163524759,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "imgAngle",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Ball_Button.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Ball_Button.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Ball_Button.png",
+                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 68,
+                "Scale9Height": 76,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1082.1801,
+                  "Y": 586.72
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9526,
+                  "Y": 0.9167
+                },
+                "PreSize": {
+                  "X": 0.0863,
+                  "Y": 0.1531
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 1033.1801,
+                "RightMargin": 4.8199,
+                "TopMargin": 4.28,
+                "BottomMargin": 537.72,
+                "Tag": 87,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_Touch_Indicator.png",
+                      "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 49.0,
+                      "Y": 49.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6419,
+                      "ScaleY": 0.6419
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1735,
+                      "Y": 0.1735
+                    },
+                    "LeftMargin": 40.5,
+                    "RightMargin": 40.5,
+                    "TopMargin": 40.5,
+                    "BottomMargin": 40.5,
+                    "Tag": 129,
+                    "ActionTag": -986810880,
+                    "Size": {
+                      "X": 17.0,
+                      "Y": 17.0
+                    },
+                    "Name": "ballIndicator",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1111264578,
+                "Size": {
+                  "X": 98.0,
+                  "Y": 98.0
+                },
+                "Name": "btnBall",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1266307573,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Sprite.png",
+        "../Font/facebook.TTF",
+        "../MainLobby/res/Ingame_Reworked.plist",
+        "../MainLobby/res/Ingame_Reworked.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

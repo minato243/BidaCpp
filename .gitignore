@@ -1,0 +1,16 @@
+bin/debug/win32/
+win32-build/Bida3DCpp.dir/
+win32-build/bin/
+win32-build/engine/
+win32-build/Win32/Debug/
+win32-build/Debug/
+win32-build/CMakeFiles/CMakeOutput.log
+*.a
+*.lib
+*.dll
+*.tlog
+*.pdb
+*.exe
+*.obj
+win32-build/.vs/
+*.dylib

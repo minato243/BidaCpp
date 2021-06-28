@@ -1,0 +1,50 @@
+material ball
+{
+	technique low
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader_ball_low.vert
+				fragmentShader = res/shaders/IOS/3d_shader_ball_low.frag
+				sampler u_brdf_lut
+				{
+					path = res/shaders/ibl_brdf_lut.png
+				}
+			}
+		}
+	}
+	
+	technique medium
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader.vert
+				fragmentShader = res/shaders/IOS/3d_shader_ball_5.frag
+				sampler u_brdf_lut
+				{
+					path = res/shaders/ibl_brdf_lut.png
+				}
+			}
+		}
+	}
+	
+	technique high
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader_high.vert
+				fragmentShader = res/shaders/IOS/3d_shader_ball_high.frag
+				sampler u_brdf_lut
+				{
+					path = res/shaders/ibl_brdf_lut.png
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,271 @@
+{
+  "ID": "5eddda6a-80d4-4a60-92b6-8a44b6d30808",
+  "Version": "2.3.4",
+  "Name": "StreakNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 314,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -90.0739,
+            "TopMargin": -38.629,
+            "Tag": 315,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Streak_Box.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 22.5185,
+                  "Y": 19.3145
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3886,
+                  "Y": 0.8543
+                },
+                "LeftMargin": 5.0185,
+                "RightMargin": 50.0554,
+                "TopMargin": 2.8145,
+                "BottomMargin": 2.8145,
+                "Tag": 316,
+                "ActionTag": 2095564196,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 33.0
+                },
+                "Name": "streakBox0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Streak_Box.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.5555,
+                  "Y": 19.0988
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.75,
+                  "Y": 0.4944
+                },
+                "PreSize": {
+                  "X": 0.3886,
+                  "Y": 0.8543
+                },
+                "LeftMargin": 50.0555,
+                "RightMargin": 5.0185,
+                "TopMargin": 3.0302,
+                "BottomMargin": 2.5988,
+                "Tag": 317,
+                "ActionTag": -804868339,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 33.0
+                },
+                "Name": "streakBox1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "O.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 22.5185,
+                  "Y": 19.3145
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2887,
+                  "Y": 0.6731
+                },
+                "LeftMargin": 9.5185,
+                "RightMargin": 54.5554,
+                "TopMargin": 6.3145,
+                "BottomMargin": 6.3145,
+                "Tag": 318,
+                "ActionTag": -154861936,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "Name": "O",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "X.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.5555,
+                  "Y": 19.3145
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.75,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3109,
+                  "Y": 0.6213
+                },
+                "LeftMargin": 53.5555,
+                "RightMargin": 8.5185,
+                "TopMargin": 7.3145,
+                "BottomMargin": 7.3145,
+                "Tag": 319,
+                "ActionTag": 1052473193,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 24.0
+                },
+                "Name": "X",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -147099686,
+            "Size": {
+              "X": 90.0739,
+              "Y": 38.629
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../ModeSelect/res/ModeSelect.plist",
+        "../ModeSelect/res/ModeSelect.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

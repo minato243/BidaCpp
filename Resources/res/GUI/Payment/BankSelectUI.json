@@ -1,0 +1,263 @@
+{
+  "ID": "d67fa2d2-893d-4395-9a20-e6ea8c8b157b",
+  "Version": "2.3.4",
+  "Name": "BankSelectUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 906,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Board_Big.png",
+              "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+            },
+            "Scale9OriginX": 264,
+            "Scale9OriginY": 149,
+            "Scale9Width": 273,
+            "Scale9Height": 154,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 573.0119,
+              "Y": 335.7705
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5044,
+              "Y": 0.5246
+            },
+            "PreSize": {
+              "X": 0.7051,
+              "Y": 0.7063
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 172.5119,
+            "RightMargin": 162.4881,
+            "TopMargin": 78.2295,
+            "BottomMargin": 109.7705,
+            "Tag": 907,
+            "Children": [
+              {
+                "FontSize": 36,
+                "LabelText": "Chon ngan hang",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 406.0333,
+                  "Y": 424.9417
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5069,
+                  "Y": 0.9401
+                },
+                "PreSize": {
+                  "X": 0.3333,
+                  "Y": 0.115
+                },
+                "LeftMargin": 272.5333,
+                "RightMargin": 261.4667,
+                "TopMargin": 1.0583,
+                "BottomMargin": 398.9417,
+                "Tag": 910,
+                "ActionTag": -1419992713,
+                "Size": {
+                  "X": 267.0,
+                  "Y": 52.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 2.536,
+                  "Y": 2.5361
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0032,
+                  "Y": 0.0056
+                },
+                "PreSize": {
+                  "X": 0.9918,
+                  "Y": 0.8559
+                },
+                "LeftMargin": 2.536,
+                "RightMargin": 4.0471,
+                "TopMargin": 62.6076,
+                "BottomMargin": 2.5361,
+                "Tag": 911,
+                "ActionTag": 309701878,
+                "Size": {
+                  "X": 794.4169,
+                  "Y": 386.8563
+                },
+                "Name": "pnContent",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Close_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Close_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Close_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 22,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 794.7429,
+                  "Y": 449.1125
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9922,
+                  "Y": 0.9936
+                },
+                "PreSize": {
+                  "X": 0.0649,
+                  "Y": 0.115
+                },
+                "LeftMargin": 768.7429,
+                "RightMargin": -19.7429,
+                "TopMargin": -23.1125,
+                "BottomMargin": 423.1125,
+                "Tag": 929,
+                "ActionTag": -905457756,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 52.0
+                },
+                "Name": "btnClose",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1129993987,
+            "Size": {
+              "X": 801.0,
+              "Y": 452.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.plist",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

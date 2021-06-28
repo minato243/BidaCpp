@@ -1,0 +1,207 @@
+{
+  "OfferShop": [
+    {
+      "id": 1,
+      "name": "text_bleu",
+      "itemCode": "chalk",
+      "quantity": 4,
+      "price": 5000,
+      "ingameCurrency": false,
+      "currency": "VND",
+      "levelUnlock": 0,
+      "special": 3,
+      "bonus": [
+        {
+          "itemCode": "dust_song_toan",
+          "quantity": 1000
+        },
+        {
+          "itemCode": "gold",
+          "quantity": 15000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "text_bleu",
+      "itemCode": "chalk",
+      "quantity": 9,
+      "price": 10000,
+      "ingameCurrency": false,
+      "currency": "VND",
+      "levelUnlock": 0,
+      "special": 3,
+      "bonus": []
+    },
+    {
+      "id": 3,
+      "name": "text_bleu",
+      "itemCode": "chalk",
+      "quantity": 20,
+      "price": 20000,
+      "ingameCurrency": false,
+      "currency": "VND",
+      "levelUnlock": 0,
+      "special": 3,
+      "bonus": []
+    },
+    {
+      "id": 4,
+      "name": "text_bleu",
+      "itemCode": "chalk",
+      "quantity": 60,
+      "price": 50000,
+      "ingameCurrency": false,
+      "currency": "VND",
+      "levelUnlock": 0,
+      "special": 3,
+      "bonus": []
+    },
+    {
+      "id": 5,
+      "name": "text_bleu",
+      "itemCode": "chalk",
+      "quantity": 140,
+      "price": 100000,
+      "ingameCurrency": false,
+      "currency": "VND",
+      "levelUnlock": 0,
+      "special": 3,
+      "bonus": []
+    }
+  ],
+  "GachaShop": [
+    {
+      "id": 6,
+      "name": "item_name_cue_box_song_toan",
+      "itemCode": "cue_box_song_toan",
+      "quantity": 1,
+      "price": 100000,
+      "ingameCurrency": true,
+      "currency": "gold",
+      "levelUnlock": 0,
+      "boxId": 10,
+      "bonus": [],
+      "special": 4
+    },
+    {
+      "id": 7,
+      "name": "item_name_cue_box_boc_pha",
+      "itemCode": "cue_box_boc_pha",
+      "quantity": 1,
+      "price": 100000,
+      "ingameCurrency": true,
+      "currency": "gold",
+      "levelUnlock": 0,
+      "boxId": 11,
+      "bonus": [],
+      "special": 4
+    },
+    {
+      "id": 8,
+      "name": "item_name_cue_box_cau_bong",
+      "itemCode": "cue_box_cau_bong",
+      "quantity": 1,
+      "price": 100000,
+      "ingameCurrency": true,
+      "currency": "gold",
+      "levelUnlock": 0,
+      "boxId": 12,
+      "bonus": [],
+      "special": 4
+    },
+    {
+      "id": 9,
+      "name": "item_name_cue_box_xoan_oc",
+      "itemCode": "cue_box_xoan_oc",
+      "quantity": 1,
+      "price": 100000,
+      "ingameCurrency": true,
+      "currency": "gold",
+      "levelUnlock": 0,
+      "boxId": 13,
+      "bonus": [],
+      "special": 4
+    }
+  ],
+  "ItemShop": [],
+  "MonetLookup": [
+    {
+      "id": 1,
+      "type": [
+        "SMS"
+      ],
+      "network": [
+        "viettel",
+        "mobi",
+        "vina"
+      ],
+      "smsId": "SMSVN_5000",
+      "iapId": ""
+    },
+    {
+      "id": 2,
+      "type": [
+        "SMS"
+      ],
+      "network": [
+        "viettel",
+        "mobi",
+        "vina"
+      ],
+      "smsId": "SMSVN_10000",
+      "iapId": ""
+    },
+    {
+      "id": 3,
+      "type": [
+        "SMS"
+      ],
+      "network": [
+        "viettel",
+        "mobi",
+        "vina"
+      ],
+      "smsId": "SMSVN_20000",
+      "iapId": ""
+    },
+    {
+      "id": 4,
+      "type": [
+        "SMS"
+      ],
+      "network": [
+        "viettel",
+        "mobi",
+        "vina"
+      ],
+      "smsId": "SMSVN_50000",
+      "iapId": ""
+    },
+    {
+      "id": 5,
+      "type": [
+        "SMS"
+      ],
+      "network": [
+        "viettel",
+        "mobi",
+        "vina"
+      ],
+      "smsId": "SMSVN_100000",
+      "iapId": ""
+    }
+  ],
+  "Bonus": [
+    {
+      "id": 1,
+      "itemCode": "dust_song_toan",
+      "quantity": 1000
+    },
+    {
+      "id": 1,
+      "itemCode": "gold",
+      "quantity": 15000
+    }
+  ]
+}

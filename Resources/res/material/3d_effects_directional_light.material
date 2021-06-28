@@ -1,0 +1,46 @@
+material cue_inspect
+{
+	technique outline
+	{
+		// 1st pass:
+		// creates a yellow outline of only the hull 
+		// pass outline
+		// {
+		// 	renderState
+		// 	{
+		// 		cullFace = true
+		// 		cullFaceSide = BACK
+		// 		depthTest = false
+		// 		blend = true
+		// 		blendSrc = SRC_ALPHA
+		// 		blendDst = ONE_MINUS_SRC_ALPHA
+		// 	}
+		// 	shader
+		// 	{
+		// 		vertexShader = shaders/OutLine.vert
+		// 		fragmentShader = shaders/OutLine.frag
+		// 		// Uniforms
+		// 		OutLineColor = 1,1,0
+		// 		OutlineWidth = 0.00
+		// 		u_view_pos = 0,0,-100
+		// 	}
+		// }
+
+		// 2nd pass:
+		// Renders the model "normally"
+		// When a 'renderState' is not present it will use the default renderState
+		pass normal
+		{
+			shader
+			{
+				vertexShader = shaders/3d_shader.vert
+				fragmentShader = shaders/IOS/3d_shader_cue_inspect.frag
+
+				//sampler u_albedo
+				//{
+				//	path = 3d/cue/Cue copy.png
+				//}
+			}
+		}
+	}
+}

@@ -1,0 +1,501 @@
+{
+  "ID": "93c099f9-03db-436d-b2d9-0b2e44db6001",
+  "Version": "2.3.4",
+  "Name": "GachaCueElementUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 147,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Fake_Inventory_01c_i5.png",
+              "Plist": "Gacha/res/GachaUI.plist"
+            },
+            "Scale9OriginX": 374,
+            "Scale9OriginY": 211,
+            "Scale9Width": 388,
+            "Scale9Height": 218,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -229.3926,
+              "Y": -94.686
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -797.3926,
+            "RightMargin": -338.6074,
+            "TopMargin": -225.314,
+            "BottomMargin": -414.686,
+            "Tag": 248,
+            "ActionTag": 1114419612,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "fake",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -358.0,
+            "RightMargin": -358.0,
+            "TopMargin": -82.0,
+            "BottomMargin": -82.0,
+            "Tag": 428,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Gacha_Blue_Board.png",
+                  "Plist": "Gacha/res/GachaUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 42,
+                "Scale9Width": 604,
+                "Scale9Height": 93,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 358.0,
+                  "Y": 82.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8855,
+                  "Y": 0.9146
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 7.0,
+                "BottomMargin": 7.0,
+                "Tag": 252,
+                "ActionTag": 1996235243,
+                "Size": {
+                  "X": 634.0,
+                  "Y": 150.0
+                },
+                "Name": "imgBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -7,
+                "Scale9OriginY": -5,
+                "Scale9Width": 14,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 741.4293,
+                  "Y": 35.306
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0355,
+                  "Y": 0.2153
+                },
+                "PreSize": {
+                  "X": 0.0709,
+                  "Y": 0.2893
+                },
+                "LeftMargin": 716.0408,
+                "RightMargin": -50.8179,
+                "TopMargin": 104.9744,
+                "BottomMargin": 11.5864,
+                "Tag": 435,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Info_Button.png",
+                      "Plist": "Inventory/res/Inventory_Reworked.plist"
+                    },
+                    "Scale9OriginX": 7,
+                    "Scale9OriginY": 7,
+                    "Scale9Width": 10,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 35.2658,
+                      "Y": 12.0319
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6945,
+                      "Y": 0.2536
+                    },
+                    "PreSize": {
+                      "X": 0.4727,
+                      "Y": 0.5059
+                    },
+                    "LeftMargin": 23.2658,
+                    "RightMargin": 3.5113,
+                    "TopMargin": 23.4073,
+                    "BottomMargin": 0.0319,
+                    "Tag": 1054,
+                    "ActionTag": 561834905,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 24.0
+                    },
+                    "Name": "img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 658270048,
+                "Size": {
+                  "X": 50.7771,
+                  "Y": 47.4392
+                },
+                "Name": "btnInspect",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 514.7479,
+                  "Y": 49.4148
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7189,
+                  "Y": 0.3013
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 514.7479,
+                "RightMargin": 201.2521,
+                "TopMargin": 114.5852,
+                "BottomMargin": 49.4148,
+                "Tag": 1056,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 139,
+                    "ActionTag": 1059759559,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "node_stars",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Star_Line.png",
+                      "Plist": "Inventory/res/Inventory_Reworked.plist"
+                    },
+                    "Scale9OriginX": 66,
+                    "Scale9OriginY": 2,
+                    "Scale9Width": 71,
+                    "Scale9Height": 5,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -2.2718,
+                      "Y": -20.5288
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -2.2718,
+                    "RightMargin": -200.7282,
+                    "TopMargin": 16.0288,
+                    "BottomMargin": -25.0288,
+                    "Tag": 1055,
+                    "ActionTag": 982480382,
+                    "Size": {
+                      "X": 203.0,
+                      "Y": 9.0
+                    },
+                    "Name": "imgLine",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1254833029,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "stars",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 21,
+                "LabelText": "Lời nguyền Anubis",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 71,
+                  "G": 71,
+                  "B": 71
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 92.8652,
+                  "Y": 131.7904
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 7.9993,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1297,
+                  "Y": 0.8036
+                },
+                "PreSize": {
+                  "X": 0.2528,
+                  "Y": 0.189
+                },
+                "LeftMargin": 92.8652,
+                "RightMargin": 442.1348,
+                "TopMargin": 16.7096,
+                "BottomMargin": 116.2904,
+                "Tag": 117,
+                "ActionTag": 818258498,
+                "Size": {
+                  "X": 181.0,
+                  "Y": 31.0
+                },
+                "Name": "txt_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 46,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.9763,
+                  "Y": 129.1828
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1019,
+                  "Y": 0.7877
+                },
+                "PreSize": {
+                  "X": 0.0335,
+                  "Y": 0.1463
+                },
+                "LeftMargin": 60.9763,
+                "RightMargin": 631.0237,
+                "TopMargin": 22.8172,
+                "BottomMargin": 117.1828,
+                "Tag": 436,
+                "ActionTag": 189412055,
+                "Size": {
+                  "X": 24.0,
+                  "Y": 24.0
+                },
+                "Name": "imgType",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 441975087,
+            "Size": {
+              "X": 716.0,
+              "Y": 164.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/ImageFile.png",
+        "../Font/facebook.TTF",
+        "../Inventory/res/Inventory_Reworked.plist",
+        "../Inventory/res/Inventory_Reworked.png",
+        "res/GachaUI.plist",
+        "res/GachaUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

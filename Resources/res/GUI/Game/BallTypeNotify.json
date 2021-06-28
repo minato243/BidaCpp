@@ -1,0 +1,459 @@
+{
+  "ID": "0d8ca775-d722-480b-bf63-e06eda2772f3",
+  "Version": "2.3.4",
+  "Name": "BallTypeNotify",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 406,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -420.9767,
+            "RightMargin": -420.9767,
+            "TopMargin": -100.0,
+            "BottomMargin": -100.0,
+            "Tag": 408,
+            "Children": [
+              {
+                "FontSize": 40,
+                "LabelText": "YOU ARE STRIPED",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 420.9769,
+                  "Y": 28.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.14
+                },
+                "PreSize": {
+                  "X": 0.4205,
+                  "Y": 0.29
+                },
+                "LeftMargin": 243.9769,
+                "RightMargin": 243.9766,
+                "TopMargin": 142.9999,
+                "BottomMargin": -0.9999,
+                "Tag": 407,
+                "ActionTag": -1436579521,
+                "Size": {
+                  "X": 354.0,
+                  "Y": 58.0
+                },
+                "Name": "lbNotify",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.3753,
+                  "Y": 102.9963
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0871,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 30.3753,
+                "RightMargin": 725.5781,
+                "TopMargin": 53.5037,
+                "BottomMargin": 59.4963,
+                "Tag": 409,
+                "ActionTag": -561843628,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 189.6875,
+                  "Y": 102.9966
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2253,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 146.6875,
+                "RightMargin": 609.2659,
+                "TopMargin": 53.5034,
+                "BottomMargin": 59.4966,
+                "Tag": 410,
+                "ActionTag": 763783720,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 305.9997,
+                  "Y": 102.9966
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3634,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 262.9997,
+                "RightMargin": 492.9538,
+                "TopMargin": 53.5034,
+                "BottomMargin": 59.4966,
+                "Tag": 411,
+                "ActionTag": -643956610,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 422.3126,
+                  "Y": 102.9966
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5016,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 379.3126,
+                "RightMargin": 376.6408,
+                "TopMargin": 53.5034,
+                "BottomMargin": 59.4966,
+                "Tag": 412,
+                "ActionTag": 1468102702,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 538.6245,
+                  "Y": 102.9966
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6397,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 495.6245,
+                "RightMargin": 260.3289,
+                "TopMargin": 53.5034,
+                "BottomMargin": 59.4966,
+                "Tag": 413,
+                "ActionTag": 970761004,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 654.9359,
+                  "Y": 102.9966
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7779,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 611.9359,
+                "RightMargin": 144.0175,
+                "TopMargin": 53.5034,
+                "BottomMargin": 59.4966,
+                "Tag": 414,
+                "ActionTag": -858116508,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "big_balls_1.png",
+                  "Plist": "Game/res/Balls.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 28,
+                "Scale9Width": 30,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 771.248,
+                  "Y": 102.9966
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.916,
+                  "Y": 0.515
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.435
+                },
+                "LeftMargin": 728.248,
+                "RightMargin": 27.7054,
+                "TopMargin": 53.5034,
+                "BottomMargin": 59.4966,
+                "Tag": 415,
+                "ActionTag": -759743120,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "ball6",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 723801860,
+            "Size": {
+              "X": 841.9534,
+              "Y": 200.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "res/Balls.plist",
+        "res/Balls.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

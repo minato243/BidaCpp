@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\dabe01b4654c5c1d82bda36f91debfcc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FE6907DF-EF9E-320A-831E-D7A5C36C1EBA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

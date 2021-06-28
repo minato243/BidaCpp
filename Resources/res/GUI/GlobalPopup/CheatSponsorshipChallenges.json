@@ -1,0 +1,945 @@
+{
+  "ID": "3e039d52-0c73-4cce-b1e5-9b44d32500a2",
+  "Version": "2.3.4",
+  "Name": "CheatSponsorshipChallenges",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 33,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "G": 242,
+              "B": 150
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.2538,
+              "Y": 1.2683
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -319.6334,
+            "RightMargin": -320.141,
+            "TopMargin": -201.7243,
+            "BottomMargin": -199.1877,
+            "Tag": 45,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Nhập 3 challenge ID KHÁC NHAU và độ khó (0-2) tương ứng",
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 323.5446,
+                  "Y": 378.2705
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5057,
+                  "Y": 0.9435
+                },
+                "PreSize": {
+                  "X": 0.8315,
+                  "Y": 0.0574
+                },
+                "LeftMargin": 57.5446,
+                "RightMargin": 50.2297,
+                "TopMargin": 11.1415,
+                "BottomMargin": 366.7705,
+                "Tag": 298,
+                "ActionTag": -1935376236,
+                "Size": {
+                  "X": 532.0,
+                  "Y": 23.0
+                },
+                "Name": "lbDesc",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -11.82,
+                  "Y": 325.0839
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": -0.0185,
+                  "Y": 0.8109
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -11.82,
+                "RightMargin": 651.5945,
+                "TopMargin": 75.8281,
+                "BottomMargin": 325.0839,
+                "Tag": 200,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "ID",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 17.3365,
+                      "Y": -25.654
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -0.6635,
+                    "RightMargin": -35.3365,
+                    "TopMargin": -0.346,
+                    "BottomMargin": -51.654,
+                    "Tag": 46,
+                    "ActionTag": 1967055232,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 52.0
+                    },
+                    "Name": "type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Challenge ID",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.031,
+                      "Y": -30.6755
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.031,
+                    "RightMargin": -335.8835,
+                    "TopMargin": 7.4879,
+                    "BottomMargin": -53.8631,
+                    "Tag": 47,
+                    "ActionTag": -110350078,
+                    "Size": {
+                      "X": 208.8526,
+                      "Y": 46.3752
+                    },
+                    "Name": "tfType",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Do kho",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.9366,
+                      "Y": -78.3633
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.4366,
+                    "RightMargin": -119.4366,
+                    "TopMargin": 52.3633,
+                    "BottomMargin": -104.3633,
+                    "Tag": 292,
+                    "ActionTag": 2104177500,
+                    "Size": {
+                      "X": 119.0,
+                      "Y": 52.0
+                    },
+                    "Name": "group",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Do kho",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.0706,
+                      "Y": -84.5671
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.0706,
+                    "RightMargin": -335.9232,
+                    "TopMargin": 61.3795,
+                    "BottomMargin": -107.7547,
+                    "Tag": 293,
+                    "ActionTag": 927936715,
+                    "Size": {
+                      "X": 208.8526,
+                      "Y": 46.3752
+                    },
+                    "Name": "tfGroup",
+                    "ctype": "TextFieldObjectData"
+                  }
+                ],
+                "ActionTag": -1960289096,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "challenge0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 337.4521,
+                  "Y": 326.9045
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5275,
+                  "Y": 0.8154
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 337.4521,
+                "RightMargin": 302.3223,
+                "TopMargin": 74.0074,
+                "BottomMargin": 326.9045,
+                "Tag": 201,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "ID",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 19.701,
+                      "Y": -25.6546
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 1.701,
+                    "RightMargin": -37.701,
+                    "TopMargin": -0.3454,
+                    "BottomMargin": -51.6546,
+                    "Tag": 202,
+                    "ActionTag": -182876092,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 52.0
+                    },
+                    "Name": "type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Challenge ID",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.031,
+                      "Y": -30.6755
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.031,
+                    "RightMargin": -335.8835,
+                    "TopMargin": 7.4879,
+                    "BottomMargin": -53.8631,
+                    "Tag": 203,
+                    "ActionTag": 1937282135,
+                    "Size": {
+                      "X": 208.8526,
+                      "Y": 46.3752
+                    },
+                    "Name": "tfType",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Do kho",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.9366,
+                      "Y": -78.3633
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.4366,
+                    "RightMargin": -119.4366,
+                    "TopMargin": 52.3633,
+                    "BottomMargin": -104.3633,
+                    "Tag": 204,
+                    "ActionTag": -1025231930,
+                    "Size": {
+                      "X": 119.0,
+                      "Y": 52.0
+                    },
+                    "Name": "group",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Do kho",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.0706,
+                      "Y": -84.5671
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.0706,
+                    "RightMargin": -335.9232,
+                    "TopMargin": 61.3795,
+                    "BottomMargin": -107.7547,
+                    "Tag": 205,
+                    "ActionTag": -1848927593,
+                    "Size": {
+                      "X": 208.8526,
+                      "Y": 46.3752
+                    },
+                    "Name": "tfGroup",
+                    "ctype": "TextFieldObjectData"
+                  }
+                ],
+                "ActionTag": 921600152,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "challenge1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 148.8538,
+                  "Y": 179.7773
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.2327,
+                  "Y": 0.4484
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 148.8538,
+                "RightMargin": 490.9206,
+                "TopMargin": 221.1347,
+                "BottomMargin": 179.7773,
+                "Tag": 206,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "ID",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 19.6982,
+                      "Y": -25.6552
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 1.6982,
+                    "RightMargin": -37.6982,
+                    "TopMargin": -0.3448,
+                    "BottomMargin": -51.6552,
+                    "Tag": 207,
+                    "ActionTag": -1902083928,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 52.0
+                    },
+                    "Name": "type",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Challenge ID",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.031,
+                      "Y": -30.6755
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.031,
+                    "RightMargin": -335.8835,
+                    "TopMargin": 7.4879,
+                    "BottomMargin": -53.8631,
+                    "Tag": 208,
+                    "ActionTag": 2083104315,
+                    "Size": {
+                      "X": 208.8526,
+                      "Y": 46.3752
+                    },
+                    "Name": "tfType",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Do kho",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.9366,
+                      "Y": -78.3633
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 0.4366,
+                    "RightMargin": -119.4366,
+                    "TopMargin": 52.3633,
+                    "BottomMargin": -104.3633,
+                    "Tag": 209,
+                    "ActionTag": -592313963,
+                    "Size": {
+                      "X": 119.0,
+                      "Y": 52.0
+                    },
+                    "Name": "group",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Do kho",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 127.0706,
+                      "Y": -84.5671
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.0706,
+                    "RightMargin": -335.9232,
+                    "TopMargin": 61.3795,
+                    "BottomMargin": -107.7547,
+                    "Tag": 210,
+                    "ActionTag": 1470968566,
+                    "Size": {
+                      "X": 208.8526,
+                      "Y": 46.3752
+                    },
+                    "Name": "tfGroup",
+                    "ctype": "TextFieldObjectData"
+                  }
+                ],
+                "ActionTag": -756109833,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "challenge2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "LamMoi_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "LamMoi_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "LamMoi_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 90,
+                "Scale9Height": 21,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 595.2214,
+                  "Y": 100.7903
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9304,
+                  "Y": 0.2514
+                },
+                "PreSize": {
+                  "X": 0.1876,
+                  "Y": 0.1073
+                },
+                "LeftMargin": 535.2214,
+                "RightMargin": -15.447,
+                "TopMargin": 278.6217,
+                "BottomMargin": 79.2903,
+                "Tag": 231,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Submit",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.1229,
+                      "Y": 25.99
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5177,
+                      "Y": 0.6044
+                    },
+                    "PreSize": {
+                      "X": 0.575,
+                      "Y": 0.6744
+                    },
+                    "LeftMargin": 27.6229,
+                    "RightMargin": 23.3771,
+                    "TopMargin": 2.51,
+                    "BottomMargin": 11.49,
+                    "Tag": 232,
+                    "ActionTag": 1422272192,
+                    "Size": {
+                      "X": 69.0,
+                      "Y": 29.0
+                    },
+                    "Name": "lb",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1166396766,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 43.0
+                },
+                "Name": "btnSubmit",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1583175562,
+            "Size": {
+              "X": 639.7744,
+              "Y": 400.912
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.plist",
+        "../MainLobby/Sponsor_Deprecated/SponsorGUIs.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

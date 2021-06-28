@@ -1,0 +1,460 @@
+{
+  "ID": "6d1a1e70-bae6-49e6-a7fb-7e995f77b81c",
+  "Version": "2.3.4",
+  "Name": "XLargePopup",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 56,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 217,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -59,
+            "Scale9OriginY": -42,
+            "Scale9Width": 118,
+            "Scale9Height": 84,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.5862
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0009
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "TopMargin": -0.5862,
+            "BottomMargin": 0.5862,
+            "Tag": 118,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Board_Panel.png",
+                  "Plist": "GlobalPopup/res/global_popup.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 59,
+                "Scale9OriginY": 42,
+                "Scale9Width": 62,
+                "Scale9Height": 45,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8275,
+                  "Y": 0.8859
+                },
+                "LeftMargin": 98.0,
+                "RightMargin": 98.0,
+                "TopMargin": 36.5,
+                "BottomMargin": 36.5,
+                "Tag": 12,
+                "ActionTag": -415421816,
+                "Size": {
+                  "X": 940.0,
+                  "Y": 567.0
+                },
+                "Name": "img_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Board_Inside.png",
+                  "Plist": "Inventory/res/inventory-cue.plist"
+                },
+                "Scale9OriginX": 308,
+                "Scale9OriginY": 166,
+                "Scale9Width": 319,
+                "Scale9Height": 174,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 291.584
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4556
+                },
+                "PreSize": {
+                  "X": 0.8231,
+                  "Y": 0.7906
+                },
+                "LeftMargin": 100.5,
+                "RightMargin": 100.5,
+                "TopMargin": 95.416,
+                "BottomMargin": 38.584,
+                "Tag": 16,
+                "ActionTag": -1488176287,
+                "Size": {
+                  "X": 935.0,
+                  "Y": 506.0
+                },
+                "Name": "img_container",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Board_Top.png",
+                  "Plist": "Inventory/res/inventory-cue.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 906,
+                "Scale9Height": 29,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 602.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9406
+                },
+                "PreSize": {
+                  "X": 0.8239,
+                  "Y": 0.0922
+                },
+                "LeftMargin": 100.0,
+                "RightMargin": 100.0,
+                "TopMargin": 38.0,
+                "BottomMargin": 543.0,
+                "Tag": 15,
+                "ActionTag": -2129636483,
+                "Size": {
+                  "X": 936.0,
+                  "Y": 59.0
+                },
+                "Name": "img_header",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "ĐÂY LÀ TITLE CỦA XLARGE POPUP",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 53,
+                  "G": 3,
+                  "B": 96
+                },
+                "ShadowOffsetX": -2.0,
+                "ShadowOffsetY": -3.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 576.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 10.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9
+                },
+                "PreSize": {
+                  "X": 0.5467,
+                  "Y": 0.0812
+                },
+                "LeftMargin": 257.5,
+                "RightMargin": 257.5,
+                "TopMargin": 38.0,
+                "BottomMargin": 550.0,
+                "Tag": 108,
+                "ActionTag": -1404955181,
+                "Size": {
+                  "X": 621.0,
+                  "Y": 52.0
+                },
+                "Name": "txt_title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 291.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4547
+                },
+                "PreSize": {
+                  "X": 0.8239,
+                  "Y": 0.7891
+                },
+                "LeftMargin": 100.0,
+                "RightMargin": 100.0,
+                "TopMargin": 96.5,
+                "BottomMargin": 38.5,
+                "Tag": 110,
+                "ActionTag": 2090272932,
+                "Size": {
+                  "X": 936.0,
+                  "Y": 505.0
+                },
+                "Name": "container",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 568.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 568.0,
+                "RightMargin": 568.0,
+                "TopMargin": 320.0,
+                "BottomMargin": 320.0,
+                "Tag": 94,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Close_Button.png",
+                      "Plist": "GlobalPopup/res/global_popup.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Close_Button.png",
+                      "Plist": "GlobalPopup/res/global_popup.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Close_Button.png",
+                      "Plist": "GlobalPopup/res/global_popup.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 22,
+                    "Scale9Height": 30,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 468.6085,
+                      "Y": 282.3684
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 442.6085,
+                    "RightMargin": -494.6085,
+                    "TopMargin": -308.3684,
+                    "BottomMargin": 256.3684,
+                    "Tag": 43,
+                    "ActionTag": -1363578963,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 52.0
+                    },
+                    "Name": "btn_close",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -1602664718,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "btn_close_wrapper",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -1951587680,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../Inventory/res/inventory-cue.plist",
+        "../Inventory/res/inventory-cue.png",
+        "res/global_popup.plist",
+        "res/global_popup.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

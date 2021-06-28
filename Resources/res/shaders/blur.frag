@@ -1,0 +1,26 @@
+varying vec2 v_uv;
+
+uniform vec2 u_blurOffset;
+uniform float u_opacity;
+uniform float u_blurStrength;
+
+#define MAX_BLUR_WIDTH 10
+
+void main()
+{
+    vec4  color = texture2D(CC_Texture0, v_uv);
+
+    float blurWidth = u_blurStrength * float(MAX_BLUR_WIDTH);
+    vec4 blurColor  = vec4(color.rgb, 1.0);
+    for (int i = 1; i <= MAX_BLUR_WIDTH; i++)
+    {
+        if(float(i) >= blurWidth)
+            break;
+           float weight = 1.0 - float(i)/blurWidth;
+           weight = weight * weight * (3.0 - 2.0 * weight);
+           vec4 sampleColor1 = texture2D(CC_Texture0, v_uv + u_blurOffset * float(i));
+           vec4 sampleColor2 = texture2D(CC_Texture0, v_uv - u_blurOffset * float(i));
+           blurColor += vec4(sampleColor1.rgb + sampleColor2.rgb, 2.0)*weight;
+    }
+    gl_FragColor = vec4(blurColor.rgb / blurColor.w * color.a * u_opacity, color.a * u_opacity);
+}

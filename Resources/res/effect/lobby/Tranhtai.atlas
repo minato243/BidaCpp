@@ -1,0 +1,153 @@
+
+Tranhtai.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 654, 49
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+Group 139
+  rotate: false
+  xy: 2, 325
+  size: 355, 166
+  orig: 355, 166
+  offset: 0, 0
+  index: -1
+Icon
+  rotate: false
+  xy: 818, 94
+  size: 122, 117
+  orig: 122, 117
+  offset: 0, 0
+  index: -1
+Icon copy
+  rotate: false
+  xy: 1989, 441
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+Layer 327
+  rotate: false
+  xy: 942, 109
+  size: 121, 102
+  orig: 121, 102
+  offset: 0, 0
+  index: -1
+Layer 328
+  rotate: false
+  xy: 818, 50
+  size: 52, 42
+  orig: 52, 42
+  offset: 0, 0
+  index: -1
+Light/light0001
+  rotate: false
+  xy: 2, 185
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0014
+  rotate: false
+  xy: 2, 185
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0002
+  rotate: false
+  xy: 359, 353
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0003
+  rotate: false
+  xy: 2, 45
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0004
+  rotate: false
+  xy: 685, 353
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0005
+  rotate: false
+  xy: 1011, 353
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0006
+  rotate: false
+  xy: 1337, 353
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0007
+  rotate: false
+  xy: 1663, 353
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0008
+  rotate: false
+  xy: 359, 213
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0009
+  rotate: false
+  xy: 685, 213
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0010
+  rotate: false
+  xy: 1011, 213
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0011
+  rotate: false
+  xy: 1337, 213
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0012
+  rotate: false
+  xy: 1663, 213
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Light/light0013
+  rotate: false
+  xy: 328, 73
+  size: 324, 138
+  orig: 324, 138
+  offset: 0, 0
+  index: -1
+Text
+  rotate: false
+  xy: 2, 2
+  size: 179, 41
+  orig: 179, 41
+  offset: 0, 0
+  index: -1

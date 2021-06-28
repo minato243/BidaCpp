@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE347B26-A0CD-377F-A409-B435782E84C1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Bida3DCpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\bin\Bida3DCpp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Bida3DCpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Bida3DCpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\bin\Bida3DCpp\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Bida3DCpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Bida3DCpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\bin\Bida3DCpp\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Bida3DCpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Bida3DCpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\bin\Bida3DCpp\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Bida3DCpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Bida3DCpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/uv/prebuilt/win32/uv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/websockets/prebuilt/win32/websockets.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/curl/prebuilt/win32/libcurl.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cocos2d.lib;lib\Debug\external.lib;..\cocos2d\external\Box2D\prebuilt\win32\debug\libbox2d.lib;..\cocos2d\external\chipmunk\prebuilt\win32\debug-lib\libchipmunk.lib;..\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Debug\ext_recast.lib;..\cocos2d\external\bullet\prebuilt\win32\debug\libbullet.lib;..\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;..\cocos2d\external\webp\prebuilt\win32\libwebp.lib;..\cocos2d\external\websockets\prebuilt\win32\websockets.lib;..\cocos2d\external\openssl\prebuilt\win32\libssl.lib;..\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;..\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Debug\ext_tinyxml2.lib;lib\Debug\ext_xxhash.lib;lib\Debug\ext_xxtea.lib;lib\Debug\ext_clipper.lib;lib\Debug\ext_edtaa3func.lib;lib\Debug\ext_convertUTF.lib;lib\Debug\ext_poly2tri.lib;lib\Debug\ext_md5.lib;..\cocos2d\external\curl\prebuilt\win32\libcurl.lib;..\cocos2d\external\png\prebuilt\win32\libpng.lib;..\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;..\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;..\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;..\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;..\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;..\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Debug\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Bida3D/Bida3DCpp/win32-build/Debug/Bida3DCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Debug/Bida3DCpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/uv/prebuilt/win32/uv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/websockets/prebuilt/win32/websockets.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/curl/prebuilt/win32/libcurl.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\cocos2d.lib;lib\Release\external.lib;..\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;..\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;..\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\Release\ext_recast.lib;..\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;..\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;..\cocos2d\external\webp\prebuilt\win32\libwebp.lib;..\cocos2d\external\websockets\prebuilt\win32\websockets.lib;..\cocos2d\external\openssl\prebuilt\win32\libssl.lib;..\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;..\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\Release\ext_tinyxml2.lib;lib\Release\ext_xxhash.lib;lib\Release\ext_xxtea.lib;lib\Release\ext_clipper.lib;lib\Release\ext_edtaa3func.lib;lib\Release\ext_convertUTF.lib;lib\Release\ext_poly2tri.lib;lib\Release\ext_md5.lib;..\cocos2d\external\curl\prebuilt\win32\libcurl.lib;..\cocos2d\external\png\prebuilt\win32\libpng.lib;..\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;..\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;..\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;..\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;..\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;..\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\Release\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Bida3D/Bida3DCpp/win32-build/Release/Bida3DCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/Release/Bida3DCpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/uv/prebuilt/win32/uv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/websockets/prebuilt/win32/websockets.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/curl/prebuilt/win32/libcurl.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\cocos2d.lib;lib\MinSizeRel\external.lib;..\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;..\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;..\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\MinSizeRel\ext_recast.lib;..\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;..\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;..\cocos2d\external\webp\prebuilt\win32\libwebp.lib;..\cocos2d\external\websockets\prebuilt\win32\websockets.lib;..\cocos2d\external\openssl\prebuilt\win32\libssl.lib;..\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;..\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\MinSizeRel\ext_tinyxml2.lib;lib\MinSizeRel\ext_xxhash.lib;lib\MinSizeRel\ext_xxtea.lib;lib\MinSizeRel\ext_clipper.lib;lib\MinSizeRel\ext_edtaa3func.lib;lib\MinSizeRel\ext_convertUTF.lib;lib\MinSizeRel\ext_poly2tri.lib;lib\MinSizeRel\ext_md5.lib;..\cocos2d\external\curl\prebuilt\win32\libcurl.lib;..\cocos2d\external\png\prebuilt\win32\libpng.lib;..\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;..\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;..\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;..\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;..\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;..\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\MinSizeRel\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Bida3D/Bida3DCpp/win32-build/MinSizeRel/Bida3DCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/MinSizeRel/Bida3DCpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Bida3D\Bida3DCpp\Classes;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\audio\include;D:\Project\Bida3D\Bida3DCpp\cocos2d;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos;D:\Project\Bida3D\Bida3DCpp\cocos2d\extensions;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\editor-support;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\base;D:\Project\Bida3D\Bida3DCpp\cocos2d\cocos\platform\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\recast\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\tinyxml2\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxhash\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\xxtea\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\clipper\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\edtaa3func\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\ConvertUTF\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\poly2tri\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\md5\..;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\unzip\.;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\Box2D\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\chipmunk\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\freetype2\include\win32\freetype2;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\bullet\include\bullet;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\jpeg\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\openssl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\uv\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\webp\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\websockets\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\curl\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\png\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\gles\include\OGLES;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\icon\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\MP3Decoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OggDecoder\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\win32-specific\OpenalSoft\include;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\glfw3\include\win32;D:\Project\Bida3D\Bida3DCpp\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/openssl/prebuilt/win32/libcrypto-1_1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/uv/prebuilt/win32/uv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/uv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/websockets/prebuilt/win32/websockets.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/websockets.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/curl/prebuilt/win32/libcurl.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/gles/prebuilt/glew32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/glew32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/icon/prebuilt/iconv.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/iconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libmpg123.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libogg.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libogg.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libvorbis.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/libvorbisfile.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/Bida3D/Bida3DCpp/cocos2d/external/zlib/../win32-specific/zlib/prebuilt/zlib1.dll D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\cocos2d.lib;lib\RelWithDebInfo\external.lib;..\cocos2d\external\Box2D\prebuilt\win32\release\libbox2d.lib;..\cocos2d\external\chipmunk\prebuilt\win32\release-lib\libchipmunk.lib;..\cocos2d\external\freetype2\prebuilt\win32\freetype.lib;lib\RelWithDebInfo\ext_recast.lib;..\cocos2d\external\bullet\prebuilt\win32\release\libbullet.lib;..\cocos2d\external\jpeg\prebuilt\win32\libjpeg.lib;..\cocos2d\external\webp\prebuilt\win32\libwebp.lib;..\cocos2d\external\websockets\prebuilt\win32\websockets.lib;..\cocos2d\external\openssl\prebuilt\win32\libssl.lib;..\cocos2d\external\openssl\prebuilt\win32\libcrypto.lib;..\cocos2d\external\uv\prebuilt\win32\uv_a.lib;lib\RelWithDebInfo\ext_tinyxml2.lib;lib\RelWithDebInfo\ext_xxhash.lib;lib\RelWithDebInfo\ext_xxtea.lib;lib\RelWithDebInfo\ext_clipper.lib;lib\RelWithDebInfo\ext_edtaa3func.lib;lib\RelWithDebInfo\ext_convertUTF.lib;lib\RelWithDebInfo\ext_poly2tri.lib;lib\RelWithDebInfo\ext_md5.lib;..\cocos2d\external\curl\prebuilt\win32\libcurl.lib;..\cocos2d\external\png\prebuilt\win32\libpng.lib;..\cocos2d\external\win32-specific\gles\prebuilt\glew32.lib;..\cocos2d\external\win32-specific\icon\prebuilt\libiconv.lib;..\cocos2d\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libogg.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;..\cocos2d\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;..\cocos2d\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;..\cocos2d\external\glfw3\prebuilt\win32\glfw3.lib;..\cocos2d\external\zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;lib\RelWithDebInfo\ext_unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Bida3D/Bida3DCpp/win32-build/RelWithDebInfo/Bida3DCpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/Bida3D/Bida3DCpp/win32-build/bin/Bida3DCpp/RelWithDebInfo/Bida3DCpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Bida3D\Bida3DCpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Project/Bida3D/Bida3DCpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Bida3D/Bida3DCpp -BD:/Project/Bida3D/Bida3DCpp/win32-build --check-stamp-file D:/Project/Bida3D/Bida3DCpp/win32-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildSet.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDefine.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDepend.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Project/Bida3D/Bida3DCpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Bida3D/Bida3DCpp -BD:/Project/Bida3D/Bida3DCpp/win32-build --check-stamp-file D:/Project/Bida3D/Bida3DCpp/win32-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildSet.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDefine.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDepend.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Project/Bida3D/Bida3DCpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Bida3D/Bida3DCpp -BD:/Project/Bida3D/Bida3DCpp/win32-build --check-stamp-file D:/Project/Bida3D/Bida3DCpp/win32-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildSet.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDefine.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDepend.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Project/Bida3D/Bida3DCpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Bida3D/Bida3DCpp -BD:/Project/Bida3D/Bida3DCpp/win32-build --check-stamp-file D:/Project/Bida3D/Bida3DCpp/win32-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosBuildSet.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDefine.cmake;D:\Project\Bida3D\Bida3DCpp\cocos2d\cmake\Modules\CocosConfigDepend.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeCXXCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeRCCompiler.cmake;D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\3.18.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Project\Bida3D\Bida3DCpp\win32-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\data\Resource.h" />
+    <ClInclude Include="..\Classes\modules\core-implement\Table.h" />
+    <ClInclude Include="..\Classes\modules\core\BallBody.hpp" />
+    <ClInclude Include="..\Classes\modules\core\BallGenerator.hpp" />
+    <ClInclude Include="..\Classes\modules\core\BallOverBallHelper.hpp" />
+    <ClInclude Include="..\Classes\modules\core\EventPoller.hpp" />
+    <ClInclude Include="..\Classes\modules\core\ExtensionMath.hpp" />
+    <ClInclude Include="..\Classes\modules\core\FloorSurface.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicsConstants.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicsCue.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicsDispatcher.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicsEntities.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicSimulateResult.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicsRandom.hpp" />
+    <ClInclude Include="..\Classes\modules\core\PhysicsWorld.hpp" />
+    <ClInclude Include="..\Classes\modules\scene\GameScene.h" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.h" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.h" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\main.h" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\data\Resource.cpp" />
+    <ClCompile Include="..\Classes\modules\core-implement\Table.cpp" />
+    <ClCompile Include="..\Classes\modules\core\BallBody.cpp" />
+    <ClCompile Include="..\Classes\modules\core\BallGenerator.cpp" />
+    <ClCompile Include="..\Classes\modules\core\BallOverBallHelper.cpp" />
+    <ClCompile Include="..\Classes\modules\core\EventPoller.cpp" />
+    <ClCompile Include="..\Classes\modules\core\ExtensionMath.cpp" />
+    <ClCompile Include="..\Classes\modules\core\FloorSurface.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicsConstants.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicsCue.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicsDispatcher.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicsEntities.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicSimulateResult.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicsRandom.cpp" />
+    <ClCompile Include="..\Classes\modules\core\PhysicsWorld.cpp" />
+    <ClCompile Include="..\Classes\modules\scene\GameScene.cpp" />
+    <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.cpp" />
+    <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\main.cpp" />
+    <ResourceCompile Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\game.rc" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\CloseNormal.png" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\CloseSelected.png" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\HelloWorld.png" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\fonts\arial.ttf" />
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\res\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\ZERO_CHECK.vcxproj">
+      <Project>{6F0AB100-70B6-316A-8276-AB44BA0FA843}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\SYNC_RESOURCE-Bida3DCpp.vcxproj">
+      <Project>{A6054D5B-A2FC-3836-8B45-B43994419DD1}</Project>
+      <Name>SYNC_RESOURCE-Bida3DCpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{B31DE67B-D961-3FF4-8EFA-2E58080C211D}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{FD3C2297-92F7-33C3-B92C-00D8E1ED2BEA}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{F4197CE8-D6BF-3C4D-9C23-64F99CA1FFE4}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{B87B05EF-2A14-3498-9DD9-A8C8D677E47D}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\md5\ext_md5.vcxproj">
+      <Project>{2DC8FD4F-A9EC-3AD8-B906-8B6E53EEE2C6}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{F5B4E506-45E8-3E38-8268-7637E61DFE93}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\recast\ext_recast.vcxproj">
+      <Project>{EED55C56-838D-36D3-9B6A-7FAC13245FC9}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{A1529D81-AD0A-3BCD-AED7-4161832D6355}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{BE1BC056-7EF5-3A38-BE15-B2F8287FB979}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{60B92987-97DA-36D8-93D8-BADE099AF2F2}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{EAD12BD8-7A6F-343D-8C1C-0318DE6B02F9}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Bida3D\Bida3DCpp\win32-build\engine\external\external.vcxproj">
+      <Project>{47AC7538-A569-3F21-BB90-69579C8A9EBD}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

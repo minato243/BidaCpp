@@ -1,0 +1,1542 @@
+{
+  "ID": "000ff61c-4048-43fb-ab41-df6a389f385d",
+  "Version": "2.3.4",
+  "Name": "CueGachaRollingList",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 579,
+        "Children": [
+          {
+            "ClipAble": false,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "StretchWidthEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 580,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "BG.png",
+                  "Plist": "Inventory/res/Inventory_Reworked.plist"
+                },
+                "Scale9OriginX": 374,
+                "Scale9OriginY": 211,
+                "Scale9Width": 388,
+                "Scale9Height": 218,
+                "StretchWidthEnable": true,
+                "StretchHeightEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "Tag": 1723,
+                "ActionTag": 872860464,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 640.0
+                },
+                "Name": "imgBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Title.png",
+                  "Plist": "Inventory/res/Inventory_Reworked.plist"
+                },
+                "Scale9OriginX": 374,
+                "Scale9OriginY": 28,
+                "Scale9Width": 388,
+                "Scale9Height": 30,
+                "StretchWidthEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 640.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1344
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "TopEdge",
+                "BottomMargin": 554.0,
+                "Tag": 598,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_DapHop.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "Scale9OriginX": 74,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 116,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 554.0272,
+                      "Y": 37.1434
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4877,
+                      "Y": 0.4319
+                    },
+                    "PreSize": {
+                      "X": 0.2324,
+                      "Y": 0.8837
+                    },
+                    "LeftMargin": 422.0272,
+                    "RightMargin": 449.9728,
+                    "TopMargin": 10.8566,
+                    "BottomMargin": -0.8566,
+                    "Tag": 751,
+                    "ActionTag": 1267802951,
+                    "Size": {
+                      "X": 264.0,
+                      "Y": 76.0
+                    },
+                    "Name": "imgTitle",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1595318977,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 86.0
+                },
+                "Name": "titleBar",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 88,
+                  "G": 88,
+                  "B": 88
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 1116.2335,
+                  "Y": 486.1823
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9826,
+                  "Y": 0.7597
+                },
+                "PreSize": {
+                  "X": 0.5626,
+                  "Y": 0.1257
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 477.0826,
+                "RightMargin": 19.7665,
+                "TopMargin": 73.3399,
+                "BottomMargin": 486.1823,
+                "Tag": 236,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 127,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 297.5887,
+                      "Y": 4.1049
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4656,
+                      "Y": 0.051
+                    },
+                    "PreSize": {
+                      "X": 0.5197,
+                      "Y": 0.7619
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 297.5887,
+                    "RightMargin": 9.3792,
+                    "TopMargin": 15.0567,
+                    "BottomMargin": 4.1049,
+                    "Tag": 744,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Box_chip_bleu_glove.png",
+                          "Plist": "MainLobby/res/Lobby_Reworked.plist"
+                        },
+                        "Scale9OriginX": 61,
+                        "Scale9OriginY": 8,
+                        "Scale9Width": 63,
+                        "Scale9Height": 10,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 245.5948,
+                          "Y": 30.6544
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7393,
+                          "Y": 0.4999
+                        },
+                        "PreSize": {
+                          "X": 0.5569,
+                          "Y": 0.424
+                        },
+                        "LeftMargin": 153.0948,
+                        "RightMargin": -5.9118,
+                        "TopMargin": 17.6618,
+                        "BottomMargin": 17.6544,
+                        "Tag": 213,
+                        "ActionTag": 1115118353,
+                        "Size": {
+                          "X": 185.0,
+                          "Y": 26.0
+                        },
+                        "Name": "bg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "3.000.000",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Font/facebook.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 318.803,
+                          "Y": 34.8504
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 6.9993,
+                        "CColor": {
+                          "R": 237,
+                          "G": 216,
+                          "B": 97
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9597,
+                          "Y": 0.5684
+                        },
+                        "PreSize": {
+                          "X": 0.3733,
+                          "Y": 0.5708
+                        },
+                        "LeftMargin": 194.803,
+                        "RightMargin": 13.38,
+                        "TopMargin": 8.9658,
+                        "BottomMargin": 17.3504,
+                        "Tag": 745,
+                        "ActionTag": 38079357,
+                        "Size": {
+                          "X": 124.0,
+                          "Y": 35.0
+                        },
+                        "Name": "lbCueCoupon",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GlobalPopup/res/Gold.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 8,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 32,
+                        "Scale9Height": 32,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 159.0193,
+                          "Y": 30.8218
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4787,
+                          "Y": 0.5027
+                        },
+                        "PreSize": {
+                          "X": 0.0948,
+                          "Y": 0.535
+                        },
+                        "LeftMargin": 143.274,
+                        "RightMargin": 157.4183,
+                        "TopMargin": 14.093,
+                        "BottomMargin": 14.4204,
+                        "Tag": 228,
+                        "ActionTag": -1345242040,
+                        "Size": {
+                          "X": 31.4907,
+                          "Y": 32.8028
+                        },
+                        "Name": "imgCoupon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -226823234,
+                    "Size": {
+                      "X": 332.183,
+                      "Y": 61.3162
+                    },
+                    "Name": "pnCueCoupon",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 22,
+                    "LabelText": "Chỉ số chung tối đa:",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.1917,
+                      "Y": 38.5482
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 7.001,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0003,
+                      "Y": 0.479
+                    },
+                    "PreSize": {
+                      "X": 0.3192,
+                      "Y": 0.3976
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 0.1917,
+                    "RightMargin": 434.9591,
+                    "TopMargin": 25.9296,
+                    "BottomMargin": 22.5482,
+                    "Tag": 234,
+                    "ActionTag": -592794535,
+                    "Size": {
+                      "X": 204.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lbPower",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 28,
+                    "LabelText": "3000",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 286.9788,
+                      "Y": 41.126
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 7.0011,
+                    "CColor": {
+                      "R": 237,
+                      "G": 216,
+                      "B": 97
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.449,
+                      "Y": 0.511
+                    },
+                    "PreSize": {
+                      "X": 0.1189,
+                      "Y": 0.5095
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 210.9788,
+                    "RightMargin": 352.1721,
+                    "TopMargin": 18.8518,
+                    "BottomMargin": 20.626,
+                    "Tag": 235,
+                    "ActionTag": 1476616813,
+                    "Size": {
+                      "X": 76.0,
+                      "Y": 41.0
+                    },
+                    "Name": "lbPowerValue",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -954697271,
+                "Size": {
+                  "X": 639.1509,
+                  "Y": 80.4778
+                },
+                "Name": "pnInfo",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 88,
+                  "G": 88,
+                  "B": 88
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "StretchWidthEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 478.3696,
+                  "Y": -1.7167
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4211,
+                  "Y": -0.0027
+                },
+                "PreSize": {
+                  "X": 0.5626,
+                  "Y": 0.7678
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 478.3696,
+                "RightMargin": 18.4795,
+                "TopMargin": 150.315,
+                "BottomMargin": -1.7167,
+                "Tag": 1725,
+                "ActionTag": -469024838,
+                "Size": {
+                  "X": 639.1509,
+                  "Y": 491.4017
+                },
+                "Name": "pnList",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 119,
+                "SingleColor": {
+                  "R": 88,
+                  "G": 88,
+                  "B": 88
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 470.9856,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4146,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.4129,
+                  "Y": 0.7678
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 1.8779,
+                "RightMargin": 665.0144,
+                "TopMargin": 148.5983,
+                "Tag": 237,
+                "Children": [
+                  {
+                    "FlipX": true,
+                    "FlipY": true,
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Arrow_Icon.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Arrow_Icon.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Arrow_Icon.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 26,
+                    "Scale9Height": 61,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.5556,
+                      "Y": 272.0728
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0865,
+                      "Y": 0.5537
+                    },
+                    "PreSize": {
+                      "X": 0.1194,
+                      "Y": 0.1689
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "LeftMargin": 12.5556,
+                    "RightMargin": 400.5521,
+                    "TopMargin": 177.8289,
+                    "BottomMargin": 230.5728,
+                    "Tag": 230,
+                    "ActionTag": -1423356947,
+                    "Size": {
+                      "X": 56.0,
+                      "Y": 83.0
+                    },
+                    "Name": "btnPreviousBox",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Arrow_Icon.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Arrow_Icon.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Arrow_Icon.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 26,
+                    "Scale9Height": 61,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 417.748,
+                      "Y": 266.3056
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8905,
+                      "Y": 0.5419
+                    },
+                    "PreSize": {
+                      "X": 0.1194,
+                      "Y": 0.1689
+                    },
+                    "HorizontalEdge": "RightEdge",
+                    "LeftMargin": 389.748,
+                    "RightMargin": 23.3597,
+                    "TopMargin": 183.5961,
+                    "BottomMargin": 224.8056,
+                    "Tag": 229,
+                    "ActionTag": 1725305183,
+                    "Size": {
+                      "X": 56.0,
+                      "Y": 83.0
+                    },
+                    "Name": "btnNextBox",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Shop_Gold_Button.png",
+                      "Plist": "Shop/res/Shop_UI.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Shop_Gold_Button.png",
+                      "Plist": "Shop/res/Shop_UI.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Shop_Gold_Button.png",
+                      "Plist": "Shop/res/Shop_UI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 177,
+                    "Scale9Height": 38,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 234.5538,
+                      "Y": 108.0703
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.2199
+                    },
+                    "PreSize": {
+                      "X": 0.4413,
+                      "Y": 0.1221
+                    },
+                    "LeftMargin": 131.0538,
+                    "RightMargin": 131.0539,
+                    "TopMargin": 353.3314,
+                    "BottomMargin": 78.0703,
+                    "Tag": 1728,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "GlobalPopup/res/Gold.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 8,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 32,
+                        "Scale9Height": 32,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 38.327,
+                          "Y": 29.844
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1852,
+                          "Y": 0.4974
+                        },
+                        "PreSize": {
+                          "X": 0.1671,
+                          "Y": 0.6005
+                        },
+                        "HorizontalEdge": "LeftEdge",
+                        "VerticalEdge": "BothEdge",
+                        "LeftMargin": 21.0313,
+                        "RightMargin": 151.3773,
+                        "TopMargin": 12.1396,
+                        "BottomMargin": 11.8276,
+                        "Tag": 233,
+                        "ActionTag": 1020859961,
+                        "Size": {
+                          "X": 34.5914,
+                          "Y": 36.0328
+                        },
+                        "Name": "imgCC",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 30,
+                        "LabelText": "100.000",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Font/facebook.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 189.2392,
+                          "Y": 33.6561
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 7.0002,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9142,
+                          "Y": 0.5609
+                        },
+                        "PreSize": {
+                          "X": 0.5845,
+                          "Y": 0.7333
+                        },
+                        "LeftMargin": 68.2392,
+                        "RightMargin": 17.7608,
+                        "TopMargin": 4.3439,
+                        "BottomMargin": 11.6561,
+                        "Tag": 231,
+                        "ActionTag": -1659754679,
+                        "Size": {
+                          "X": 121.0,
+                          "Y": 44.0
+                        },
+                        "Name": "lb",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -552800570,
+                    "Size": {
+                      "X": 207.0,
+                      "Y": 60.0
+                    },
+                    "Name": "btnStart",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Shop_Gacha_Box_PURPLE.png",
+                      "Plist": "Shop/res/Shop_UI.plist"
+                    },
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 173,
+                    "Scale9Height": 142,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 234.5538,
+                      "Y": 265.5844
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5405
+                    },
+                    "PreSize": {
+                      "X": 0.6008,
+                      "Y": 0.4566
+                    },
+                    "LeftMargin": 93.6261,
+                    "RightMargin": 93.6261,
+                    "TopMargin": 113.636,
+                    "BottomMargin": 153.4031,
+                    "Tag": 1724,
+                    "ActionTag": 1504574284,
+                    "Size": {
+                      "X": 281.8555,
+                      "Y": 224.3626
+                    },
+                    "Name": "imgChest",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Name_Box.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "Scale9OriginX": 80,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 83,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 234.5538,
+                      "Y": 442.4725
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9004
+                    },
+                    "PreSize": {
+                      "X": 0.518,
+                      "Y": 0.1241
+                    },
+                    "LeftMargin": 113.0538,
+                    "RightMargin": 113.0539,
+                    "TopMargin": 18.4292,
+                    "BottomMargin": 411.9725,
+                    "Tag": 232,
+                    "Children": [
+                      {
+                        "FontSize": 30,
+                        "LabelText": "Name of the box",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Font/facebook.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 16,
+                          "G": 55,
+                          "B": 81
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.4963,
+                          "Y": 35.502
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 7.0,
+                        "CColor": {
+                          "R": 0,
+                          "B": 243
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5041,
+                          "Y": 0.582
+                        },
+                        "PreSize": {
+                          "X": 0.9753,
+                          "Y": 0.7213
+                        },
+                        "LeftMargin": 3.9963,
+                        "RightMargin": 2.0037,
+                        "TopMargin": 3.498,
+                        "BottomMargin": 13.502,
+                        "Tag": 176,
+                        "ActionTag": 1775039021,
+                        "Size": {
+                          "X": 237.0,
+                          "Y": 44.0
+                        },
+                        "Name": "lbBoxName",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 59153470,
+                    "Size": {
+                      "X": 243.0,
+                      "Y": 61.0
+                    },
+                    "Name": "imgBoxNameBox",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Shop_Gacha_Box_PURPLE.png",
+                      "Plist": "Shop/res/Shop_UI.plist"
+                    },
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 173,
+                    "Scale9Height": 142,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 234.5538,
+                      "Y": 265.58
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5405
+                    },
+                    "PreSize": {
+                      "X": 0.6008,
+                      "Y": 0.4566
+                    },
+                    "LeftMargin": 93.6261,
+                    "RightMargin": 93.6261,
+                    "TopMargin": 113.6404,
+                    "BottomMargin": 153.3987,
+                    "Tag": 1249,
+                    "ActionTag": 1532269127,
+                    "Size": {
+                      "X": 281.8555,
+                      "Y": 224.3626
+                    },
+                    "Name": "imgChest_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Gacha_Name_Box.png",
+                      "Plist": "Gacha/res/GachaUI.plist"
+                    },
+                    "Scale9OriginX": 80,
+                    "Scale9OriginY": 20,
+                    "Scale9Width": 83,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 234.5538,
+                      "Y": 442.47
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9004
+                    },
+                    "PreSize": {
+                      "X": 0.518,
+                      "Y": 0.1241
+                    },
+                    "LeftMargin": 113.0538,
+                    "RightMargin": 113.0539,
+                    "TopMargin": 18.4317,
+                    "BottomMargin": 411.97,
+                    "Tag": 1250,
+                    "Children": [
+                      {
+                        "FontSize": 30,
+                        "LabelText": "Name of the box",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "Font/facebook.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 16,
+                          "G": 55,
+                          "B": 81
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 122.4963,
+                          "Y": 35.502
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 7.0,
+                        "CColor": {
+                          "R": 0,
+                          "B": 243
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5041,
+                          "Y": 0.582
+                        },
+                        "PreSize": {
+                          "X": 0.9753,
+                          "Y": 0.7213
+                        },
+                        "LeftMargin": 3.9963,
+                        "RightMargin": 2.0037,
+                        "TopMargin": 3.498,
+                        "BottomMargin": 13.502,
+                        "Tag": 1251,
+                        "ActionTag": 1287606098,
+                        "Size": {
+                          "X": 237.0,
+                          "Y": 44.0
+                        },
+                        "Name": "lbBoxName",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 935147523,
+                    "Size": {
+                      "X": 243.0,
+                      "Y": 61.0
+                    },
+                    "Name": "imgBoxNameBox_0",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -52622497,
+                "Size": {
+                  "X": 469.1077,
+                  "Y": 491.4017
+                },
+                "Name": "pnBoxSide",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -11,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.2263,
+                  "Y": 596.8469
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0495,
+                  "Y": 0.9326
+                },
+                "PreSize": {
+                  "X": 0.1054,
+                  "Y": 0.1245
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": -3.616,
+                "RightMargin": 1019.9313,
+                "TopMargin": 3.3108,
+                "BottomMargin": 557.0046,
+                "Tag": 581,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Back.png",
+                      "Plist": "Inventory/res/Inventory_Reworked.plist"
+                    },
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 24,
+                    "Scale9Height": 31,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.5127,
+                      "Y": 39.9509
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4972,
+                      "Y": 0.5014
+                    },
+                    "PreSize": {
+                      "X": 0.5347,
+                      "Y": 0.6902
+                    },
+                    "LeftMargin": 27.5127,
+                    "RightMargin": 28.172,
+                    "TopMargin": 12.2337,
+                    "BottomMargin": 12.4509,
+                    "Tag": 582,
+                    "ActionTag": -543257301,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 55.0
+                    },
+                    "Name": "img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1682518491,
+                "Size": {
+                  "X": 119.6847,
+                  "Y": 79.6846
+                },
+                "Name": "btnBack",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -927908115,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Fake_Inventory_01d_i5.png",
+              "Plist": "Gacha/res/GachaUI.plist"
+            },
+            "Scale9OriginX": 374,
+            "Scale9OriginY": 211,
+            "Scale9Width": 388,
+            "Scale9Height": 218,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 211,
+            "ActionTag": -1823406276,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "fake",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Fake_Inventory_01c_i5.png",
+              "Plist": "Gacha/res/GachaUI.plist"
+            },
+            "Scale9OriginX": 374,
+            "Scale9OriginY": 211,
+            "Scale9Width": 388,
+            "Scale9Height": 218,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 212,
+            "ActionTag": -1092039007,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Alpha": 79,
+            "Name": "fake2",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../GlobalPopup/res/Gold.png",
+        "../Inventory/res/Inventory_Reworked.plist",
+        "../Inventory/res/Inventory_Reworked.png",
+        "../MainLobby/res/Lobby_Reworked.plist",
+        "../MainLobby/res/Lobby_Reworked.png",
+        "../Shop/res/Shop_UI.plist",
+        "../Shop/res/Shop_UI.png",
+        "res/GachaUI.plist",
+        "res/GachaUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

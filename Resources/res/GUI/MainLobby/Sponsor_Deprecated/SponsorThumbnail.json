@@ -1,0 +1,520 @@
+{
+  "ID": "4151cc1b-d4af-4f10-9f75-80a232096e12",
+  "Version": "2.3.4",
+  "Name": "SponsorThumbnail",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 153,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -113.0,
+            "BottomMargin": -145.0,
+            "Tag": 297,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "MIssion_Box_02.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9OriginX": 37,
+                "Scale9OriginY": 47,
+                "Scale9Width": 39,
+                "Scale9Height": 51,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 145.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 154,
+                "ActionTag": -1637094289,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 145.0
+                },
+                "Name": "imgBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "MIssion_Box_01.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9OriginX": 38,
+                "Scale9OriginY": 49,
+                "Scale9Width": 41,
+                "Scale9Height": 52,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.5,
+                  "Y": 72.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0354,
+                  "Y": 1.0345
+                },
+                "LeftMargin": -2.0,
+                "RightMargin": -2.0,
+                "TopMargin": -2.5,
+                "BottomMargin": -2.5,
+                "Tag": 298,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "MIssion_Box_03.png",
+                      "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                    },
+                    "Scale9OriginX": 41,
+                    "Scale9OriginY": 51,
+                    "Scale9Width": 44,
+                    "Scale9Height": 55,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 58.5,
+                      "Y": 75.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0769,
+                      "Y": 1.0467
+                    },
+                    "LeftMargin": -4.5,
+                    "RightMargin": -4.5,
+                    "TopMargin": -3.5,
+                    "BottomMargin": -3.5,
+                    "Tag": 299,
+                    "ActionTag": -1821644705,
+                    "Size": {
+                      "X": 126.0,
+                      "Y": 157.0
+                    },
+                    "Name": "border",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 412773746,
+                "Size": {
+                  "X": 117.0,
+                  "Y": 150.0
+                },
+                "Name": "imgBgSelect",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 273,
+                "ActionTag": -576874219,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 145.0
+                },
+                "Alpha": 0,
+                "Name": "btnBg",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "123___",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 4.9803,
+                  "Y": 21.5758
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0441,
+                  "Y": 0.1488
+                },
+                "PreSize": {
+                  "X": 0.6106,
+                  "Y": 0.2
+                },
+                "LeftMargin": 4.9803,
+                "RightMargin": 39.0197,
+                "TopMargin": 108.9242,
+                "BottomMargin": 7.0758,
+                "Tag": 156,
+                "ActionTag": 1817225932,
+                "Size": {
+                  "X": 69.0,
+                  "Y": 29.0
+                },
+                "Name": "lbScore",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Trophy.png",
+                  "Plist": "Game/res/WinLose.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.2041,
+                  "Y": 18.825
+                },
+                "Scale": {
+                  "ScaleX": 0.6188,
+                  "ScaleY": 0.6188
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5505,
+                  "Y": 0.1298
+                },
+                "PreSize": {
+                  "X": 0.4248,
+                  "Y": 0.3172
+                },
+                "LeftMargin": 38.2041,
+                "RightMargin": 26.7959,
+                "TopMargin": 103.175,
+                "BottomMargin": -4.175,
+                "Tag": 300,
+                "ActionTag": -451715796,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 46.0
+                },
+                "Name": "imgTrophy",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Mission_03.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 32,
+                "Scale9Width": 36,
+                "Scale9Height": 34,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.5,
+                  "Y": 87.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6
+                },
+                "PreSize": {
+                  "X": 0.9027,
+                  "Y": 0.6759
+                },
+                "LeftMargin": 5.5,
+                "RightMargin": 5.5,
+                "TopMargin": 9.0,
+                "BottomMargin": 38.0,
+                "Tag": 372,
+                "ActionTag": -870050340,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 98.0
+                },
+                "Name": "imgIcon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "info_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "info_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "info_Button.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 8,
+                "Scale9OriginY": 11,
+                "Scale9Width": 9,
+                "Scale9Height": 3,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 93.2938,
+                  "Y": 20.1088
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8256,
+                  "Y": 0.1387
+                },
+                "PreSize": {
+                  "X": 0.2212,
+                  "Y": 0.1724
+                },
+                "LeftMargin": 80.7938,
+                "RightMargin": 7.2062,
+                "TopMargin": 112.3912,
+                "BottomMargin": 7.6088,
+                "Tag": 301,
+                "ActionTag": 482601276,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 25.0
+                },
+                "Name": "btnHelp",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1674261440,
+            "Size": {
+              "X": 113.0,
+              "Y": 145.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Default/Button_Normal.png",
+        "../../Default/Button_Press.png",
+        "../../Font/facebook.TTF",
+        "../../Game/res/WinLose.plist",
+        "../../Game/res/WinLose.png",
+        "SponsorGUIs.plist",
+        "SponsorGUIs.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,186 @@
+{
+  "ID": "daf1b985-1676-45f4-ad63-781d4ed899fd",
+  "Version": "2.3.4",
+  "Name": "MoveBallTargetLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 88,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 102,
+              "G": 102,
+              "B": 102
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "Tag": 93,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Game/res/Ball_Button.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 32,
+                "Scale9OriginY": 32,
+                "Scale9Width": 40,
+                "Scale9Height": 41,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4144,
+                  "Y": 0.7426
+                },
+                "LeftMargin": 332.6188,
+                "RightMargin": 332.6188,
+                "TopMargin": 82.3555,
+                "BottomMargin": 82.3555,
+                "Tag": 89,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_Touch_Indicator.png",
+                      "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                    },
+                    "Scale9OriginX": 5,
+                    "Scale9OriginY": 5,
+                    "Scale9Width": 7,
+                    "Scale9Height": 7,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 235.3813,
+                      "Y": 237.6445
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1062,
+                      "Y": 0.1052
+                    },
+                    "LeftMargin": 210.3813,
+                    "RightMargin": 210.3811,
+                    "TopMargin": 212.6445,
+                    "BottomMargin": 212.6445,
+                    "Tag": 90,
+                    "ActionTag": -755506252,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "indicator",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1732711723,
+                "Size": {
+                  "X": 470.7625,
+                  "Y": 475.2891
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1216509738,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "main",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../MainLobby/res/Ingame_Reworked.plist",
+        "../MainLobby/res/Ingame_Reworked.png",
+        "res/Ball_Button.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\scene\GameScene.cpp">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\Resource.cpp">
+      <Filter>Source Files\Classes\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\BallBody.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\BallGenerator.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\BallOverBallHelper.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\EventPoller.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\ExtensionMath.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\FloorSurface.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsConstants.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsCue.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsDispatcher.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsEntities.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicSimulateResult.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsRandom.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsWorld.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core-implement\Table.cpp">
+      <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\scene\GameScene.h">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\Resource.h">
+      <Filter>Source Files\Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\BallBody.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\BallGenerator.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\BallOverBallHelper.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\EventPoller.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\ExtensionMath.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\FloorSurface.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsConstants.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsCue.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsDispatcher.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsEntities.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicSimulateResult.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsRandom.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsWorld.hpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core-implement\Table.h">
+      <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Bida3D\Bida3DCpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{81EE29F6-C875-3973-87BA-19A10A2CA8AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{110CD1F4-C627-3309-998E-16D80217E05C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{691ED13A-F489-3C5F-8E89-8376A1084D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{131ACCC4-7C0D-3AEB-8A28-6183D65A8C37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{D03784CA-DD41-38BD-86FE-9A9D30B711AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{1D3917EE-7AF5-344A-B418-D0B69C65D74F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules">
+      <UniqueIdentifier>{57005351-8be2-4c59-b53f-57b9e44fb7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\core">
+      <UniqueIdentifier>{6f637c91-eba1-4978-bceb-3ce566a172f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\camera-view">
+      <UniqueIdentifier>{be4f010a-694f-42aa-a2ff-54d35b4c259a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\scene">
+      <UniqueIdentifier>{8d32db39-aa9e-4ac2-b7e8-7a91d66c3839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\data">
+      <UniqueIdentifier>{ec1ac565-6810-4386-8b5d-77a55577301e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\core-implement">
+      <UniqueIdentifier>{1af2206c-502c-41e4-aab4-95bb4de480f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

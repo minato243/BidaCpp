@@ -1,0 +1,101 @@
+material table
+{
+	technique low
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader.vert
+				fragmentShader = res/shaders/IOS/3d_shader_table_5.frag
+				sampler u_brdf_lut
+				{
+					path = res/shaders/ibl_brdf_lut.png
+				}
+			}
+		}
+	}
+	
+	technique medium
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader.vert
+				fragmentShader = res/shaders/IOS/3d_shader_table_5.frag
+				//sampler u_brdf_lut
+				//{
+				//	path = res/shaders/ibl_brdf_lut.png
+				//}
+			}
+		}
+	}
+	
+	technique high
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader_high.vert
+				fragmentShader = res/shaders/IOS/3d_shader_table_high.frag
+				//sampler u_brdf_lut
+				//{
+				//	path = res/shaders/ibl_brdf_lut.png
+				//}
+			}
+		}
+	}
+
+	technique low_IOS
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader.vert
+				fragmentShader = res/shaders/IOS/3d_shader_table_5.frag
+				defines = GL_IOS
+				sampler u_brdf_lut
+				{
+					path = res/shaders/ibl_brdf_lut.png
+				}
+			}
+		}
+	}
+	
+	technique medium_IOS
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader.vert
+				fragmentShader = res/shaders/IOS/3d_shader_table_5.frag
+				defines = GL_IOS
+				//sampler u_brdf_lut
+				//{
+				//	path = res/shaders/ibl_brdf_lut.png
+				//}
+			}
+		}
+	}
+	
+	technique high_IOS
+	{
+		pass 0
+		{
+			shader
+			{
+				vertexShader = res/shaders/3d_shader_high.vert
+				fragmentShader = res/shaders/IOS/3d_shader_table_high.frag
+				defines = GL_IOS
+				//sampler u_brdf_lut
+				//{
+				//	path = res/shaders/ibl_brdf_lut.png
+				//}
+			}
+		}
+	}
+}

@@ -1,0 +1,366 @@
+{
+  "ID": "8dd9b2ec-b18c-4574-90a6-efc142525d72",
+  "Version": "2.3.4",
+  "Name": "8BallModeSelect",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 199,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "VerticalEdge": "BothEdge",
+            "Tag": 202,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 100.8885,
+                  "Y": 16.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0888,
+                  "Y": 0.025
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.8224,
+                  "Y": 0.95
+                },
+                "LeftMargin": 100.8885,
+                "RightMargin": 100.8884,
+                "TopMargin": 16.0,
+                "BottomMargin": 16.0,
+                "Tag": 200,
+                "ActionTag": -1426561737,
+                "Size": {
+                  "X": 934.2231,
+                  "Y": 608.0
+                },
+                "Name": "pnScrollContent",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Arrow.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 27,
+                "Scale9Width": 20,
+                "Scale9Height": 29,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 56.8,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0493,
+                  "Y": 0.1297
+                },
+                "LeftMargin": 28.8,
+                "RightMargin": 1051.2,
+                "TopMargin": 278.5,
+                "BottomMargin": 278.5,
+                "Tag": 304,
+                "ActionTag": 1916095172,
+                "Size": {
+                  "X": 56.0,
+                  "Y": 83.0
+                },
+                "Name": "imgArrow",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Arrow.png",
+                  "Plist": "ModeSelect/res/ModeSelect.plist"
+                },
+                "Scale9OriginX": 18,
+                "Scale9OriginY": 27,
+                "Scale9Width": 20,
+                "Scale9Height": 29,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1079.2,
+                  "Y": 320.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.95,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0493,
+                  "Y": 0.1297
+                },
+                "LeftMargin": 1051.2,
+                "RightMargin": 28.8,
+                "TopMargin": 278.5,
+                "BottomMargin": 278.5,
+                "Tag": 305,
+                "ActionTag": 454455491,
+                "Size": {
+                  "X": 56.0,
+                  "Y": 83.0
+                },
+                "Name": "imgArrow2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 22,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 67,
+                "Scale9Height": 45,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.2,
+                  "Y": 570.7186
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0583,
+                  "Y": 0.8917
+                },
+                "PreSize": {
+                  "X": 0.0854,
+                  "Y": 0.1047
+                },
+                "LeftMargin": 17.7,
+                "RightMargin": 1021.3,
+                "TopMargin": 35.7814,
+                "BottomMargin": 537.2186,
+                "Tag": 201,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Back_Button.png",
+                      "Plist": "Game/res/WinLose.plist"
+                    },
+                    "Scale9OriginX": 20,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 22,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.7598,
+                      "Y": 33.1008
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4821,
+                      "Y": 0.494
+                    },
+                    "PreSize": {
+                      "X": 0.6392,
+                      "Y": 0.5522
+                    },
+                    "LeftMargin": 15.7598,
+                    "RightMargin": 19.2402,
+                    "TopMargin": 15.3992,
+                    "BottomMargin": 14.6008,
+                    "Tag": 303,
+                    "ActionTag": -850997145,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 37.0
+                    },
+                    "Name": "imgBack",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -978287659,
+                "Size": {
+                  "X": 97.0,
+                  "Y": 67.0
+                },
+                "Name": "btnBack",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 893125668,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Normal.png",
+        "../Game/res/WinLose.plist",
+        "../Game/res/WinLose.png",
+        "res/ModeSelect.plist",
+        "res/ModeSelect.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

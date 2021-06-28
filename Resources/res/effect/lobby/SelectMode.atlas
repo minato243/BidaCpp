@@ -1,0 +1,251 @@
+
+SelectMode.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 2, 2
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+Layer 335
+  rotate: false
+  xy: 1312, 1256
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+Light1/Light10001
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10015
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10016
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10017
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10018
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0001
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0015
+  rotate: false
+  xy: 2, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10002
+  rotate: false
+  xy: 2, 1264
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10003
+  rotate: false
+  xy: 264, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10004
+  rotate: false
+  xy: 2, 898
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10005
+  rotate: false
+  xy: 264, 1264
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10006
+  rotate: false
+  xy: 526, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10007
+  rotate: false
+  xy: 2, 532
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10008
+  rotate: false
+  xy: 264, 898
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10009
+  rotate: false
+  xy: 526, 1264
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10010
+  rotate: false
+  xy: 788, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10011
+  rotate: false
+  xy: 2, 166
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10012
+  rotate: false
+  xy: 264, 532
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10013
+  rotate: false
+  xy: 526, 898
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light1/Light10014
+  rotate: false
+  xy: 788, 1264
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0002
+  rotate: false
+  xy: 1050, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0003
+  rotate: false
+  xy: 264, 166
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0004
+  rotate: false
+  xy: 526, 532
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0005
+  rotate: false
+  xy: 788, 898
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0006
+  rotate: false
+  xy: 1050, 1264
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0007
+  rotate: false
+  xy: 1312, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0008
+  rotate: false
+  xy: 526, 166
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0009
+  rotate: false
+  xy: 788, 532
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0010
+  rotate: false
+  xy: 1050, 898
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0011
+  rotate: false
+  xy: 1312, 1264
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0012
+  rotate: false
+  xy: 1574, 1630
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0013
+  rotate: false
+  xy: 788, 166
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1
+Light2/Light2_0014
+  rotate: false
+  xy: 1050, 532
+  size: 260, 364
+  orig: 260, 364
+  offset: 0, 0
+  index: -1

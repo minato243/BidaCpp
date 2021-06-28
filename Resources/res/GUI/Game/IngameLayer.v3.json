@@ -1,0 +1,4811 @@
+{
+  "ID": "f15b74cd-973f-4644-8625-7944417f16e4",
+  "Version": "2.3.4",
+  "Name": "IngameLayer.v3",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2064,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Game/res/Fake_Ingame_01_i5-VietNV2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 374,
+            "Scale9OriginY": 211,
+            "Scale9Width": 388,
+            "Scale9Height": 218,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2065,
+            "ActionTag": -722510462,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "fake",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "StretchWidthEnable": true,
+            "StretchHeightEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 1.7442
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0027
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "BottomEdge",
+            "TopMargin": -1.7442,
+            "BottomMargin": 1.7442,
+            "Tag": 2066,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 100.604,
+                  "Y": 507.6267
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0886,
+                  "Y": 0.7932
+                },
+                "PreSize": {
+                  "X": 0.3431,
+                  "Y": 0.1879
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 100.604,
+                "RightMargin": 645.6334,
+                "TopMargin": 12.0909,
+                "BottomMargin": 507.6267,
+                "Tag": 2072,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "1_0015_Layer-6.png",
+                      "Plist": "Game/res/Ingame_3.plist"
+                    },
+                    "Scale9OriginX": 39,
+                    "Scale9OriginY": 47,
+                    "Scale9Width": 41,
+                    "Scale9Height": 25,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.013,
+                      "Y": 61.1766
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0539,
+                      "Y": 0.5086
+                    },
+                    "PreSize": {
+                      "X": 0.3053,
+                      "Y": 0.9893
+                    },
+                    "LeftMargin": 21.013,
+                    "RightMargin": 249.7496,
+                    "TopMargin": -0.3942,
+                    "BottomMargin": 1.6766,
+                    "Tag": 2067,
+                    "ActionTag": 1748735336,
+                    "Size": {
+                      "X": 119.0,
+                      "Y": 119.0
+                    },
+                    "Name": "imgAvatarBox",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 2.2002,
+                      "Y": 1.0244
+                    },
+                    "RightMargin": -467.7857,
+                    "TopMargin": -2.9338,
+                    "Tag": 813,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Board_Blue.v3.png",
+                          "Plist": "Game/res/ingame_v3.plist"
+                        },
+                        "Scale9OriginX": 104,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 108,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 80.7679,
+                          "Y": 61.73
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0942,
+                          "Y": 0.501
+                        },
+                        "PreSize": {
+                          "X": 0.3685,
+                          "Y": 0.8278
+                        },
+                        "LeftMargin": 80.7679,
+                        "RightMargin": 460.7804,
+                        "TopMargin": 10.4862,
+                        "BottomMargin": 10.73,
+                        "Tag": 814,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "Player 1 Name",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Right",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 301.426,
+                              "Y": 77.99
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.9539,
+                              "Y": 0.7646
+                            },
+                            "PreSize": {
+                              "X": 0.4399,
+                              "Y": 0.2843
+                            },
+                            "HorizontalEdge": "RightEdge",
+                            "LeftMargin": 162.426,
+                            "RightMargin": 14.574,
+                            "TopMargin": 9.51,
+                            "BottomMargin": 63.49,
+                            "Tag": 819,
+                            "ActionTag": -1398611377,
+                            "Size": {
+                              "X": 139.0,
+                              "Y": 29.0
+                            },
+                            "Name": "lbName",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FlipX": true,
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Level_Box_Blue.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 10,
+                            "Scale9Width": 27,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 38.2792,
+                              "Y": 79.03
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.1211,
+                              "Y": 0.7748
+                            },
+                            "PreSize": {
+                              "X": 0.2373,
+                              "Y": 0.3039
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "LeftMargin": 0.7792,
+                            "RightMargin": 240.2208,
+                            "TopMargin": 7.47,
+                            "BottomMargin": 63.53,
+                            "Tag": 817,
+                            "Children": [
+                              {
+                                "FontSize": 20,
+                                "LabelText": "25",
+                                "FontResource": {
+                                  "Type": "Normal",
+                                  "Path": "Font/facebook.TTF",
+                                  "Plist": ""
+                                },
+                                "HorizontalAlignmentType": "HT_Right",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 10.3542,
+                                  "Y": 17.8912
+                                },
+                                "Scale": {
+                                  "ScaleX": -1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.1381,
+                                  "Y": 0.5771
+                                },
+                                "PreSize": {
+                                  "X": 0.36,
+                                  "Y": 0.9355
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": -16.6458,
+                                "RightMargin": 64.6458,
+                                "TopMargin": -1.3912,
+                                "BottomMargin": 3.3912,
+                                "Tag": 818,
+                                "ActionTag": -1123529169,
+                                "Size": {
+                                  "X": 27.0,
+                                  "Y": 29.0
+                                },
+                                "Name": "lb",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -622611560,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 31.0
+                            },
+                            "Name": "imgLevelBox",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 310.0447,
+                              "Y": 24.51
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": true,
+                            "PrePosition": {
+                              "X": 0.9812,
+                              "Y": 0.2403
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "HorizontalEdge": "RightEdge",
+                            "LeftMargin": 310.0447,
+                            "RightMargin": 5.9553,
+                            "TopMargin": 77.49,
+                            "BottomMargin": 24.51,
+                            "Tag": 820,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -20.0006,
+                                  "Y": 0.0002
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -36.0006,
+                                "RightMargin": 4.0006,
+                                "TopMargin": -15.6002,
+                                "BottomMargin": -15.5998,
+                                "Tag": 821,
+                                "ActionTag": 1771875761,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_0",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -55.3339,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -71.3339,
+                                "RightMargin": 39.3339,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 822,
+                                "ActionTag": -109174870,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_1",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -90.6673,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -106.6673,
+                                "RightMargin": 74.6673,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 823,
+                                "ActionTag": 918933649,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_2",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -126.0006,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -142.0006,
+                                "RightMargin": 110.0006,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 824,
+                                "ActionTag": 222197564,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_3",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -161.3339,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -177.3339,
+                                "RightMargin": 145.3339,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 825,
+                                "ActionTag": 756774310,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_4",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -196.6672,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -212.6672,
+                                "RightMargin": 180.6672,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 826,
+                                "ActionTag": 898206197,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_5",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -232.0005,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -248.0005,
+                                "RightMargin": 216.0005,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 827,
+                                "ActionTag": 2055568082,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_6",
+                                "ctype": "ImageViewObjectData"
+                              }
+                            ],
+                            "ActionTag": 27848917,
+                            "Size": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Name": "nodeBalls",
+                            "ctype": "SingleNodeObjectData"
+                          },
+                          {
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 310.04,
+                              "Y": 24.51
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": true,
+                            "PrePosition": {
+                              "X": 0.9811,
+                              "Y": 0.2403
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "HorizontalEdge": "RightEdge",
+                            "LeftMargin": 310.04,
+                            "RightMargin": 5.96,
+                            "TopMargin": 77.49,
+                            "BottomMargin": 24.51,
+                            "Tag": 828,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -110.0,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "RightEdge",
+                                "LeftMargin": -142.0,
+                                "RightMargin": 110.0,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 829,
+                                "ActionTag": -613294688,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "EightBall",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -158.3486,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -165.3486,
+                                "RightMargin": 151.3486,
+                                "TopMargin": -13.5,
+                                "BottomMargin": -13.5,
+                                "Tag": 830,
+                                "ActionTag": -1638457933,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green1",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -185.3479,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -192.3479,
+                                "RightMargin": 178.3479,
+                                "TopMargin": -13.5,
+                                "BottomMargin": -13.5,
+                                "Tag": 831,
+                                "ActionTag": 1418841585,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green2",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -212.3472,
+                                  "Y": 0.0004
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -219.3472,
+                                "RightMargin": 205.3472,
+                                "TopMargin": -13.5004,
+                                "BottomMargin": -13.4996,
+                                "Tag": 832,
+                                "ActionTag": -1057110298,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green3",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -40.7457,
+                                  "Y": 0.0004
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -47.7457,
+                                "RightMargin": 33.7457,
+                                "TopMargin": -13.5004,
+                                "BottomMargin": -13.4996,
+                                "Tag": 833,
+                                "ActionTag": 851097448,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green6",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -67.2449,
+                                  "Y": 0.0002
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -74.2449,
+                                "RightMargin": 60.2449,
+                                "TopMargin": -13.5002,
+                                "BottomMargin": -13.4998,
+                                "Tag": 834,
+                                "ActionTag": -1532943905,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green5",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": -93.744,
+                                  "Y": 0.0001
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": -100.744,
+                                "RightMargin": 86.744,
+                                "TopMargin": -13.5001,
+                                "BottomMargin": -13.4999,
+                                "Tag": 835,
+                                "ActionTag": -364670335,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green4",
+                                "ctype": "ImageViewObjectData"
+                              }
+                            ],
+                            "ActionTag": 1458203118,
+                            "Size": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Name": "nodeEightBall",
+                            "ctype": "SingleNodeObjectData"
+                          }
+                        ],
+                        "ActionTag": -214007810,
+                        "Size": {
+                          "X": 316.0,
+                          "Y": 102.0
+                        },
+                        "Name": "imgPanelP1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Board_Red.v3.png",
+                          "Plist": "Game/res/ingame_v3.plist"
+                        },
+                        "Scale9OriginX": 104,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 108,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 845.9957,
+                          "Y": 61.73
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9865,
+                          "Y": 0.501
+                        },
+                        "PreSize": {
+                          "X": 0.3685,
+                          "Y": 0.8278
+                        },
+                        "LeftMargin": 529.9957,
+                        "RightMargin": 11.5526,
+                        "TopMargin": 10.4862,
+                        "BottomMargin": 10.73,
+                        "Tag": 815,
+                        "Children": [
+                          {
+                            "FontSize": 20,
+                            "LabelText": "Player 2 Name",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "Font/facebook.TTF",
+                              "Plist": ""
+                            },
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 14.6,
+                              "Y": 77.9899
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0462,
+                              "Y": 0.7646
+                            },
+                            "PreSize": {
+                              "X": 0.4557,
+                              "Y": 0.2843
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "LeftMargin": 14.6,
+                            "RightMargin": 157.4,
+                            "TopMargin": 9.5101,
+                            "BottomMargin": 63.4899,
+                            "Tag": 850,
+                            "ActionTag": -829038267,
+                            "Size": {
+                              "X": 144.0,
+                              "Y": 29.0
+                            },
+                            "Name": "lbName",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Level_Box_Blue.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 24,
+                            "Scale9OriginY": 10,
+                            "Scale9Width": 27,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 278.4975,
+                              "Y": 79.03
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.8813,
+                              "Y": 0.7748
+                            },
+                            "PreSize": {
+                              "X": 0.2373,
+                              "Y": 0.3039
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "LeftMargin": 240.9975,
+                            "RightMargin": 0.0025,
+                            "TopMargin": 7.47,
+                            "BottomMargin": 63.53,
+                            "Tag": 851,
+                            "Children": [
+                              {
+                                "FontSize": 20,
+                                "LabelText": "25",
+                                "FontResource": {
+                                  "Type": "Normal",
+                                  "Path": "Font/facebook.TTF",
+                                  "Plist": ""
+                                },
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 10.6007,
+                                  "Y": 18.4256
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.1413,
+                                  "Y": 0.5944
+                                },
+                                "PreSize": {
+                                  "X": 0.36,
+                                  "Y": 0.9355
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 10.6007,
+                                "RightMargin": 37.3993,
+                                "TopMargin": -1.9256,
+                                "BottomMargin": 3.9256,
+                                "Tag": 852,
+                                "ActionTag": -27888008,
+                                "Size": {
+                                  "X": 27.0,
+                                  "Y": 29.0
+                                },
+                                "Name": "lb",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 165463259,
+                            "Size": {
+                              "X": 75.0,
+                              "Y": 31.0
+                            },
+                            "Name": "imgLevelBox",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 6.0,
+                              "Y": 24.51
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": true,
+                            "PrePosition": {
+                              "X": 0.019,
+                              "Y": 0.2403
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "LeftMargin": 6.0,
+                            "RightMargin": 310.0,
+                            "TopMargin": 77.49,
+                            "BottomMargin": 24.51,
+                            "Tag": 853,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 20.0,
+                                  "Y": 0.0002
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 4.0,
+                                "RightMargin": -36.0,
+                                "TopMargin": -15.6002,
+                                "BottomMargin": -15.5998,
+                                "Tag": 854,
+                                "ActionTag": -319044810,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_0",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 55.1667,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 39.1667,
+                                "RightMargin": -71.1667,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 855,
+                                "ActionTag": 121268126,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_1",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 90.3333,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 74.3333,
+                                "RightMargin": -106.3333,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 856,
+                                "ActionTag": 276167152,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_2",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 125.5,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 109.5,
+                                "RightMargin": -141.5,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 857,
+                                "ActionTag": 280885983,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_3",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 160.6666,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 144.6666,
+                                "RightMargin": -176.6666,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 858,
+                                "ActionTag": -652480780,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_4",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 195.8332,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 179.8332,
+                                "RightMargin": -211.8332,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 859,
+                                "ActionTag": 469418687,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_5",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 230.9998,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 214.9998,
+                                "RightMargin": -246.9998,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 860,
+                                "ActionTag": 1450889417,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "box_6",
+                                "ctype": "ImageViewObjectData"
+                              }
+                            ],
+                            "ActionTag": -2111324845,
+                            "Size": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Name": "nodeBalls",
+                            "ctype": "SingleNodeObjectData"
+                          },
+                          {
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 6.0,
+                              "Y": 24.51
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": true,
+                            "PrePosition": {
+                              "X": 0.019,
+                              "Y": 0.2403
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "HorizontalEdge": "LeftEdge",
+                            "LeftMargin": 6.0,
+                            "RightMargin": 310.0,
+                            "TopMargin": 77.49,
+                            "BottomMargin": 24.51,
+                            "Tag": 861,
+                            "Children": [
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Ball_Box_Blue.png",
+                                  "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                                },
+                                "Scale9OriginX": 11,
+                                "Scale9OriginY": 10,
+                                "Scale9Width": 12,
+                                "Scale9Height": 13,
+                                "AnchorPoint": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 142.0,
+                                  "Y": 0.0
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "HorizontalEdge": "LeftEdge",
+                                "LeftMargin": 110.0,
+                                "RightMargin": -142.0,
+                                "TopMargin": -15.6,
+                                "BottomMargin": -15.6,
+                                "Tag": 862,
+                                "ActionTag": -1679884800,
+                                "Size": {
+                                  "X": 32.0,
+                                  "Y": 31.2
+                                },
+                                "Name": "EightBall",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 94.0856,
+                                  "Y": -0.6214
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": 87.0856,
+                                "RightMargin": -101.0856,
+                                "TopMargin": -12.8786,
+                                "BottomMargin": -14.1214,
+                                "Tag": 863,
+                                "ActionTag": -1794869239,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green1",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 67.0862,
+                                  "Y": -0.6214
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": 60.0862,
+                                "RightMargin": -74.0862,
+                                "TopMargin": -12.8786,
+                                "BottomMargin": -14.1214,
+                                "Tag": 864,
+                                "ActionTag": -1118002222,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green2",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 40.087,
+                                  "Y": -0.6206
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": 33.087,
+                                "RightMargin": -47.087,
+                                "TopMargin": -12.8794,
+                                "BottomMargin": -14.1206,
+                                "Tag": 865,
+                                "ActionTag": -1392083836,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green3",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 211.6889,
+                                  "Y": -0.6206
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": 204.6889,
+                                "RightMargin": -218.6889,
+                                "TopMargin": -12.8794,
+                                "BottomMargin": -14.1206,
+                                "Tag": 866,
+                                "ActionTag": -1235320739,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green6",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 185.1902,
+                                  "Y": -0.6214
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": 178.1902,
+                                "RightMargin": -192.1902,
+                                "TopMargin": -12.8786,
+                                "BottomMargin": -14.1214,
+                                "Tag": 867,
+                                "ActionTag": 2131713385,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green5",
+                                "ctype": "ImageViewObjectData"
+                              },
+                              {
+                                "FlipX": true,
+                                "FileData": {
+                                  "Type": "PlistSubImage",
+                                  "Path": "Green_Arrow.v3.png",
+                                  "Plist": "Game/res/ingame_v3.plist"
+                                },
+                                "Scale9OriginX": 4,
+                                "Scale9OriginY": 8,
+                                "Scale9Width": 6,
+                                "Scale9Height": 11,
+                                "AnchorPoint": {
+                                  "ScaleX": 0.5,
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 158.6922,
+                                  "Y": -0.6214
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {},
+                                "IconVisible": false,
+                                "PrePosition": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "PreSize": {
+                                  "X": 0.0,
+                                  "Y": 0.0
+                                },
+                                "LeftMargin": 151.6922,
+                                "RightMargin": -165.6922,
+                                "TopMargin": -12.8786,
+                                "BottomMargin": -14.1214,
+                                "Tag": 868,
+                                "ActionTag": 1584499869,
+                                "Size": {
+                                  "X": 14.0,
+                                  "Y": 27.0
+                                },
+                                "Name": "green4",
+                                "ctype": "ImageViewObjectData"
+                              }
+                            ],
+                            "ActionTag": 65026429,
+                            "Size": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Name": "nodeEightBall",
+                            "ctype": "SingleNodeObjectData"
+                          }
+                        ],
+                        "ActionTag": -447103697,
+                        "Size": {
+                          "X": 316.0,
+                          "Y": 102.0
+                        },
+                        "Name": "imgPanelP2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Challenge_Box_Blue.v3.png",
+                          "Plist": "Game/res/ingame_v3.plist"
+                        },
+                        "Scale9OriginX": 51,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 55,
+                        "Scale9Height": 35,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 462.9984,
+                          "Y": 61.73
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5399,
+                          "Y": 0.501
+                        },
+                        "PreSize": {
+                          "X": 0.1831,
+                          "Y": 0.8197
+                        },
+                        "LeftMargin": 384.4984,
+                        "RightMargin": 316.0499,
+                        "TopMargin": 10.9862,
+                        "BottomMargin": 11.23,
+                        "Tag": 816,
+                        "ActionTag": 1668872433,
+                        "Size": {
+                          "X": 157.0,
+                          "Y": 101.0
+                        },
+                        "Name": "imgGameModeRT1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Challenge_Box_Green.v3.png",
+                          "Plist": "Game/res/ingame_v3.plist"
+                        },
+                        "Scale9OriginX": 51,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 55,
+                        "Scale9Height": 35,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 463.0,
+                          "Y": 61.73
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5399,
+                          "Y": 0.501
+                        },
+                        "PreSize": {
+                          "X": 0.1831,
+                          "Y": 0.8197
+                        },
+                        "LeftMargin": 384.5,
+                        "RightMargin": 316.0483,
+                        "TopMargin": 10.9862,
+                        "BottomMargin": 11.23,
+                        "Tag": 836,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 93.41,
+                              "Y": 14.1587
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.595,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 84.41,
+                            "RightMargin": 54.59,
+                            "TopMargin": 77.3413,
+                            "BottomMargin": 4.6587,
+                            "Tag": 839,
+                            "ActionTag": 23117599,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box3",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 114.4093,
+                              "Y": 14.1587
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.7287,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 105.4093,
+                            "RightMargin": 33.5907,
+                            "TopMargin": 77.3413,
+                            "BottomMargin": 4.6587,
+                            "Tag": 840,
+                            "ActionTag": 855793196,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box4",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 135.409,
+                              "Y": 14.1587
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.8625,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 126.409,
+                            "RightMargin": 12.591,
+                            "TopMargin": 77.3413,
+                            "BottomMargin": 4.6587,
+                            "Tag": 841,
+                            "ActionTag": -1020512259,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box5",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 22.1456,
+                              "Y": 14.16
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.1411,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 13.1456,
+                            "RightMargin": 125.8544,
+                            "TopMargin": 77.34,
+                            "BottomMargin": 4.66,
+                            "Tag": 842,
+                            "ActionTag": -1501937083,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box2",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 43.1443,
+                              "Y": 14.16
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.2748,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 34.1443,
+                            "RightMargin": 104.8557,
+                            "TopMargin": 77.34,
+                            "BottomMargin": 4.66,
+                            "Tag": 843,
+                            "ActionTag": 1849387112,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box1",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 64.1443,
+                              "Y": 14.16
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4086,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 55.1443,
+                            "RightMargin": 83.8557,
+                            "TopMargin": 77.34,
+                            "BottomMargin": 4.66,
+                            "Tag": 844,
+                            "ActionTag": -1897076328,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box0",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -275674848,
+                        "Size": {
+                          "X": 157.0,
+                          "Y": 101.0
+                        },
+                        "Name": "imgGameModeRT3",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Challenge_Box_Orange.v3.png",
+                          "Plist": "Game/res/ingame_v3.plist"
+                        },
+                        "Scale9OriginX": 51,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 55,
+                        "Scale9Height": 35,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 463.0,
+                          "Y": 61.73
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5399,
+                          "Y": 0.501
+                        },
+                        "PreSize": {
+                          "X": 0.1831,
+                          "Y": 0.8197
+                        },
+                        "LeftMargin": 384.5,
+                        "RightMargin": 316.0483,
+                        "TopMargin": 10.9862,
+                        "BottomMargin": 11.23,
+                        "Tag": 837,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 93.667,
+                              "Y": 14.1646
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5966,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 84.667,
+                            "RightMargin": 54.333,
+                            "TopMargin": 77.3354,
+                            "BottomMargin": 4.6646,
+                            "Tag": 846,
+                            "ActionTag": 261290389,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box2",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 114.6657,
+                              "Y": 14.1646
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.7304,
+                              "Y": 0.1402
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 105.6657,
+                            "RightMargin": 33.3343,
+                            "TopMargin": 77.3354,
+                            "BottomMargin": 4.6646,
+                            "Tag": 847,
+                            "ActionTag": 2134243066,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box3",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 43.4016,
+                              "Y": 14.1662
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.2764,
+                              "Y": 0.1403
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 34.4016,
+                            "RightMargin": 104.5984,
+                            "TopMargin": 77.3338,
+                            "BottomMargin": 4.6662,
+                            "Tag": 848,
+                            "ActionTag": 2001459694,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box1",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "Green_Round_Box.v3.png",
+                              "Plist": "Game/res/ingame_v3.plist"
+                            },
+                            "Scale9OriginX": 5,
+                            "Scale9OriginY": 6,
+                            "Scale9Width": 8,
+                            "Scale9Height": 7,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 64.4014,
+                              "Y": 14.1662
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4102,
+                              "Y": 0.1403
+                            },
+                            "PreSize": {
+                              "X": 0.1146,
+                              "Y": 0.1881
+                            },
+                            "VerticalEdge": "BottomEdge",
+                            "LeftMargin": 55.4014,
+                            "RightMargin": 83.5986,
+                            "TopMargin": 77.3338,
+                            "BottomMargin": 4.6662,
+                            "Tag": 849,
+                            "ActionTag": 1142981573,
+                            "Size": {
+                              "X": 18.0,
+                              "Y": 19.0
+                            },
+                            "Name": "box0",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 531722800,
+                        "Size": {
+                          "X": 157.0,
+                          "Y": 101.0
+                        },
+                        "Name": "imgGameModeRT2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Challenge_Box_Purple.v3.png",
+                          "Plist": "Game/res/ingame_v3.plist"
+                        },
+                        "Scale9OriginX": 51,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 55,
+                        "Scale9Height": 35,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 463.0,
+                          "Y": 61.73
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5399,
+                          "Y": 0.501
+                        },
+                        "PreSize": {
+                          "X": 0.1831,
+                          "Y": 0.8197
+                        },
+                        "LeftMargin": 384.5,
+                        "RightMargin": 316.0483,
+                        "TopMargin": 10.9862,
+                        "BottomMargin": 11.23,
+                        "Tag": 838,
+                        "ActionTag": 1131066965,
+                        "Size": {
+                          "X": 157.0,
+                          "Y": 101.0
+                        },
+                        "Name": "imgGameModeS2",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1825627011,
+                    "Size": {
+                      "X": 857.5483,
+                      "Y": 123.2162
+                    },
+                    "Name": "pnHud",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": -15,
+                    "Scale9OriginY": -11,
+                    "Scale9Width": 30,
+                    "Scale9Height": 22,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 160.0762,
+                      "Y": 61.2377
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 9.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4107,
+                      "Y": 0.5091
+                    },
+                    "PreSize": {
+                      "X": 0.1411,
+                      "Y": 0.8314
+                    },
+                    "LeftMargin": 105.0762,
+                    "RightMargin": 229.6864,
+                    "TopMargin": 9.0447,
+                    "BottomMargin": 11.2377,
+                    "Tag": 2073,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Button_Expand.png",
+                          "Plist": "Game/res/Ingame_3.plist"
+                        },
+                        "Scale9OriginX": 5,
+                        "Scale9OriginY": 10,
+                        "Scale9Width": 11,
+                        "Scale9Height": 10,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 35.162,
+                          "Y": 45.0912
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -9.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6393,
+                          "Y": 0.4509
+                        },
+                        "PreSize": {
+                          "X": 0.3818,
+                          "Y": 0.3
+                        },
+                        "LeftMargin": 24.662,
+                        "RightMargin": 9.338,
+                        "TopMargin": 39.9088,
+                        "BottomMargin": 30.0912,
+                        "Tag": 2074,
+                        "ActionTag": -449542113,
+                        "Size": {
+                          "X": 21.0,
+                          "Y": 30.0
+                        },
+                        "Name": "imgArrow",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -463918529,
+                    "Size": {
+                      "X": 55.0,
+                      "Y": 100.0
+                    },
+                    "Name": "btnExpand",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 80.3286,
+                      "Y": 62.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.2061,
+                      "Y": 0.5155
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 80.3286,
+                    "RightMargin": 309.434,
+                    "TopMargin": 58.2824,
+                    "BottomMargin": 62.0,
+                    "Tag": 2076,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Default",
+                          "Path": "Default/ImageFile.png",
+                          "Plist": ""
+                        },
+                        "Scale9Width": 46,
+                        "Scale9Height": 46,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -39.7049,
+                        "RightMargin": -39.7049,
+                        "TopMargin": -39.7049,
+                        "BottomMargin": -39.7049,
+                        "Tag": 2077,
+                        "ActionTag": 146598784,
+                        "Size": {
+                          "X": 79.4098,
+                          "Y": 79.4098
+                        },
+                        "Name": "imgAvatar",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "1_0019_Ellipse-19-copy-8.png",
+                          "Plist": "Game/res/Ingame_3.plist"
+                        },
+                        "Scale9OriginX": 26,
+                        "Scale9OriginY": 27,
+                        "Scale9Width": 36,
+                        "Scale9Height": 34,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": -1.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -43.0,
+                        "RightMargin": -43.0,
+                        "TopMargin": -42.5,
+                        "BottomMargin": -44.5,
+                        "Tag": 2081,
+                        "ActionTag": -769733662,
+                        "Size": {
+                          "X": 86.0,
+                          "Y": 87.0
+                        },
+                        "Name": "border",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "1_0018_Layer-3486-copy.png",
+                          "Plist": "Game/res/Ingame_3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -0.4472,
+                          "Y": -1.4852
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -44.4472,
+                        "RightMargin": -43.5528,
+                        "TopMargin": -42.5148,
+                        "BottomMargin": -45.4852,
+                        "Tag": 2075,
+                        "ActionTag": 1349670793,
+                        "Size": {
+                          "X": 88.0,
+                          "Y": 88.0
+                        },
+                        "Name": "timerDummy",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 36,
+                        "LabelText": "10",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -20.0,
+                        "RightMargin": -20.0,
+                        "TopMargin": -20.5,
+                        "BottomMargin": -20.5,
+                        "Tag": 3212,
+                        "ActionTag": 1771697555,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 41.0
+                        },
+                        "Name": "timeAlert",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "ingame_Ext_Button.png",
+                          "Plist": "Game/res/New_Ingame_2.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": -40.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -14.0,
+                        "RightMargin": -14.0,
+                        "TopMargin": 26.0,
+                        "BottomMargin": -54.0,
+                        "Tag": 2414,
+                        "ActionTag": 1224945632,
+                        "Size": {
+                          "X": 28.0,
+                          "Y": 28.0
+                        },
+                        "Alpha": 0,
+                        "Name": "imgBtnExt",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": -44.7934,
+                          "Y": -26.1255
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -44.7934,
+                        "RightMargin": 44.7934,
+                        "TopMargin": 26.1255,
+                        "BottomMargin": -26.1255,
+                        "Tag": 2078,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Default",
+                              "Path": "Default/ImageFile.png",
+                              "Plist": ""
+                            },
+                            "Scale9Width": 46,
+                            "Scale9Height": 46,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -17.7049,
+                            "RightMargin": -17.7049,
+                            "TopMargin": -17.7049,
+                            "BottomMargin": -17.7049,
+                            "Tag": 2079,
+                            "ActionTag": 2123609481,
+                            "Size": {
+                              "X": 35.4098,
+                              "Y": 35.4098
+                            },
+                            "Name": "imgAvatar",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "1_0016_Ava-2.png",
+                              "Plist": "Game/res/Ingame_3.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -18.5,
+                            "RightMargin": -18.5,
+                            "TopMargin": -19.0,
+                            "BottomMargin": -19.0,
+                            "Tag": 2080,
+                            "ActionTag": 1893628673,
+                            "Size": {
+                              "X": 37.0,
+                              "Y": 38.0
+                            },
+                            "Name": "border",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": 236862860,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "nodeSub",
+                        "ctype": "SingleNodeObjectData"
+                      }
+                    ],
+                    "ActionTag": 1889862012,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeP1",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 845.32,
+                      "Y": 62.0
+                    },
+                    "Scale": {
+                      "ScaleX": -1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 2.1688,
+                      "Y": 0.5155
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 845.32,
+                    "RightMargin": -455.5574,
+                    "TopMargin": 58.2824,
+                    "BottomMargin": 62.0,
+                    "Tag": 2082,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Default",
+                          "Path": "Default/ImageFile.png",
+                          "Plist": ""
+                        },
+                        "Scale9Width": 46,
+                        "Scale9Height": 46,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -39.7049,
+                        "RightMargin": -39.7049,
+                        "TopMargin": -39.7049,
+                        "BottomMargin": -39.7049,
+                        "Tag": 2083,
+                        "ActionTag": -1380562217,
+                        "Size": {
+                          "X": 79.4098,
+                          "Y": 79.4098
+                        },
+                        "Name": "imgAvatar",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "1_0019_Ellipse-19-copy-8.png",
+                          "Plist": "Game/res/Ingame_3.plist"
+                        },
+                        "Scale9OriginX": 26,
+                        "Scale9OriginY": 27,
+                        "Scale9Width": 36,
+                        "Scale9Height": 34,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -44.0,
+                        "RightMargin": -44.0,
+                        "TopMargin": -44.0,
+                        "BottomMargin": -44.0,
+                        "Tag": 2084,
+                        "ActionTag": 1685241061,
+                        "Size": {
+                          "X": 88.0,
+                          "Y": 88.0
+                        },
+                        "Name": "border",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "1_0018_Layer-3486-copy.png",
+                          "Plist": "Game/res/Ingame_3.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -44.0,
+                        "RightMargin": -44.0,
+                        "TopMargin": -44.0,
+                        "BottomMargin": -44.0,
+                        "Tag": 2085,
+                        "ActionTag": -1049699125,
+                        "Size": {
+                          "X": 88.0,
+                          "Y": 88.0
+                        },
+                        "Name": "timerDummy",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 36,
+                        "LabelText": "10",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": -1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -20.0,
+                        "RightMargin": -20.0,
+                        "TopMargin": -20.5,
+                        "BottomMargin": -20.5,
+                        "Tag": 3213,
+                        "ActionTag": 1661232249,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 41.0
+                        },
+                        "Name": "timeAlert",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "ingame_Ext_Button.png",
+                          "Plist": "Game/res/New_Ingame_2.plist"
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": -40.0
+                        },
+                        "Scale": {
+                          "ScaleX": -1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -14.0,
+                        "RightMargin": -14.0,
+                        "TopMargin": 26.0,
+                        "BottomMargin": -54.0,
+                        "Tag": 2415,
+                        "ActionTag": -1517919156,
+                        "Size": {
+                          "X": 28.0,
+                          "Y": 28.0
+                        },
+                        "Alpha": 0,
+                        "Name": "imgBtnExt",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": -43.849,
+                          "Y": -27.0665
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -43.849,
+                        "RightMargin": 43.849,
+                        "TopMargin": 27.0665,
+                        "BottomMargin": -27.0665,
+                        "Tag": 2086,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "Default",
+                              "Path": "Default/ImageFile.png",
+                              "Plist": ""
+                            },
+                            "Scale9Width": 46,
+                            "Scale9Height": 46,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -17.7049,
+                            "RightMargin": -17.7049,
+                            "TopMargin": -17.7049,
+                            "BottomMargin": -17.7049,
+                            "Tag": 2087,
+                            "ActionTag": -1132223451,
+                            "Size": {
+                              "X": 35.4098,
+                              "Y": 35.4098
+                            },
+                            "Name": "imgAvatar",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "PlistSubImage",
+                              "Path": "ingame_Avatar_Box_Red.png",
+                              "Plist": "Game/res/New_Ingame_2.plist"
+                            },
+                            "BlendFunc": {
+                              "Src": 1,
+                              "Dst": 771
+                            },
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.4537,
+                              "ScaleY": 0.4537
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "LeftMargin": -40.5,
+                            "RightMargin": -40.5,
+                            "TopMargin": -41.0,
+                            "BottomMargin": -41.0,
+                            "Tag": 2088,
+                            "ActionTag": 1753958956,
+                            "Size": {
+                              "X": 81.0,
+                              "Y": 82.0
+                            },
+                            "Name": "border",
+                            "ctype": "SpriteObjectData"
+                          }
+                        ],
+                        "ActionTag": -1593309712,
+                        "Size": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Name": "nodeSub",
+                        "ctype": "SingleNodeObjectData"
+                      }
+                    ],
+                    "ActionTag": 1803279603,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "nodeP2",
+                    "ctype": "SingleNodeObjectData"
+                  }
+                ],
+                "ActionTag": 160589980,
+                "Size": {
+                  "X": 389.7626,
+                  "Y": 120.2824
+                },
+                "Name": "pnAvatars",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -11,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.2604,
+                  "Y": 148.8751
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -0.6234,
+                "RotationSkewY": -0.6234,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0592,
+                  "Y": 0.2326
+                },
+                "PreSize": {
+                  "X": 0.0528,
+                  "Y": 0.0938
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 37.2604,
+                "RightMargin": 1038.7396,
+                "TopMargin": 461.1249,
+                "BottomMargin": 118.8751,
+                "Tag": 100,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Angle.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 7,
+                    "Scale9Width": 12,
+                    "Scale9Height": 9,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.5,
+                      "ScaleY": 1.5
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5333,
+                      "Y": 0.3833
+                    },
+                    "LeftMargin": 14.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": 18.5,
+                    "BottomMargin": 18.5,
+                    "Tag": 419,
+                    "ActionTag": -8409200,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 23.0
+                    },
+                    "Name": "imgAngle",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 272134405,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 60.0
+                },
+                "Name": "btnAngle",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "1_0009_Shape-131.png",
+                  "Plist": "Game/res/Ingame_3.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "1_0009_Shape-131.png",
+                  "Plist": "Game/res/Ingame_3.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "1_0009_Shape-131.png",
+                  "Plist": "Game/res/Ingame_3.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 83,
+                "Scale9Height": 90,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.14,
+                  "ScaleY": 0.14
+                },
+                "Position": {
+                  "X": 25.8296,
+                  "Y": 21.9399
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0227,
+                  "Y": 0.0343
+                },
+                "PreSize": {
+                  "X": 0.0995,
+                  "Y": 0.175
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 10.0096,
+                "RightMargin": 1012.9904,
+                "TopMargin": 521.7401,
+                "BottomMargin": 6.2599,
+                "Tag": 2098,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_Touch_Indicator.png",
+                      "Plist": "MainLobby/res/Ingame_Reworked.plist"
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 56.5,
+                      "Y": 56.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.6419,
+                      "ScaleY": 0.6419
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1504,
+                      "Y": 0.1518
+                    },
+                    "LeftMargin": 48.0,
+                    "RightMargin": 48.0,
+                    "TopMargin": 47.5,
+                    "BottomMargin": 47.5,
+                    "Tag": 2099,
+                    "ActionTag": 672502668,
+                    "Size": {
+                      "X": 17.0,
+                      "Y": 17.0
+                    },
+                    "Name": "ballIndicator",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 163268877,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 112.0
+                },
+                "Name": "btnBall",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "1_0008_Layer-3537-copy-3.png",
+                  "Plist": "Game/res/Ingame_3.plist"
+                },
+                "Scale9OriginX": 36,
+                "Scale9OriginY": 175,
+                "Scale9Width": 38,
+                "Scale9Height": 182,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1072.8456,
+                  "Y": 365.6226
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9444,
+                  "Y": 0.5713
+                },
+                "PreSize": {
+                  "X": 0.0968,
+                  "Y": 0.8313
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 1017.8456,
+                "RightMargin": 8.1544,
+                "TopMargin": 8.3774,
+                "BottomMargin": 99.6226,
+                "Tag": 2552,
+                "ActionTag": -1488354272,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 532.0
+                },
+                "Name": "imgBallCueGroup",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "1_0010_Rounded-Rectangle-67-copy.png",
+                  "Plist": "Game/res/Ingame_3.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 48,
+                "Scale9OriginY": 29,
+                "Scale9Width": 51,
+                "Scale9Height": 30,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1070.8907,
+                  "Y": 51.0373
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9427,
+                  "Y": 0.0797
+                },
+                "PreSize": {
+                  "X": 0.088,
+                  "Y": 0.125
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 1020.8907,
+                "RightMargin": 15.1093,
+                "TopMargin": 548.9627,
+                "BottomMargin": 11.0373,
+                "Tag": 2550,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "QuickChange_Stick_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "QuickChange_Stick_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "QuickChange_Stick_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 27,
+                    "Scale9Height": 31,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 37.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4625
+                    },
+                    "PreSize": {
+                      "X": 0.57,
+                      "Y": 0.6625
+                    },
+                    "LeftMargin": 21.5,
+                    "RightMargin": 21.5,
+                    "TopMargin": 16.5,
+                    "BottomMargin": 10.5,
+                    "Tag": 2229,
+                    "ActionTag": -1712082974,
+                    "Size": {
+                      "X": 57.0,
+                      "Y": 53.0
+                    },
+                    "Name": "btnCue",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 74466169,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 80.0
+                },
+                "Name": "imgBgBtnCue",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Chat_Setting_Box.v3.png",
+                  "Plist": "Game/res/ingame_v3.plist"
+                },
+                "Scale9OriginX": 31,
+                "Scale9OriginY": 26,
+                "Scale9Width": 33,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 58.8945,
+                  "Y": 578.9349
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0518,
+                  "Y": 0.9046
+                },
+                "PreSize": {
+                  "X": 0.0836,
+                  "Y": 0.1594
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 11.3945,
+                "RightMargin": 1029.6055,
+                "TopMargin": 10.0651,
+                "BottomMargin": 527.9349,
+                "Tag": 2089,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Chat_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Chat_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Chat_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 7,
+                    "Scale9Height": 11,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.3775,
+                      "Y": 25.402
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4987,
+                      "Y": 0.249
+                    },
+                    "PreSize": {
+                      "X": 0.3895,
+                      "Y": 0.3235
+                    },
+                    "LeftMargin": 28.8775,
+                    "RightMargin": 29.1225,
+                    "TopMargin": 60.098,
+                    "BottomMargin": 8.902,
+                    "Tag": 2091,
+                    "ActionTag": 346250534,
+                    "Size": {
+                      "X": 37.0,
+                      "Y": 33.0
+                    },
+                    "Name": "btnChat",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Setting_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Setting_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Setting_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 9,
+                    "Scale9Height": 9,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.4461,
+                      "Y": 70.0347
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4994,
+                      "Y": 0.6866
+                    },
+                    "PreSize": {
+                      "X": 0.4105,
+                      "Y": 0.3039
+                    },
+                    "LeftMargin": 27.9461,
+                    "RightMargin": 28.0539,
+                    "TopMargin": 16.4653,
+                    "BottomMargin": 54.5347,
+                    "Tag": 2090,
+                    "ActionTag": -1277964017,
+                    "Size": {
+                      "X": 39.0,
+                      "Y": 31.0
+                    },
+                    "Name": "btnMenu",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Camera2D_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Camera2D_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Camera2D_Icon.v3.png",
+                      "Plist": "Game/res/ingame_v3.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 19,
+                    "Scale9Height": 16,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.38,
+                      "Y": -25.1075
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4987,
+                      "Y": -0.2462
+                    },
+                    "PreSize": {
+                      "X": 0.5158,
+                      "Y": 0.3725
+                    },
+                    "LeftMargin": 22.88,
+                    "RightMargin": 23.12,
+                    "TopMargin": 108.1075,
+                    "BottomMargin": -44.1075,
+                    "Tag": 2096,
+                    "ActionTag": -1466929311,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 38.0
+                    },
+                    "Name": "btnCamera",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -1932249269,
+                "Size": {
+                  "X": 95.0,
+                  "Y": 102.0
+                },
+                "Name": "imgMenuChat",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Game/res/MOVE_GUI_Round.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 36,
+                "Scale9OriginY": 36,
+                "Scale9Width": 39,
+                "Scale9Height": 39,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 854.6272,
+                  "Y": 150.0489
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7523,
+                  "Y": 0.2345
+                },
+                "PreSize": {
+                  "X": 0.0977,
+                  "Y": 0.1734
+                },
+                "LeftMargin": 799.1272,
+                "RightMargin": 225.8728,
+                "TopMargin": 434.4511,
+                "BottomMargin": 94.5489,
+                "Tag": 46,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Game/res/MOVE_GUI_Triangle.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 27,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 29,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 55.5,
+                      "Y": 138.75
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 1.25
+                    },
+                    "PreSize": {
+                      "X": 0.7477,
+                      "Y": 0.5315
+                    },
+                    "LeftMargin": 14.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": -57.25,
+                    "BottomMargin": 109.25,
+                    "Tag": 47,
+                    "ActionTag": -1056153472,
+                    "Size": {
+                      "X": 83.0,
+                      "Y": 59.0
+                    },
+                    "Name": "img_tri_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Game/res/MOVE_GUI_Triangle.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 27,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 29,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 138.75,
+                      "Y": 55.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 90.0,
+                    "RotationSkewY": 90.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.25,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7477,
+                      "Y": 0.5315
+                    },
+                    "LeftMargin": 97.25,
+                    "RightMargin": -69.25,
+                    "TopMargin": 26.0,
+                    "BottomMargin": 26.0,
+                    "Tag": 48,
+                    "ActionTag": -95269536,
+                    "Size": {
+                      "X": 83.0,
+                      "Y": 59.0
+                    },
+                    "Name": "img_tri_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Game/res/MOVE_GUI_Triangle.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 27,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 29,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 55.5,
+                      "Y": -27.75
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.25
+                    },
+                    "PreSize": {
+                      "X": 0.7477,
+                      "Y": 0.5315
+                    },
+                    "LeftMargin": 14.0,
+                    "RightMargin": 14.0,
+                    "TopMargin": 109.25,
+                    "BottomMargin": -57.25,
+                    "Tag": 49,
+                    "ActionTag": -2024953274,
+                    "Size": {
+                      "X": 83.0,
+                      "Y": 59.0
+                    },
+                    "Name": "img_tri_3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Game/res/MOVE_GUI_Triangle.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 27,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 29,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -27.75,
+                      "Y": 55.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 270.0,
+                    "RotationSkewY": 270.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.25,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7477,
+                      "Y": 0.5315
+                    },
+                    "LeftMargin": -69.25,
+                    "RightMargin": 97.25,
+                    "TopMargin": 26.0,
+                    "BottomMargin": 26.0,
+                    "Tag": 50,
+                    "ActionTag": -999867840,
+                    "Size": {
+                      "X": 83.0,
+                      "Y": 59.0
+                    },
+                    "Name": "img_tri_4",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1705006409,
+                "Size": {
+                  "X": 111.0,
+                  "Y": 111.0
+                },
+                "Name": "imgPlaceBall",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "CONFIRM",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 566.2442,
+                  "Y": 52.0126
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 144,
+                  "G": 238,
+                  "B": 144
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4985,
+                  "Y": 0.0813
+                },
+                "PreSize": {
+                  "X": 0.0967,
+                  "Y": 0.1227
+                },
+                "LeftMargin": 511.3264,
+                "RightMargin": 514.8381,
+                "TopMargin": 548.709,
+                "BottomMargin": 12.7341,
+                "Tag": 365,
+                "ActionTag": -1267976172,
+                "Size": {
+                  "X": 109.8355,
+                  "Y": 78.5569
+                },
+                "Name": "btnConfirm",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "Pocket",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 626.9074,
+                  "Y": 51.3409
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5519,
+                  "Y": 0.0802
+                },
+                "PreSize": {
+                  "X": 0.0405,
+                  "Y": 0.0562
+                },
+                "LeftMargin": 603.9074,
+                "RightMargin": 486.0926,
+                "TopMargin": 570.6591,
+                "BottomMargin": 33.3409,
+                "Tag": 366,
+                "ActionTag": 1707615077,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 36.0
+                },
+                "Name": "btnSelectPocket",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "Ball",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 496.3293,
+                  "Y": 51.3409
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4369,
+                  "Y": 0.0802
+                },
+                "PreSize": {
+                  "X": 0.0405,
+                  "Y": 0.0562
+                },
+                "LeftMargin": 473.3293,
+                "RightMargin": 616.6707,
+                "TopMargin": 570.6591,
+                "BottomMargin": 33.3409,
+                "Tag": 367,
+                "ActionTag": 1586256175,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 36.0
+                },
+                "Name": "btnMoveBall",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -462369021,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../Default/Button_Normal.png",
+        "../Default/Button_Press.png",
+        "../Default/ImageFile.png",
+        "../Font/facebook.TTF",
+        "../MainLobby/res/Ingame_Reworked.plist",
+        "../MainLobby/res/Ingame_Reworked.png",
+        "res/Fake_Ingame_01_i5-VietNV2.png",
+        "res/Ingame_3.plist",
+        "res/Ingame_3.png",
+        "res/ingame_v3.plist",
+        "res/ingame_v3.png",
+        "res/MOVE_GUI_Round.png",
+        "res/MOVE_GUI_Triangle.png",
+        "res/New_Ingame_2.plist",
+        "res/New_Ingame_2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

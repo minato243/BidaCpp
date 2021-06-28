@@ -1,0 +1,1153 @@
+{
+  "ID": "e1245471-d03d-4092-ac47-c0a0d40c4d0e",
+  "Version": "2.3.4",
+  "Name": "PhysicsLobby",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 158,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 117.1511,
+              "Y": 532.8412
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1031,
+              "Y": 0.8326
+            },
+            "PreSize": {
+              "X": 0.8979,
+              "Y": 0.1688
+            },
+            "LeftMargin": 117.1511,
+            "RightMargin": -1.1511,
+            "TopMargin": -0.8412,
+            "BottomMargin": 532.8412,
+            "Tag": 17,
+            "Children": [
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "Mass",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 154.3019,
+                  "Y": 87.6227
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1513,
+                  "Y": 0.8113
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 154.3019,
+                "RightMargin": 765.6981,
+                "TopMargin": 8.8773,
+                "BottomMargin": 76.1227,
+                "Tag": 10,
+                "ActionTag": 356981829,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_mass",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Cue_MASS",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 141.4375,
+                  "Y": 86.0598
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1387,
+                  "Y": 0.7968
+                },
+                "PreSize": {
+                  "X": 0.1,
+                  "Y": 0.213
+                },
+                "LeftMargin": 39.4375,
+                "RightMargin": 878.5625,
+                "TopMargin": 10.4402,
+                "BottomMargin": 74.5598,
+                "Tag": 11,
+                "ActionTag": -437180920,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_mass",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "Coef",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 154.302,
+                  "Y": 53.8202
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1513,
+                  "Y": 0.4983
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 154.302,
+                "RightMargin": 765.698,
+                "TopMargin": 42.6798,
+                "BottomMargin": 42.3202,
+                "Tag": 12,
+                "ActionTag": 972866326,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_tip_coef",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Tip_u",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5575
+                },
+                "Position": {
+                  "X": 145.2988,
+                  "Y": 56.1504
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1424,
+                  "Y": 0.5199
+                },
+                "PreSize": {
+                  "X": 0.0461,
+                  "Y": 0.213
+                },
+                "LeftMargin": 98.2988,
+                "RightMargin": 874.7012,
+                "TopMargin": 41.6721,
+                "BottomMargin": 43.3279,
+                "Tag": 13,
+                "ActionTag": 81925840,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_tip_coef",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "e",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 155.9041,
+                  "Y": 24.1012
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1528,
+                  "Y": 0.2232
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 155.9041,
+                "RightMargin": 764.0959,
+                "TopMargin": 72.3988,
+                "BottomMargin": 12.6012,
+                "Tag": 14,
+                "ActionTag": 1155726629,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_tip_e",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Tip_E",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5575
+                },
+                "Position": {
+                  "X": 143.5609,
+                  "Y": 24.6475
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1407,
+                  "Y": 0.2282
+                },
+                "PreSize": {
+                  "X": 0.049,
+                  "Y": 0.213
+                },
+                "LeftMargin": 93.5609,
+                "RightMargin": 876.4391,
+                "TopMargin": 73.175,
+                "BottomMargin": 11.825,
+                "Tag": 15,
+                "ActionTag": 996488140,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_tip_e",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "layer",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 593.6565,
+                  "Y": 88.2756
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.582,
+                  "Y": 0.8174
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 593.6565,
+                "RightMargin": 326.3435,
+                "TopMargin": 8.2244,
+                "BottomMargin": 76.7756,
+                "Tag": 25,
+                "ActionTag": -1073669415,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_ball_layer",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Ball Layer",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 580.792,
+                  "Y": 88.7126
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5694,
+                  "Y": 0.8214
+                },
+                "PreSize": {
+                  "X": 0.0863,
+                  "Y": 0.213
+                },
+                "LeftMargin": 492.792,
+                "RightMargin": 439.208,
+                "TopMargin": 7.7874,
+                "BottomMargin": 77.2126,
+                "Tag": 26,
+                "ActionTag": 34564294,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_ball_layer",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "friction",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 362.7009,
+                  "Y": 89.3681
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3556,
+                  "Y": 0.8275
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 362.7009,
+                "RightMargin": 557.2991,
+                "TopMargin": 7.1319,
+                "BottomMargin": 77.8681,
+                "Tag": 27,
+                "ActionTag": -1293547452,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_slide_fric",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Slide Fric.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.8367,
+                  "Y": 89.8054
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.344,
+                  "Y": 0.8315
+                },
+                "PreSize": {
+                  "X": 0.0863,
+                  "Y": 0.213
+                },
+                "LeftMargin": 262.8367,
+                "RightMargin": 669.1633,
+                "TopMargin": 6.6946,
+                "BottomMargin": 78.3054,
+                "Tag": 28,
+                "ActionTag": -1293766735,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_slide_fric",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "friction",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 363.0881,
+                  "Y": 58.5298
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.356,
+                  "Y": 0.5419
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 363.0881,
+                "RightMargin": 556.9119,
+                "TopMargin": 37.9702,
+                "BottomMargin": 47.0298,
+                "Tag": 29,
+                "ActionTag": 1375585987,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_roll_fric",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Roll Fric.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 351.2241,
+                  "Y": 58.9668
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3443,
+                  "Y": 0.546
+                },
+                "PreSize": {
+                  "X": 0.0765,
+                  "Y": 0.213
+                },
+                "LeftMargin": 273.2241,
+                "RightMargin": 668.7759,
+                "TopMargin": 37.5332,
+                "BottomMargin": 47.4668,
+                "Tag": 30,
+                "ActionTag": -1384346981,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_roll_fric",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "friction",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 362.3323,
+                  "Y": 26.7031
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3552,
+                  "Y": 0.2473
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 362.3323,
+                "RightMargin": 557.6677,
+                "TopMargin": 69.7969,
+                "BottomMargin": 15.2031,
+                "Tag": 31,
+                "ActionTag": -1771940431,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_spin_fric",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Spin Fric.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.4684,
+                  "Y": 27.14
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3436,
+                  "Y": 0.2513
+                },
+                "PreSize": {
+                  "X": 0.0814,
+                  "Y": 0.213
+                },
+                "LeftMargin": 267.4684,
+                "RightMargin": 669.5316,
+                "TopMargin": 69.36,
+                "BottomMargin": 15.64,
+                "Tag": 32,
+                "ActionTag": -1015922028,
+                "Size": {
+                  "X": 83.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_spin_fric",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "fric",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 593.6565,
+                  "Y": 56.2756
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.582,
+                  "Y": 0.5211
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 593.6565,
+                "RightMargin": 326.3435,
+                "TopMargin": 40.2244,
+                "BottomMargin": 44.7756,
+                "Tag": 17,
+                "ActionTag": -184853888,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_spin_cush",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Spin Cush.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 582.792,
+                  "Y": 56.7126
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5714,
+                  "Y": 0.5251
+                },
+                "PreSize": {
+                  "X": 0.0922,
+                  "Y": 0.213
+                },
+                "LeftMargin": 488.792,
+                "RightMargin": 437.208,
+                "TopMargin": 39.7874,
+                "BottomMargin": 45.2126,
+                "Tag": 18,
+                "ActionTag": -1934087517,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_spin_cush",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "fric",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 594.6565,
+                  "Y": 26.2756
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.583,
+                  "Y": 0.2433
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 594.6565,
+                "RightMargin": 325.3435,
+                "TopMargin": 70.2244,
+                "BottomMargin": 14.7756,
+                "Tag": 19,
+                "ActionTag": -601046094,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_bounce_cush",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Bnce Cush.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 584.792,
+                  "Y": 26.7126
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5733,
+                  "Y": 0.2473
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 484.792,
+                "RightMargin": 435.208,
+                "TopMargin": 69.7874,
+                "BottomMargin": 15.2126,
+                "Tag": 20,
+                "ActionTag": 1291019572,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_bounce_cush",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "coef",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 804.6565,
+                  "Y": 85.2756
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7889,
+                  "Y": 0.7896
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 804.6565,
+                "RightMargin": 115.3435,
+                "TopMargin": 11.2244,
+                "BottomMargin": 73.7756,
+                "Tag": 21,
+                "ActionTag": -575180538,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_bounce_flr",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Bnce Flr.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 794.792,
+                  "Y": 85.7126
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7792,
+                  "Y": 0.7936
+                },
+                "PreSize": {
+                  "X": 0.0765,
+                  "Y": 0.213
+                },
+                "LeftMargin": 716.792,
+                "RightMargin": 225.208,
+                "TopMargin": 10.7874,
+                "BottomMargin": 74.2126,
+                "Tag": 22,
+                "ActionTag": 215088569,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_bounce_flr",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "SPINING____________________",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 700.3062,
+                  "Y": 29.2492
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6866,
+                  "Y": 0.2708
+                },
+                "PreSize": {
+                  "X": 0.2941,
+                  "Y": 0.213
+                },
+                "LeftMargin": 700.3062,
+                "RightMargin": 19.6938,
+                "TopMargin": 67.2508,
+                "BottomMargin": 17.7492,
+                "Tag": 23,
+                "ActionTag": -2032198996,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_spin",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "IsCustomSize": true,
+                "LabelText": "",
+                "PlaceHolderText": "coef",
+                "MaxLengthText": 10,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 804.3993,
+                  "Y": 59.5465
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 39,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7886,
+                  "Y": 0.5514
+                },
+                "PreSize": {
+                  "X": 0.098,
+                  "Y": 0.213
+                },
+                "LeftMargin": 804.3993,
+                "RightMargin": 115.6007,
+                "TopMargin": 36.9535,
+                "BottomMargin": 48.0465,
+                "Tag": 24,
+                "ActionTag": -1240181629,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 23.0
+                },
+                "Name": "tf_angular_col",
+                "ctype": "TextFieldObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Angular Col.",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 794.5343,
+                  "Y": 59.9832
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.779,
+                  "Y": 0.5554
+                },
+                "PreSize": {
+                  "X": 0.1049,
+                  "Y": 0.213
+                },
+                "LeftMargin": 687.5343,
+                "RightMargin": 225.4657,
+                "TopMargin": 36.5168,
+                "BottomMargin": 48.4832,
+                "Tag": 25,
+                "ActionTag": -1864760896,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 23.0
+                },
+                "Name": "txt_angular_col",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1515989733,
+            "Size": {
+              "X": 1020.0,
+              "Y": 108.0
+            },
+            "Name": "pn",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

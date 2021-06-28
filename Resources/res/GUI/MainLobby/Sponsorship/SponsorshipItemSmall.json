@@ -1,0 +1,593 @@
+{
+  "ID": "aba9953e-52f7-4eaf-b8ac-bb92e6cd76c6",
+  "Version": "2.3.4",
+  "Name": "SponsorshipItemSmall",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 246,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 64.894,
+              "Y": -65.4832
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 64.894,
+            "RightMargin": -64.894,
+            "TopMargin": 65.4832,
+            "BottomMargin": -65.4832,
+            "Tag": 335,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ThuThach_Box_01.png",
+                  "Plist": "MainLobby/res/ChallengeUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 43,
+                "Scale9Width": 33,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -35.7,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -65.7,
+                "RightMargin": 35.7,
+                "TopMargin": -66.0,
+                "BottomMargin": -66.0,
+                "Tag": 332,
+                "ActionTag": -746191199,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 132.0
+                },
+                "Name": "bgLeft",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ThuThach_Box_02.png",
+                  "Plist": "MainLobby/res/ChallengeUI.plist"
+                },
+                "Scale9OriginX": 23,
+                "Scale9OriginY": 43,
+                "Scale9Width": 26,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -36.0,
+                "RightMargin": -36.0,
+                "TopMargin": -66.0,
+                "BottomMargin": -66.0,
+                "Tag": 333,
+                "ActionTag": -1844969915,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 132.0
+                },
+                "Name": "bgMid",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "ThuThach_Box_01.png",
+                  "Plist": "MainLobby/res/ChallengeUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 43,
+                "Scale9Width": 33,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 35.7,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": -1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 5.7,
+                "RightMargin": -35.7,
+                "TopMargin": -66.0,
+                "BottomMargin": -66.0,
+                "Tag": 334,
+                "ActionTag": -1313732862,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 132.0
+                },
+                "Name": "bgRight",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Mission_01.png",
+                  "Plist": "MainLobby/Sponsor_Deprecated/SponsorGUIs.plist"
+                },
+                "Scale9OriginX": 44,
+                "Scale9OriginY": 35,
+                "Scale9Width": 47,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 8.4683
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -67.5,
+                "RightMargin": -67.5,
+                "TopMargin": -61.9683,
+                "BottomMargin": -45.0317,
+                "Tag": 249,
+                "ActionTag": -2021331600,
+                "Size": {
+                  "X": 135.0,
+                  "Y": 107.0
+                },
+                "Name": "imgIcon",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 13,
+                  "G": 0,
+                  "B": 76
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -55.1166,
+                  "Y": -56.4904
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -55.1166,
+                "RightMargin": -54.8834,
+                "TopMargin": 45.9904,
+                "BottomMargin": -56.4904,
+                "Tag": 350,
+                "ActionTag": -1702253267,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 10.5
+                },
+                "Name": "pnLoadingBg",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ImageFileData": {
+                  "Type": "Default",
+                  "Path": "Default/LoadingBarFile.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -51.11
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 52,
+                  "G": 214
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -55.0,
+                "RightMargin": -55.0,
+                "TopMargin": 46.11,
+                "BottomMargin": -56.11,
+                "Tag": 250,
+                "ActionTag": 552442692,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 10.0
+                },
+                "Name": "loadingBar",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.7446,
+                  "Y": -0.1672
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -66.6334,
+                "RightMargin": -68.1226,
+                "TopMargin": -67.4928,
+                "BottomMargin": -67.8272,
+                "Tag": 251,
+                "ActionTag": 224487862,
+                "Size": {
+                  "X": 134.7559,
+                  "Y": 135.3199
+                },
+                "Alpha": 0,
+                "Name": "btnBg",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Tag": 428,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ThuThach_Box_03.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 43,
+                    "Scale9Width": 41,
+                    "Scale9Height": 54,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -36.8,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -70.5611,
+                    "RightMargin": 36.8,
+                    "TopMargin": -70.0,
+                    "BottomMargin": -70.0,
+                    "Tag": 425,
+                    "ActionTag": -1099911297,
+                    "Size": {
+                      "X": 33.761,
+                      "Y": 140.0
+                    },
+                    "Name": "bgLeft_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ThuThach_Box_04.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 43,
+                    "Scale9Width": 28,
+                    "Scale9Height": 54,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -37.0,
+                    "RightMargin": -37.0,
+                    "TopMargin": -70.0,
+                    "BottomMargin": -70.0,
+                    "Tag": 426,
+                    "ActionTag": -955939690,
+                    "Size": {
+                      "X": 74.0,
+                      "Y": 140.0
+                    },
+                    "Name": "bgMid_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "ThuThach_Box_05.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginY": 43,
+                    "Scale9Width": 39,
+                    "Scale9Height": 54,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 36.7,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 36.7,
+                    "RightMargin": -71.2698,
+                    "TopMargin": -70.0,
+                    "BottomMargin": -70.0,
+                    "Tag": 427,
+                    "ActionTag": 1743538774,
+                    "Size": {
+                      "X": 34.5698,
+                      "Y": 140.0
+                    },
+                    "Name": "bgRight_0",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 613204587,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeBorder",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -1833469591,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "node",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../../Default/Button_Normal.png",
+        "../../Default/Button_Press.png",
+        "../../Default/LoadingBarFile.png",
+        "../res/ChallengeUI.plist",
+        "../res/ChallengeUI.png",
+        "../Sponsor_Deprecated/SponsorGUIs.plist",
+        "../Sponsor_Deprecated/SponsorGUIs.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

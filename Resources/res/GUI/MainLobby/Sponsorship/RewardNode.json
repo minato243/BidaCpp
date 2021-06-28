@@ -1,0 +1,286 @@
+{
+  "ID": "14eb1258-2aed-4ffb-b118-e7fd2cbdff99",
+  "Version": "2.3.4",
+  "Name": "RewardNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 124,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Challenge_Group_Box.png",
+              "Plist": "MainLobby/res/ChallengeUI.plist"
+            },
+            "Scale9OriginX": 54,
+            "Scale9OriginY": 89,
+            "Scale9Width": 58,
+            "Scale9Height": 93,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -83.0,
+            "RightMargin": -83.0,
+            "TopMargin": -135.5,
+            "BottomMargin": -135.5,
+            "Tag": 126,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "BG_Panel.png",
+                  "Plist": "GlobalPopup/res/global_popup.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 83.5615,
+                  "Y": 248.9966
+                },
+                "Scale": {
+                  "ScaleX": 0.274,
+                  "ScaleY": 0.0923
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5034,
+                  "Y": 0.9188
+                },
+                "PreSize": {
+                  "X": 3.4217,
+                  "Y": 1.1808
+                },
+                "LeftMargin": -200.4385,
+                "RightMargin": -201.5615,
+                "TopMargin": -137.9966,
+                "BottomMargin": 88.9966,
+                "Tag": 144,
+                "ActionTag": -548077387,
+                "Size": {
+                  "X": 568.0,
+                  "Y": 320.0
+                },
+                "Name": "BG_Panel_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Deck+Ball.png",
+                  "Plist": "MainLobby/res/ChallengeUI.plist"
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 42,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 82.7587,
+                  "Y": 136.4398
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4985,
+                  "Y": 0.5035
+                },
+                "PreSize": {
+                  "X": 0.7229,
+                  "Y": 0.4465
+                },
+                "LeftMargin": 22.7587,
+                "RightMargin": 23.2413,
+                "TopMargin": 74.0602,
+                "BottomMargin": 75.9398,
+                "Tag": 127,
+                "ActionTag": -1555447748,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 121.0
+                },
+                "Name": "imgItem",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 36,
+                "LabelText": "+888",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 152.5388,
+                  "Y": 32.666
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 5.0001,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9189,
+                  "Y": 0.1205
+                },
+                "PreSize": {
+                  "X": 0.5542,
+                  "Y": 0.1919
+                },
+                "LeftMargin": 60.5388,
+                "RightMargin": 13.4612,
+                "TopMargin": 212.334,
+                "BottomMargin": 6.666,
+                "Tag": 128,
+                "ActionTag": 53749287,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 52.0
+                },
+                "Name": "lbQuantity",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Găng tay cơ thủ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 83.0,
+                  "Y": 253.3589
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 5.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9349
+                },
+                "PreSize": {
+                  "X": 0.9337,
+                  "Y": 0.107
+                },
+                "LeftMargin": 5.5,
+                "RightMargin": 5.5,
+                "TopMargin": 3.1411,
+                "BottomMargin": 238.8589,
+                "Tag": 129,
+                "ActionTag": 828409131,
+                "Size": {
+                  "X": 155.0,
+                  "Y": 29.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1854999053,
+            "Size": {
+              "X": 166.0,
+              "Y": 271.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Font/facebook.TTF",
+        "../../GlobalPopup/res/global_popup.plist",
+        "../../GlobalPopup/res/global_popup.png",
+        "../res/ChallengeUI.plist",
+        "../res/ChallengeUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

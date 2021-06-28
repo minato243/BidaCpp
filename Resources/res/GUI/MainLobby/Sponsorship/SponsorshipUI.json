@@ -1,0 +1,1769 @@
+{
+  "ID": "973c5765-5a7e-4270-af61-75311058daf1",
+  "Version": "2.3.4",
+  "Name": "SponsorshipUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 222,
+        "Children": [
+          {
+            "ClipAble": false,
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Challenge_Box.png",
+              "Plist": "MainLobby/res/ChallengeUI.plist"
+            },
+            "SingleColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 240,
+            "Scale9OriginY": 165,
+            "Scale9Width": 248,
+            "Scale9Height": 172,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1136.0,
+              "Y": 5.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0078
+            },
+            "PreSize": {
+              "X": 0.6501,
+              "Y": 0.7884
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 397.4858,
+            "TopMargin": 130.3988,
+            "BottomMargin": 5.0,
+            "Tag": 223,
+            "Children": [
+              {
+                "FontSize": 34,
+                "LabelText": "__ THỬ THÁCH CƠ THỦ __",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 41,
+                  "G": 41,
+                  "B": 41
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 435.8857,
+                  "Y": 472.5185
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 5.0002,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5902,
+                  "Y": 0.9364
+                },
+                "PreSize": {
+                  "X": 0.6012,
+                  "Y": 0.0991
+                },
+                "LeftMargin": 213.8857,
+                "RightMargin": 80.6285,
+                "TopMargin": 7.0827,
+                "BottomMargin": 447.5185,
+                "Tag": 224,
+                "ActionTag": 2117747799,
+                "Size": {
+                  "X": 444.0,
+                  "Y": 50.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Close_Button.png",
+                  "Plist": "GlobalPopup/res/global_popup.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Close_Button.png",
+                  "Plist": "GlobalPopup/res/global_popup.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Close_Button.png",
+                  "Plist": "GlobalPopup/res/global_popup.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 22,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 696.3536,
+                  "Y": 473.8802
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9429,
+                  "Y": 0.9391
+                },
+                "PreSize": {
+                  "X": 0.0704,
+                  "Y": 0.1031
+                },
+                "LeftMargin": 670.3536,
+                "RightMargin": 16.1606,
+                "TopMargin": 4.7209,
+                "BottomMargin": 447.8802,
+                "Tag": 225,
+                "ActionTag": 1810656650,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 52.0
+                },
+                "Name": "btnClose",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "SingleColor": {
+                  "R": 173,
+                  "G": 173,
+                  "B": 173
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.1735,
+                  "Y": 469.2748
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2047,
+                  "Y": 0.93
+                },
+                "PreSize": {
+                  "X": 0.179,
+                  "Y": 0.1
+                },
+                "LeftMargin": 85.0895,
+                "RightMargin": 521.2568,
+                "TopMargin": 10.1016,
+                "BottomMargin": 444.05,
+                "Tag": 226,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_01.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": -2,
+                    "Scale9OriginY": -3,
+                    "Scale9Width": 28,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 20.6376,
+                      "Y": 15.2286
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1561,
+                      "Y": 0.3019
+                    },
+                    "PreSize": {
+                      "X": 0.1816,
+                      "Y": 0.4559
+                    },
+                    "LeftMargin": 8.6376,
+                    "RightMargin": 99.5303,
+                    "TopMargin": 23.721,
+                    "BottomMargin": 3.7286,
+                    "Tag": 1258,
+                    "ActionTag": -1387217032,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 23.0
+                    },
+                    "Name": "ballBg0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_01.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": -2,
+                    "Scale9OriginY": -3,
+                    "Scale9Width": 28,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.5028,
+                      "Y": 15.2286
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4729,
+                      "Y": 0.3019
+                    },
+                    "PreSize": {
+                      "X": 0.1816,
+                      "Y": 0.4559
+                    },
+                    "LeftMargin": 50.5028,
+                    "RightMargin": 57.6651,
+                    "TopMargin": 23.721,
+                    "BottomMargin": 3.7286,
+                    "Tag": 1259,
+                    "ActionTag": -1914928274,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 23.0
+                    },
+                    "Name": "ballBg1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_01.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": -2,
+                    "Scale9OriginY": -3,
+                    "Scale9Width": 28,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 104.368,
+                      "Y": 15.2286
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7897,
+                      "Y": 0.3019
+                    },
+                    "PreSize": {
+                      "X": 0.1816,
+                      "Y": 0.4559
+                    },
+                    "LeftMargin": 92.368,
+                    "RightMargin": 15.7999,
+                    "TopMargin": 23.721,
+                    "BottomMargin": 3.7286,
+                    "Tag": 1260,
+                    "ActionTag": -1554493101,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 23.0
+                    },
+                    "Name": "ballBg2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_02.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": -7,
+                    "Scale9OriginY": -8,
+                    "Scale9Width": 33,
+                    "Scale9Height": 34,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 20.9769,
+                      "Y": 15.2464
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1587,
+                      "Y": 0.3022
+                    },
+                    "PreSize": {
+                      "X": 0.1438,
+                      "Y": 0.3568
+                    },
+                    "LeftMargin": 11.4769,
+                    "RightMargin": 101.691,
+                    "TopMargin": 26.2032,
+                    "BottomMargin": 6.2464,
+                    "Tag": 228,
+                    "ActionTag": 1945138294,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 18.0
+                    },
+                    "Name": "imgBall0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_02.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": -7,
+                    "Scale9OriginY": -8,
+                    "Scale9Width": 33,
+                    "Scale9Height": 34,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.8424,
+                      "Y": 15.2464
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4755,
+                      "Y": 0.3022
+                    },
+                    "PreSize": {
+                      "X": 0.1438,
+                      "Y": 0.3568
+                    },
+                    "LeftMargin": 53.3424,
+                    "RightMargin": 59.8255,
+                    "TopMargin": 26.2032,
+                    "BottomMargin": 6.2464,
+                    "Tag": 229,
+                    "ActionTag": 227957342,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 18.0
+                    },
+                    "Name": "imgBall1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Ball_02.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": -7,
+                    "Scale9OriginY": -8,
+                    "Scale9Width": 33,
+                    "Scale9Height": 34,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 104.7074,
+                      "Y": 15.2464
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9186,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7922,
+                      "Y": 0.3022
+                    },
+                    "PreSize": {
+                      "X": 0.1438,
+                      "Y": 0.3568
+                    },
+                    "LeftMargin": 95.2074,
+                    "RightMargin": 17.9605,
+                    "TopMargin": 26.2032,
+                    "BottomMargin": 6.2464,
+                    "Tag": 230,
+                    "ActionTag": -928368148,
+                    "Size": {
+                      "X": 19.0,
+                      "Y": 18.0
+                    },
+                    "Name": "imgBall2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "88:88:88",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 64.7874,
+                      "Y": 43.6648
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 5.0001,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4902,
+                      "Y": 0.8655
+                    },
+                    "PreSize": {
+                      "X": 0.6885,
+                      "Y": 0.5748
+                    },
+                    "LeftMargin": 19.2874,
+                    "RightMargin": 21.8805,
+                    "TopMargin": -7.7152,
+                    "BottomMargin": 29.1648,
+                    "Tag": 231,
+                    "ActionTag": 351519102,
+                    "Size": {
+                      "X": 91.0,
+                      "Y": 29.0
+                    },
+                    "Name": "lbTimeRecharge",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 940031300,
+                "Size": {
+                  "X": 132.1679,
+                  "Y": 50.4496
+                },
+                "Name": "pnBalls",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 255.2895,
+                  "Y": 365.2554
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.3457,
+                  "Y": 0.7238
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 255.2895,
+                "RightMargin": 483.2247,
+                "TopMargin": 139.3458,
+                "BottomMargin": 365.2554,
+                "Tag": 235,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Blue_Line.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 7,
+                    "Scale9Width": 8,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0001,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -24.2551,
+                    "RightMargin": -0.0001,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 1269,
+                    "ActionTag": -589613024,
+                    "Size": {
+                      "X": 24.2552,
+                      "Y": 2.0
+                    },
+                    "Name": "blueLine",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Yellow_Line.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 3,
+                    "Scale9Width": 11,
+                    "Scale9Height": 6,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 3.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -28.8604,
+                    "RightMargin": -3.0,
+                    "TopMargin": -6.0,
+                    "BottomMargin": -6.0,
+                    "Tag": 1290,
+                    "ActionTag": 1064299668,
+                    "Size": {
+                      "X": 31.8604,
+                      "Y": 12.0
+                    },
+                    "Name": "yellowLine",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1532905284,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeItem0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 255.2892,
+                  "Y": 220.5101
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.3457,
+                  "Y": 0.437
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 255.2892,
+                "RightMargin": 483.225,
+                "TopMargin": 284.0911,
+                "BottomMargin": 220.5101,
+                "Tag": 236,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Blue_Line.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 7,
+                    "Scale9Width": 8,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -24.2552,
+                    "TopMargin": -1.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 1270,
+                    "ActionTag": -1241267933,
+                    "Size": {
+                      "X": 24.2552,
+                      "Y": 2.0
+                    },
+                    "Name": "blueLine",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Yellow_Line.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 3,
+                    "Scale9Width": 11,
+                    "Scale9Height": 6,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 2.9999,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -28.584,
+                    "RightMargin": -2.9999,
+                    "TopMargin": -6.0,
+                    "BottomMargin": -6.0,
+                    "Tag": 1295,
+                    "ActionTag": -1239975261,
+                    "Size": {
+                      "X": 31.5839,
+                      "Y": 12.0
+                    },
+                    "Name": "yellowLine",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1354614730,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeItem1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 255.2893,
+                  "Y": 75.7648
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.3457,
+                  "Y": 0.1501
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 255.2893,
+                "RightMargin": 483.2249,
+                "TopMargin": 428.8364,
+                "BottomMargin": 75.7648,
+                "Tag": 237,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 1272,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Blue_Line.png",
+                          "Plist": "MainLobby/res/ChallengeUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 7,
+                        "Scale9Width": 8,
+                        "Scale9Height": 2,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0001,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -99.9999,
+                        "RightMargin": -0.0001,
+                        "TopMargin": -1.0,
+                        "BottomMargin": -1.0,
+                        "Tag": 1271,
+                        "ActionTag": -98782042,
+                        "Size": {
+                          "X": 100.0,
+                          "Y": 2.0
+                        },
+                        "Name": "blueLine1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Blue_Line.png",
+                          "Plist": "MainLobby/res/ChallengeUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 7,
+                        "Scale9Width": 8,
+                        "Scale9Height": 2,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -99.0,
+                          "Y": -1.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": 90.0,
+                        "RotationSkewY": 90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -205.45,
+                        "RightMargin": 99.0,
+                        "BottomMargin": -2.0,
+                        "Tag": 1273,
+                        "ActionTag": 776547464,
+                        "Size": {
+                          "X": 106.45,
+                          "Y": 2.0
+                        },
+                        "Name": "blueLine2",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1921492797,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "blueLine",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 1296,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Yellow_Line.png",
+                          "Plist": "MainLobby/res/ChallengeUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 10,
+                        "Scale9OriginY": 3,
+                        "Scale9Width": 11,
+                        "Scale9Height": 6,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 3.0002,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -103.8542,
+                        "RightMargin": -3.0002,
+                        "TopMargin": -6.0,
+                        "BottomMargin": -6.0,
+                        "Tag": 1297,
+                        "ActionTag": -1065980536,
+                        "Size": {
+                          "X": 106.8544,
+                          "Y": 12.0
+                        },
+                        "Name": "yellowLine1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Yellow_Line.png",
+                          "Plist": "MainLobby/res/ChallengeUI.plist"
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 10,
+                        "Scale9OriginY": 3,
+                        "Scale9Width": 11,
+                        "Scale9Height": 6,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -98.4085,
+                          "Y": -5.3368
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -98.4085,
+                        "RightMargin": -17.0345,
+                        "TopMargin": -0.6632,
+                        "BottomMargin": -11.3368,
+                        "Tag": 1298,
+                        "ActionTag": -1912026523,
+                        "Size": {
+                          "X": 115.443,
+                          "Y": 12.0
+                        },
+                        "Name": "yellowLine2",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -377196056,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "yellowLine",
+                    "ctype": "SingleNodeObjectData"
+                  }
+                ],
+                "ActionTag": 1560034655,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodeItem2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Challenge_Group_Box.png",
+                  "Plist": "MainLobby/res/ChallengeUI.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 136,
+                "Scale9Height": 118,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 149.0683,
+                  "Y": 299.0655
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2018,
+                  "Y": 0.5927
+                },
+                "PreSize": {
+                  "X": 0.2248,
+                  "Y": 0.4707
+                },
+                "LeftMargin": 66.0683,
+                "RightMargin": 506.4459,
+                "TopMargin": 86.7818,
+                "BottomMargin": 180.3116,
+                "Tag": 1261,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Lam het nhiem vu\nRoi se duoc qua",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.8968,
+                      "Y": 35.1303
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5054,
+                      "Y": 0.1479
+                    },
+                    "PreSize": {
+                      "X": 1.0422,
+                      "Y": 0.2442
+                    },
+                    "LeftMargin": -2.6032,
+                    "RightMargin": -4.3968,
+                    "TopMargin": 173.3775,
+                    "BottomMargin": 6.1303,
+                    "Tag": 1268,
+                    "ActionTag": -1784783284,
+                    "Size": {
+                      "X": 173.0,
+                      "Y": 58.0
+                    },
+                    "Name": "lbDesc",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Star_Box.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 13,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.7922,
+                      "Y": 75.0577
+                    },
+                    "Scale": {
+                      "ScaleX": 1.3008,
+                      "ScaleY": 1.3008
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2457,
+                      "Y": 0.316
+                    },
+                    "PreSize": {
+                      "X": 0.147,
+                      "Y": 0.0969
+                    },
+                    "LeftMargin": 28.5903,
+                    "RightMargin": 113.0059,
+                    "TopMargin": 150.9454,
+                    "BottomMargin": 63.5531,
+                    "Tag": 1265,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Star_Icon.png",
+                          "Plist": "Inventory/res/inventory-cue.plist"
+                        },
+                        "Scale9OriginX": 5,
+                        "Scale9OriginY": 5,
+                        "Scale9Width": 8,
+                        "Scale9Height": 7,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 12.1924,
+                          "Y": 12.1921
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4996,
+                          "Y": 0.5299
+                        },
+                        "PreSize": {
+                          "X": 0.7376,
+                          "Y": 0.7388
+                        },
+                        "LeftMargin": 3.1924,
+                        "RightMargin": 3.2114,
+                        "TopMargin": 2.3172,
+                        "BottomMargin": 3.6921,
+                        "Tag": 1292,
+                        "ActionTag": -1435715497,
+                        "Size": {
+                          "X": 18.0,
+                          "Y": 17.0
+                        },
+                        "Name": "star",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 6756587,
+                    "Size": {
+                      "X": 24.4038,
+                      "Y": 23.0093
+                    },
+                    "Name": "starBox0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Star_Box.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 13,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 85.2716,
+                      "Y": 75.0577
+                    },
+                    "Scale": {
+                      "ScaleX": 1.3008,
+                      "ScaleY": 1.3008
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5137,
+                      "Y": 0.316
+                    },
+                    "PreSize": {
+                      "X": 0.147,
+                      "Y": 0.0969
+                    },
+                    "LeftMargin": 73.0697,
+                    "RightMargin": 68.5265,
+                    "TopMargin": 150.9454,
+                    "BottomMargin": 63.5531,
+                    "Tag": 1266,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Star_Icon.png",
+                          "Plist": "Inventory/res/inventory-cue.plist"
+                        },
+                        "Scale9OriginX": 5,
+                        "Scale9OriginY": 5,
+                        "Scale9Width": 8,
+                        "Scale9Height": 7,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 12.552,
+                          "Y": 12.3995
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5143,
+                          "Y": 0.5389
+                        },
+                        "PreSize": {
+                          "X": 0.7376,
+                          "Y": 0.7388
+                        },
+                        "LeftMargin": 3.552,
+                        "RightMargin": 2.8518,
+                        "TopMargin": 2.1098,
+                        "BottomMargin": 3.8995,
+                        "Tag": 1293,
+                        "ActionTag": -1811668095,
+                        "Size": {
+                          "X": 18.0,
+                          "Y": 17.0
+                        },
+                        "Name": "star",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1421419713,
+                    "Size": {
+                      "X": 24.4038,
+                      "Y": 23.0093
+                    },
+                    "Name": "starBox1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Star_Box.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 13,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.7511,
+                      "Y": 75.0577
+                    },
+                    "Scale": {
+                      "ScaleX": 1.3008,
+                      "ScaleY": 1.3008
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7816,
+                      "Y": 0.316
+                    },
+                    "PreSize": {
+                      "X": 0.147,
+                      "Y": 0.0969
+                    },
+                    "LeftMargin": 117.5492,
+                    "RightMargin": 24.047,
+                    "TopMargin": 150.9454,
+                    "BottomMargin": 63.5531,
+                    "Tag": 1267,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "PlistSubImage",
+                          "Path": "Star_Icon.png",
+                          "Plist": "Inventory/res/inventory-cue.plist"
+                        },
+                        "Scale9OriginX": 5,
+                        "Scale9OriginY": 5,
+                        "Scale9Width": 8,
+                        "Scale9Height": 7,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 12.6272,
+                          "Y": 12.3235
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5174,
+                          "Y": 0.5356
+                        },
+                        "PreSize": {
+                          "X": 0.7376,
+                          "Y": 0.7388
+                        },
+                        "LeftMargin": 3.6272,
+                        "RightMargin": 2.7766,
+                        "TopMargin": 2.1858,
+                        "BottomMargin": 3.8235,
+                        "Tag": 1294,
+                        "ActionTag": -1579806351,
+                        "Size": {
+                          "X": 18.0,
+                          "Y": 17.0
+                        },
+                        "Name": "star",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 949872628,
+                    "Size": {
+                      "X": 24.4038,
+                      "Y": 23.0093
+                    },
+                    "Name": "starBox2",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 2066613132,
+                "Size": {
+                  "X": 166.0,
+                  "Y": 237.5078
+                },
+                "Name": "imgBallBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 90.5948,
+                  "Y": 275.8499
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1227,
+                  "Y": 0.5467
+                },
+                "PreSize": {
+                  "X": 0.1662,
+                  "Y": 0.2467
+                },
+                "LeftMargin": 90.5948,
+                "RightMargin": 525.157,
+                "TopMargin": 104.2467,
+                "BottomMargin": 275.8499,
+                "Tag": 1262,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Deck.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 89,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 94,
+                    "Scale9Height": 19,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 61.3916,
+                      "Y": 14.118
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5001,
+                      "Y": 0.1134
+                    },
+                    "PreSize": {
+                      "X": 0.9554,
+                      "Y": 0.1905
+                    },
+                    "LeftMargin": 2.7494,
+                    "RightMargin": 2.7286,
+                    "TopMargin": 98.5288,
+                    "BottomMargin": 2.2602,
+                    "Tag": 1263,
+                    "ActionTag": -829805306,
+                    "Size": {
+                      "X": 117.2844,
+                      "Y": 23.7156
+                    },
+                    "Name": "imgDeck",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "Add_Button.png",
+                      "Plist": "MainLobby/res/ChallengeUI.plist"
+                    },
+                    "Scale9OriginX": 33,
+                    "Scale9OriginY": 33,
+                    "Scale9Width": 37,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.6628,
+                      "Y": 71.7321
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5104,
+                      "Y": 0.5761
+                    },
+                    "PreSize": {
+                      "X": 0.839,
+                      "Y": 0.8273
+                    },
+                    "LeftMargin": 11.1628,
+                    "RightMargin": 8.5996,
+                    "TopMargin": 1.2725,
+                    "BottomMargin": 20.2321,
+                    "Tag": 1264,
+                    "ActionTag": -905813177,
+                    "Size": {
+                      "X": 103.0,
+                      "Y": 103.0
+                    },
+                    "Name": "imgEmpty",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 428771245,
+                "Size": {
+                  "X": 122.7624,
+                  "Y": 124.5046
+                },
+                "Name": "pnEmptyBall",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Deck+Ball.png",
+                  "Plist": "MainLobby/res/ChallengeUI.plist"
+                },
+                "Scale9OriginX": 39,
+                "Scale9OriginY": 39,
+                "Scale9Width": 42,
+                "Scale9Height": 43,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.57,
+                  "Y": 338.65
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2052,
+                  "Y": 0.6711
+                },
+                "PreSize": {
+                  "X": 0.1625,
+                  "Y": 0.2398
+                },
+                "LeftMargin": 91.57,
+                "RightMargin": 526.9442,
+                "TopMargin": 105.4512,
+                "BottomMargin": 278.15,
+                "Tag": 921,
+                "ActionTag": -861906731,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 121.0
+                },
+                "Name": "imgBall",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": -15,
+                "Scale9OriginY": -5,
+                "Scale9Width": 30,
+                "Scale9Height": 10,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.5676,
+                  "Y": 338.6473
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2052,
+                  "Y": 0.6711
+                },
+                "PreSize": {
+                  "X": 0.1726,
+                  "Y": 0.268
+                },
+                "LeftMargin": 87.8235,
+                "RightMargin": 523.2025,
+                "TopMargin": 98.3472,
+                "BottomMargin": 271.0406,
+                "Tag": 232,
+                "ActionTag": -813149642,
+                "Size": {
+                  "X": 127.4882,
+                  "Y": 135.2134
+                },
+                "Name": "btnBall",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 677730168,
+            "Size": {
+              "X": 738.5142,
+              "Y": 504.6012
+            },
+            "Name": "bg",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../../Font/facebook.TTF",
+        "../../GlobalPopup/res/global_popup.plist",
+        "../../GlobalPopup/res/global_popup.png",
+        "../../Inventory/res/inventory-cue.plist",
+        "../../Inventory/res/inventory-cue.png",
+        "../res/ChallengeUI.plist",
+        "../res/ChallengeUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

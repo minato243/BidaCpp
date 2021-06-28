@@ -1,0 +1,467 @@
+{
+  "ID": "56c58bde-f640-4405-bfb4-a26ce4dcd688",
+  "Version": "2.3.4",
+  "Name": "PopupTwoChoice",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 456,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "Noti_Box_NoLine.png",
+              "Plist": "GlobalPopup/res/Gui_Update_pack.plist"
+            },
+            "Scale9OriginX": 97,
+            "Scale9OriginY": 54,
+            "Scale9Width": 176,
+            "Scale9Height": 178,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -185.0,
+            "RightMargin": -185.0,
+            "TopMargin": -143.0,
+            "BottomMargin": -143.0,
+            "Tag": 457,
+            "Children": [
+              {
+                "FontSize": 32,
+                "LabelText": "__THOÁT BÀN__",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 22,
+                  "G": 80,
+                  "B": 101
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -3.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 185.0,
+                  "Y": 253.8859
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 7.0,
+                "CColor": {
+                  "R": 78,
+                  "G": 236
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8877
+                },
+                "PreSize": {
+                  "X": 0.7162,
+                  "Y": 0.1643
+                },
+                "LeftMargin": 52.5,
+                "RightMargin": 52.5,
+                "TopMargin": 8.6141,
+                "BottomMargin": 230.3859,
+                "Tag": 1215,
+                "ActionTag": 1956927184,
+                "Size": {
+                  "X": 265.0,
+                  "Y": 47.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Any questions?\nYou can put any questions or orders here\nLeave the user's choices below",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/facebook.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 185.0,
+                  "Y": 151.7274
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5305
+                },
+                "PreSize": {
+                  "X": 1.0649,
+                  "Y": 0.3042
+                },
+                "LeftMargin": -12.0,
+                "RightMargin": -12.0,
+                "TopMargin": 90.7726,
+                "BottomMargin": 108.2274,
+                "Tag": 458,
+                "ActionTag": 1064577338,
+                "Size": {
+                  "X": 394.0,
+                  "Y": 87.0
+                },
+                "Name": "rtDesc",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Green_Button.png",
+                  "Plist": "Inventory/res/Inventory_Reworked.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Green_Button.png",
+                  "Plist": "Inventory/res/Inventory_Reworked.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Green_Button.png",
+                  "Plist": "Inventory/res/Inventory_Reworked.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 137,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.0075,
+                  "Y": 43.5345
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2703,
+                  "Y": 0.1522
+                },
+                "PreSize": {
+                  "X": 0.4486,
+                  "Y": 0.2028
+                },
+                "LeftMargin": 17.0075,
+                "RightMargin": 186.9925,
+                "TopMargin": 213.4655,
+                "BottomMargin": 14.5345,
+                "Tag": 459,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "Text Label",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.0,
+                      "Y": 30.7342
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5299
+                    },
+                    "PreSize": {
+                      "X": 0.8012,
+                      "Y": 0.6552
+                    },
+                    "LeftMargin": 16.5,
+                    "RightMargin": 16.5,
+                    "TopMargin": 8.2658,
+                    "BottomMargin": 11.7342,
+                    "Tag": 461,
+                    "ActionTag": -1920879175,
+                    "Size": {
+                      "X": 133.0,
+                      "Y": 38.0
+                    },
+                    "Name": "lb",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1573014879,
+                "Size": {
+                  "X": 166.0,
+                  "Y": 58.0
+                },
+                "Name": "btnPositive",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Red_Button_Glass.png",
+                  "Plist": "GlobalPopup/res/Gui_Update_pack.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Red_Button_Glass.png",
+                  "Plist": "GlobalPopup/res/Gui_Update_pack.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "Red_Button_Glass.png",
+                  "Plist": "GlobalPopup/res/Gui_Update_pack.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 136,
+                "Scale9Height": 36,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0,
+                  "Y": 43.5344
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7297,
+                  "Y": 0.1522
+                },
+                "PreSize": {
+                  "X": 0.4486,
+                  "Y": 0.2028
+                },
+                "LeftMargin": 187.0,
+                "RightMargin": 17.0,
+                "TopMargin": 213.4656,
+                "BottomMargin": 14.5344,
+                "Tag": 460,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "Text Label",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/facebook.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.0,
+                      "Y": 30.1542
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5199
+                    },
+                    "PreSize": {
+                      "X": 0.8012,
+                      "Y": 0.6552
+                    },
+                    "LeftMargin": 16.5,
+                    "RightMargin": 16.5,
+                    "TopMargin": 8.8458,
+                    "BottomMargin": 11.1542,
+                    "Tag": 462,
+                    "ActionTag": 397600974,
+                    "Size": {
+                      "X": 133.0,
+                      "Y": 38.0
+                    },
+                    "Name": "lb",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -826869804,
+                "Size": {
+                  "X": 166.0,
+                  "Y": 58.0
+                },
+                "Name": "btnNegative",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -691542058,
+            "Size": {
+              "X": 370.0,
+              "Y": 286.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Font/facebook.TTF",
+        "../Inventory/res/Inventory_Reworked.plist",
+        "../Inventory/res/Inventory_Reworked.png",
+        "res/Gui_Update_pack.plist",
+        "res/Gui_Update_pack.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

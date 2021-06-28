@@ -1,0 +1,153 @@
+{
+  "ID": "d3e559d9-6da9-4616-bab1-8b2b52617400",
+  "Version": "2.3.4",
+  "Name": "BankItem",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 920,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "PlistSubImage",
+              "Path": "pm_nh_bgr.png",
+              "Plist": "Payment/res/NHContent.plist"
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "pm_nh_bgr.png",
+              "Plist": "Payment/res/NHContent.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "pm_nh_bgr.png",
+              "Plist": "Payment/res/NHContent.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 113,
+            "Scale9Height": 58,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -71.5,
+            "RightMargin": -71.5,
+            "TopMargin": -40.0,
+            "BottomMargin": -40.0,
+            "Tag": 921,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "pm_123PHSBC_logo.png",
+                  "Plist": "Payment/res/NHContent.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 26,
+                "Scale9Width": 49,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 71.5,
+                  "Y": 40.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 922,
+                "ActionTag": 968591898,
+                "Size": {
+                  "X": 143.0,
+                  "Y": 80.0
+                },
+                "Name": "imgItem",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 462067440,
+            "Size": {
+              "X": 143.0,
+              "Y": 80.0
+            },
+            "Name": "btnItem",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "res/NHContent.plist",
+        "res/NHContent.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}
