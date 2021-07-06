@@ -89,6 +89,8 @@ namespace ps {
             static double distanceSquare(const vector & u, const vector & v);
 
             static vector applyQuaternion(const vector & v, const quaternion & q);
+
+            static vector mix(const vector & u, const vector & v, double range);
         };
 
         class plane {

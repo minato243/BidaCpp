@@ -272,6 +272,14 @@ ExtMath::vector ExtMath::vector::applyQuaternion(const vector & v, const quatern
     return vector(result.x, result.y, result.z);
 }
 
+ExtMath::vector ps::ExtMath::vector::mix(const vector& u, const vector& v, double range)
+{
+    return vector(u.x + (v.x - u.x) * range,
+        u.y + (v.y - u.y) * range,
+        u.z + (v.z - u.z) * range);
+    
+}
+
 ExtMath::vector ExtMath::plane::projectPoint(const vector & q, const plane & pl) {
     vector qp = vector::sub(pl.p, q);
     double t = vector::dot(qp, pl.n) / vector::dot(pl.n, pl.n);

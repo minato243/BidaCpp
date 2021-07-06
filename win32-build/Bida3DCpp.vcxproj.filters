@@ -58,6 +58,12 @@
     <ClCompile Include="..\Classes\modules\core-implement\Table.cpp">
       <Filter>Source Files\Classes\modules\core-implement</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\modules\core-implement\Ball.cpp">
+      <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\GlobalVar.cpp">
+      <Filter>Source Files\Classes\data</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.h">
@@ -137,6 +143,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\modules\core-implement\Table.h">
       <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core-implement\Ball.h">
+      <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\GlobalVar.h">
+      <Filter>Source Files\Classes\data</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

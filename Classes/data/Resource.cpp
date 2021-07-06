@@ -65,3 +65,22 @@ const std::string Res::OLD_NPC_3D = "res/3d/npc_old/body.c3b";
 const std::string Res::OLD_NPC_IDLE = "res/3d/npc_old/main_idle.c3b";
 const std::string Res::OLD_NPC_POSE_1 = "res/3d/npc_old/pose_1.c3b";
 const std::string Res::OLD_NPC_POSE_2 = "res/3d/npc_old/pose_2.c3b";
+
+string Res::Ball_Textures[16] = {
+		"res/3d/ball/Ball_No0.png",
+		"res/3d/ball/Ball_No1.png",
+		"res/3d/ball/Ball_No2.png",
+		"res/3d/ball/Ball_No3.png",
+		"res/3d/ball/Ball_No4.png",
+		"res/3d/ball/Ball_No5.png",
+		"res/3d/ball/Ball_No6.png",
+		"res/3d/ball/Ball_No7.png",
+		"res/3d/ball/Ball_No8.png",
+		"res/3d/ball/Ball_No9.png",
+		"res/3d/ball/Ball_No10.png",
+		"res/3d/ball/Ball_No11.png",
+		"res/3d/ball/Ball_No12.png",
+		"res/3d/ball/Ball_No13.png",
+		"res/3d/ball/Ball_No14.png",
+		"res/3d/ball/Ball_No15.png"
+};

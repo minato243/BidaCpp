@@ -797,7 +797,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\data\GlobalVar.h" />
     <ClInclude Include="..\Classes\data\Resource.h" />
+    <ClInclude Include="..\Classes\modules\core-implement\Ball.h" />
     <ClInclude Include="..\Classes\modules\core-implement\Table.h" />
     <ClInclude Include="..\Classes\modules\core\BallBody.hpp" />
     <ClInclude Include="..\Classes\modules\core\BallGenerator.hpp" />
@@ -817,7 +819,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.h" />
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\main.h" />
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\data\GlobalVar.cpp" />
     <ClCompile Include="..\Classes\data\Resource.cpp" />
+    <ClCompile Include="..\Classes\modules\core-implement\Ball.cpp" />
     <ClCompile Include="..\Classes\modules\core-implement\Table.cpp" />
     <ClCompile Include="..\Classes\modules\core\BallBody.cpp" />
     <ClCompile Include="..\Classes\modules\core\BallGenerator.cpp" />

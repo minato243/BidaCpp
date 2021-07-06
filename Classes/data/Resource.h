@@ -62,6 +62,7 @@ public:
 	static const std::string         OLD_NPC_IDLE;
 	static const std::string         OLD_NPC_POSE_1;
 	static const std::string         OLD_NPC_POSE_2;
+	static std::string Ball_Textures[16];
 };
 
 #endif // !RESOURCE_H_
