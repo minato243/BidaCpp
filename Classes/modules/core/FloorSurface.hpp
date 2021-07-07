@@ -17,6 +17,8 @@ namespace ps {
 
 		bool isInSafeZone(const vector & p);
 
+		bool isOutSideTable(const vector& p);
+
 		Pocket * findExtractPocket(const vector & p);
 
 		Pocket * findRegionPocket(const vector & p);
@@ -24,6 +26,7 @@ namespace ps {
 		vector normalAcceleration(const vector & p);
 
 		double minimumZOfPosition(const vector & p);
+		
 	};
 }
 

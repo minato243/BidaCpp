@@ -68,6 +68,8 @@ namespace ps {
 
         BallBody * addBall(int ballId, const vector & position);
 
+        void addBall(BallBody *body, const vector & position);
+
         void removeAllBalls();
 
 		void update(double dt);
@@ -111,6 +113,8 @@ namespace ps {
         void checkOutsideTableBalls();
 
 		void onWorldPaused();
+        
+        void dispatch();
         // std::vector<PhysicSimulateResult::BallOverBall> findBallOverBallIds();
     public:
         void onBallFallToHole(BallBody * ball);
@@ -136,6 +140,8 @@ namespace ps {
         EventPoller * eventPoller();
 
         bool isRunning();
+
+        void setRun(bool isRunning);
 
 		void setBreak(bool brk);
     private:

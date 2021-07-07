@@ -2,6 +2,7 @@
 #include "PhysicsConstants.hpp"
 #include <algorithm>
 #include <cmath>
+#include <cocos2d.h>
 
 using namespace ps;
 
@@ -23,6 +24,18 @@ void PhysicsCue::setCueAttributes(const PhysicsCueAttributes & attrs) {
 
 void PhysicsCue::setDirection(const vector & direction) {
 	_direction = direction;
+}
+
+void ps::PhysicsCue::updateDirection(const vector& direction)
+{
+    CCLOG("direction %lf %lf %lf", direction.x, direction.y, direction.z);
+    _direction = direction;
+    this->setCueDirection(direction);
+}
+
+vector ps::PhysicsCue::getDirection()
+{
+    return this->_direction;
 }
 
 void PhysicsCue::setOffset(const vector & offset) {

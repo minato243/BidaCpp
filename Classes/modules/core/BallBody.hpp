@@ -1,6 +1,7 @@
 #ifndef __BALL_BODY__
 #define __BALL_BODY__
 #include "ExtensionMath.hpp"
+#include <functional>
 
 namespace ps {
 	using namespace ExtMath;
@@ -96,6 +97,14 @@ namespace ps {
 		void disable();
 
 		bool isInHole();
+
+		void dispatch();
+
+		void setSubcribe(std::function<void()> subcribe);
+
+		bool isTotallyInHole();
+
+		bool isDisable();
 	private:
 		int _id;
 		PhysicsWorld * _world;
@@ -112,6 +121,7 @@ namespace ps {
 		// LocNB, TODO: Refactor inhole and totally in hole
 		bool _inHole;
 		bool _totallyInHole;
+		std::function<void()> _subscribe;
 	};
 }
 #endif

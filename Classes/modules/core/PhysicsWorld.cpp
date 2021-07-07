@@ -371,9 +371,9 @@ void PhysicsWorld::reset(int id) {
 	//_ballOverBallHelper.reset();
 	_break = false;
 	_random->reset();
-	/*for (int i = 0; i < _cues.length; i++) {
-		_cues[i] = nullptr;
-	}*/
+	for (int i = 0; i < MAX_CUE_SLOT; i++) {
+		_cues[i] = PhysicsCue();
+	}
 	_remainFrameTime = 0;
 }
 
@@ -439,6 +439,17 @@ BallBody * PhysicsWorld::addBall(int ballId, const vector & position) {
     return ball;
 }
 
+void ps::PhysicsWorld::addBall(BallBody* body, const vector& position)
+{
+    body->setPosition(position);
+    body->setWorld(this);
+    if (body->id() == PhysicsConstants::CUE_BALL_ID) {
+        _cueBall = body;
+    }
+    
+    _balls.push_back(body);
+}
+
 void PhysicsWorld::removeAllBalls() {
     for (auto it = _balls.begin(); it != _balls.end(); ++it) {
         delete (*it);
@@ -461,6 +472,7 @@ void PhysicsWorld::update(double dt) {
 			_remainFrameTime = 0;
 			break;
 		}
+        this->dispatch();
 	}
 }
 
@@ -966,6 +978,14 @@ void PhysicsWorld::onWorldPaused() {
 	// _simulateResult->setBallOverBalls(_ballOverBallHelper.result());
 }
 
+void ps::PhysicsWorld::dispatch()
+{
+    for (int i = 0; i < this->_balls.size(); i++) {
+        auto ball = this->_balls[i];
+        ball->dispatch();
+    }
+}
+
 PhysicSimulateResult * PhysicsWorld::shoot(int ballId, int cueSlot, double force, const vector & direction, const vector & offset) {
     PhysicsCue * cue = getCue(cueSlot);
     BallBody * ball = getBall(ballId);
@@ -1066,6 +1086,11 @@ EventPoller * PhysicsWorld::eventPoller() {
 
 bool PhysicsWorld::isRunning() {
     return _run;
+}
+
+void ps::PhysicsWorld::setRun(bool isRunning)
+{
+    this->_run = isRunning;
 }
 
 void PhysicsWorld::setBreak(bool brk) {

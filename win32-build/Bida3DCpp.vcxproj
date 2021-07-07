@@ -799,6 +799,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="..\Classes\data\GlobalVar.h" />
     <ClInclude Include="..\Classes\data\Resource.h" />
+    <ClInclude Include="..\Classes\modules\camera-view\CustomCamera.h" />
+    <ClInclude Include="..\Classes\modules\camera-view\SphericalCamera.h" />
     <ClInclude Include="..\Classes\modules\core-implement\Ball.h" />
     <ClInclude Include="..\Classes\modules\core-implement\Table.h" />
     <ClInclude Include="..\Classes\modules\core\BallBody.hpp" />
@@ -821,6 +823,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\resource.h" />
     <ClCompile Include="..\Classes\data\GlobalVar.cpp" />
     <ClCompile Include="..\Classes\data\Resource.cpp" />
+    <ClCompile Include="..\Classes\modules\camera-view\CustomCamera.cpp" />
+    <ClCompile Include="..\Classes\modules\camera-view\SphericalCamera.cpp" />
     <ClCompile Include="..\Classes\modules\core-implement\Ball.cpp" />
     <ClCompile Include="..\Classes\modules\core-implement\Table.cpp" />
     <ClCompile Include="..\Classes\modules\core\BallBody.cpp" />

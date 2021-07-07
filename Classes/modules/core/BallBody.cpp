@@ -404,3 +404,44 @@ void BallBody::disable() {
 bool BallBody::isInHole() {
 	return _inHole;
 }
+
+void ps::BallBody::dispatch()
+{
+    if (!this->_subscribe) return;
+
+    //auto qua = this->_quaternion;
+    //auto pos = this->_position;
+
+    //auto lQua = this->_dispatchedQuaternion;
+    //auto lPos = this->_dispatchedPosition;
+
+    //if (pos.x == = lPos.x && pos.y == = lPos.y && pos.z == = lPos.z &&
+    //    qua.x == = lQua.x && qua.y == = lQua.y && qua.z == = lQua.z && qua.w == = lQua.w
+    //    ) return;
+
+    //lPos.x = pos.x;
+    //lPos.y = pos.y;
+    //lPos.z = pos.z;
+
+    //lQua.x = qua.x;
+    //lQua.y = qua.y;
+    //lQua.z = qua.z;
+    //lQua.w = qua.w;
+
+    this->_subscribe();
+}
+
+void ps::BallBody::setSubcribe(std::function<void()> subcribe)
+{
+    this->_subscribe = subcribe;
+}
+
+bool ps::BallBody::isTotallyInHole()
+{
+    return _totallyInHole;
+}
+
+bool ps::BallBody::isDisable()
+{
+    return _disabled;
+}

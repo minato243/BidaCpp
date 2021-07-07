@@ -46,12 +46,17 @@ double ExtMath::sin(double value) {
 
 double ExtMath::minifyAngle(double value) {
     if (value < 0) {
-        return value + TWO_PI;
-    } else if (value > TWO_PI) {
-        return value - TWO_PI;
-    } else {
-        return value;
+        return value + ExtMath::TWO_PI * ceil(-value / TWO_PI);
     }
+    else if (value > TWO_PI) {
+        return value - TWO_PI * floor(value / TWO_PI);
+    }
+    return value;
+}
+
+double ps::ExtMath::simplifyRadian(double value)
+{
+    return 0.0;
 }
 
 ExtMath::vector::vector() : x(0), y(0), z(0) {}
@@ -278,6 +283,11 @@ ExtMath::vector ps::ExtMath::vector::mix(const vector& u, const vector& v, doubl
         u.y + (v.y - u.y) * range,
         u.z + (v.z - u.z) * range);
     
+}
+
+ExtMath::vector ExtMath::vector::normalize(const vector& v)
+{
+    return multiply(1. / length(v), v);
 }
 
 ExtMath::vector ExtMath::plane::projectPoint(const vector & q, const plane & pl) {

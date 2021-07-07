@@ -14,3 +14,4 @@ win32-build/CMakeFiles/CMakeOutput.log
 *.obj
 win32-build/.vs/
 *.dylib
+*.zip

@@ -31,6 +31,8 @@ namespace ps {
 
         double minifyAngle(double value);
 
+        double simplifyRadian(double value);
+
         class vector {
         public:
             vector();
@@ -91,6 +93,8 @@ namespace ps {
             static vector applyQuaternion(const vector & v, const quaternion & q);
 
             static vector mix(const vector & u, const vector & v, double range);
+
+            static vector normalize(const vector & v);
         };
 
         class plane {

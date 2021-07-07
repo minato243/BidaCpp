@@ -39,6 +39,19 @@ bool FloorSurface::isInSafeZone(const vector & p) {
         (safeZone.minX <= p.x && p.x <= safeZone.maxX && limits->minY <= p.y && p.y <= limits->maxY);
 }
 
+bool ps::FloorSurface::isOutSideTable(const vector& p)
+{
+    auto edges = this->tableEdges;
+    if ((edges.minX > p.x) ||
+        (edges.maxX < p.x) ||
+        (edges.minY > p.y) ||
+        (edges.maxY < p.y)) {
+        return true;
+    }
+
+    return false;
+}
+
 Pocket * FloorSurface::findExtractPocket(const vector & p) {
     if (vector::distance(pockets->bottomLeftPocket.position, p) < pockets->bottomLeftPocket.radius) return &pockets->bottomLeftPocket;
     if (vector::distance(pockets->bottomSidePocket.position, p) < pockets->bottomSidePocket.radius) return &pockets->bottomSidePocket;

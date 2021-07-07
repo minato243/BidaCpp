@@ -11,6 +11,8 @@ namespace ps {
 		// Unit of length is 'cm'
 		// Unit of mass is 'kg'
 
+		PhysicsConstants();
+
 		static const double G;
 		static const vector GRAVITY;
 		static const vector REVERSE_GRAVITY;
@@ -62,6 +64,9 @@ namespace ps {
 		static const vector CUE_BALL_LAG_PLACEHOLDER_POSITION;
 		static const vector CUE_BALL_POSITION;
 
+		static vector INIT_BALL_POSITIONS[15];
+		void initBallPosition();
+
 		/*static const int LAG_SEPARATOR_COUNT = 3;
 		static const vector * LAG_BALL_POSITION = new vector[LAG_SEPARATOR_COUNT];
 
@@ -72,6 +77,9 @@ namespace ps {
 		}*/
 
 		static void loadConstants();
+
+		static PhysicsConstants* instance;
+		static PhysicsConstants* getInstance();
 
 	};
 };

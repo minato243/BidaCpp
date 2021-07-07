@@ -29,6 +29,12 @@ namespace ps {
 
 		void setDirection(const vector & direction);
 
+		void updateDirection(const vector& direction);
+		
+		virtual void setCueDirection(const vector& direction) {};
+		
+		vector getDirection();
+
 		void setOffset(const vector & offset);
 
 		ResultVelocities calcCueBallVelocities(double force);

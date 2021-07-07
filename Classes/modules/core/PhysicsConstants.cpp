@@ -57,6 +57,42 @@ const double PhysicsConstants::BOUNCE_FLOOR_REFLECT_COEF = 100;
 const vector PhysicsConstants::CUE_BALL_LAG_PLACEHOLDER_POSITION(-60, 30);
 const vector PhysicsConstants::CUE_BALL_POSITION(-60, 0);
 
+const double InitVertBallDistance = PhysicsConstants::BALL_RADIUS + 0.05;
+
+int TOTAL_LAYER = 5;
+double SQRT_3_InitVertBallDistance = sqrt(3) * InitVertBallDistance;
+
+ps::PhysicsConstants::PhysicsConstants()
+{
+	initBallPosition();
+}
+
+vector PhysicsConstants::INIT_BALL_POSITIONS[15];
+void ps::PhysicsConstants::initBallPosition()
+{
+	int i = 0;
+	for (auto layer = 0; layer < TOTAL_LAYER; layer++) {
+		for (auto index = layer; index >= -layer; index -= 2) {
+			ExtMath::vector pos = ExtMath::vector(
+				layer * SQRT_3_InitVertBallDistance + 60,
+				index * InitVertBallDistance
+			);
+			PhysicsConstants::INIT_BALL_POSITIONS[i++] = pos;
+			// cc.log(JSON.stringify(pos));
+		}
+	}
+}
+
 void PhysicsConstants::loadConstants() {
 	// TODO: Load constants from config files
 }
+
+PhysicsConstants* PhysicsConstants::instance = new PhysicsConstants();
+PhysicsConstants* ps::PhysicsConstants::getInstance()
+{
+	if (PhysicsConstants::instance == nullptr) {
+		PhysicsConstants::instance = new PhysicsConstants();
+	}
+	return PhysicsConstants::instance;
+}
+
