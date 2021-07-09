@@ -22,3 +22,11 @@ cocos2d::ui::Text* UITestFactory::commonText(const char* text, double x, double 
     _lb->setColor(Color3B(220, 220, 220));
     return _lb;
 }
+
+cocos2d::Sprite* UITestFactory::commonSprite(const char* text, float anchorX, float anchorY, float x, float y)
+{
+	auto sprite = Sprite::create(text);
+	sprite->setAnchorPoint(Vec2(anchorX, anchorY));
+	sprite->setPosition(Vec2(x,y));
+	return sprite;
+}

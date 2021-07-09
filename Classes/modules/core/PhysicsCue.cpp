@@ -39,7 +39,13 @@ vector ps::PhysicsCue::getDirection()
 }
 
 void PhysicsCue::setOffset(const vector & offset) {
+    CCLOG("setOffset %f, %f", offset.x, offset.y);
 	_offset = offset;
+}
+
+vector ps::PhysicsCue::getOffset()
+{
+    return this->_offset;
 }
 
 PhysicsCue::ResultVelocities PhysicsCue::calcCueBallVelocities(double force) {

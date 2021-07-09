@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CE347B26-A0CD-377F-A409-B435782E84C1}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Bida3DCpp</ProjectName>
@@ -30,7 +30,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -797,11 +797,21 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Classes\base\DrawNode3D.cpp" />
+    <ClCompile Include="..\Classes\modules\core\TrajectoryBuilder.cpp" />
+    <ClCompile Include="..\Classes\modules\core\TrajectoryElement.cpp" />
+    <ClCompile Include="..\Classes\modules\scene\TestBallIndicator.cpp" />
+    <ClCompile Include="..\Classes\modules\scene\UITestFactory.cpp" />
+    <ClCompile Include="..\Classes\modules\scene\UITestLayer.cpp" />
+    <ClInclude Include="..\Classes\base\DrawNode3D.h" />
+    <ClInclude Include="..\Classes\data\DataStruct.h" />
     <ClInclude Include="..\Classes\data\GlobalVar.h" />
     <ClInclude Include="..\Classes\data\Resource.h" />
     <ClInclude Include="..\Classes\modules\camera-view\CustomCamera.h" />
     <ClInclude Include="..\Classes\modules\camera-view\SphericalCamera.h" />
+    <ClInclude Include="..\Classes\modules\camera-view\utils\SphericalCoordinate.h" />
     <ClInclude Include="..\Classes\modules\core-implement\Ball.h" />
+    <ClInclude Include="..\Classes\modules\core-implement\Cue.h" />
     <ClInclude Include="..\Classes\modules\core-implement\Table.h" />
     <ClInclude Include="..\Classes\modules\core\BallBody.hpp" />
     <ClInclude Include="..\Classes\modules\core\BallGenerator.hpp" />
@@ -809,6 +819,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\Classes\modules\core\EventPoller.hpp" />
     <ClInclude Include="..\Classes\modules\core\ExtensionMath.hpp" />
     <ClInclude Include="..\Classes\modules\core\FloorSurface.hpp" />
+    <ClInclude Include="..\Classes\modules\core\GameMgr.h" />
     <ClInclude Include="..\Classes\modules\core\PhysicsConstants.hpp" />
     <ClInclude Include="..\Classes\modules\core\PhysicsCue.hpp" />
     <ClInclude Include="..\Classes\modules\core\PhysicsDispatcher.hpp" />
@@ -816,16 +827,25 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\Classes\modules\core\PhysicSimulateResult.hpp" />
     <ClInclude Include="..\Classes\modules\core\PhysicsRandom.hpp" />
     <ClInclude Include="..\Classes\modules\core\PhysicsWorld.hpp" />
+    <ClInclude Include="..\Classes\modules\core\TrajectoryBuilder.h" />
+    <ClInclude Include="..\Classes\modules\core\TrajectoryElement.h" />
+    <ClInclude Include="..\Classes\modules\core\utils\LerpUtils.h" />
     <ClInclude Include="..\Classes\modules\scene\GameScene.h" />
+    <ClInclude Include="..\Classes\modules\scene\TestBallIndicator.h" />
+    <ClInclude Include="..\Classes\modules\scene\UITestFactory.h" />
+    <ClInclude Include="..\Classes\modules\scene\UITestLayer.h" />
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.h" />
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.h" />
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\main.h" />
     <ClInclude Include="D:\Project\Bida3D\Bida3DCpp\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\data\DataStruct.cpp" />
     <ClCompile Include="..\Classes\data\GlobalVar.cpp" />
     <ClCompile Include="..\Classes\data\Resource.cpp" />
     <ClCompile Include="..\Classes\modules\camera-view\CustomCamera.cpp" />
     <ClCompile Include="..\Classes\modules\camera-view\SphericalCamera.cpp" />
+    <ClCompile Include="..\Classes\modules\camera-view\utils\SphericalCoordinate.cpp" />
     <ClCompile Include="..\Classes\modules\core-implement\Ball.cpp" />
+    <ClCompile Include="..\Classes\modules\core-implement\Cue.cpp" />
     <ClCompile Include="..\Classes\modules\core-implement\Table.cpp" />
     <ClCompile Include="..\Classes\modules\core\BallBody.cpp" />
     <ClCompile Include="..\Classes\modules\core\BallGenerator.cpp" />
@@ -833,6 +853,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\Classes\modules\core\EventPoller.cpp" />
     <ClCompile Include="..\Classes\modules\core\ExtensionMath.cpp" />
     <ClCompile Include="..\Classes\modules\core\FloorSurface.cpp" />
+    <ClCompile Include="..\Classes\modules\core\GameMgr.cpp" />
     <ClCompile Include="..\Classes\modules\core\PhysicsConstants.cpp" />
     <ClCompile Include="..\Classes\modules\core\PhysicsCue.cpp" />
     <ClCompile Include="..\Classes\modules\core\PhysicsDispatcher.cpp" />
@@ -840,6 +861,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\Classes\modules\core\PhysicSimulateResult.cpp" />
     <ClCompile Include="..\Classes\modules\core\PhysicsRandom.cpp" />
     <ClCompile Include="..\Classes\modules\core\PhysicsWorld.cpp" />
+    <ClCompile Include="..\Classes\modules\core\utils\LerpUtils.cpp" />
     <ClCompile Include="..\Classes\modules\scene\GameScene.cpp" />
     <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\Classes\AppDelegate.cpp" />
     <ClCompile Include="D:\Project\Bida3D\Bida3DCpp\Classes\HelloWorldScene.cpp" />

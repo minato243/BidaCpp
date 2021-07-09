@@ -43,6 +43,9 @@ public:
 
 	ps::BallBody* body();
 	CREATE_FUNC(Ball);
+
+public:
+	static const int WHITE_BALL_ID = 0;
 };
 #endif // !BALL_H_
 

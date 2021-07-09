@@ -1,6 +1,7 @@
 #include "UITestLayer.h"
 #include <modules/scene/UITestFactory.h>
 
+
 USING_NS_CC;
 using namespace cocos2d::ui;
 
@@ -89,12 +90,10 @@ void UITestLayer::initcueMovingSpeedSlider() {
 }
 
 void UITestLayer::initBallIndicator() {
-	//auto ballIndicator = new TestBallIndicator(); // todo update later
-	//ballIndicator.setDelegate({
-	//	updateCueOffsetUnit: offsetUnit => this->delegate && this->delegate.updateCueOffsetUnit(offsetUnit)
-	//})
-	//this->addChild(ballIndicator);
-	//this->ballIndicator = ballIndicator;
+	auto ballIndicator = TestBallIndicator::create();
+	ballIndicator->setDelegate(this->delegate.indicatorCallback);
+	this->addChild(ballIndicator);
+	this->ballIndicator = ballIndicator;
 }
 
 float UITestLayer::getPowerValue() {
@@ -141,8 +140,19 @@ void UITestLayer::sliderEvent(cocos2d::Ref* sender, cocos2d::ui::Slider::EventTy
 	}
 }
 
-void UITestLayer::setDelegate(int delegate) {
+void UITestLayer::setDelegate(UITestCallBack delegate) {
 	this->delegate = delegate;
+}
+
+void UITestLayer::setBallIndicatorCallback(BallIndicatorCallback callback)
+{
+	this->delegate.indicatorCallback = callback;
+	this->ballIndicator->setDelegate(callback);
+}
+
+UITestCallBack& UITestLayer::getDelegate()
+{
+	return this->delegate;
 }
 
 void UITestLayer::initFoVSliders() {

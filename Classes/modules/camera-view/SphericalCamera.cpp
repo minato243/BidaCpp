@@ -11,7 +11,7 @@ SphericalCamera::SphericalCamera(CameraProp props) {
 }
 
 SphericalCamera::SphericalCamera() {
-	init();
+	
 }
 
 bool SphericalCamera::init() {

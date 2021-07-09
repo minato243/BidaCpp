@@ -16,9 +16,6 @@
     <ClCompile Include="..\Classes\data\Resource.cpp">
       <Filter>Source Files\Classes\data</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\BallBody.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\modules\core\BallGenerator.cpp">
       <Filter>Source Files\Classes\modules\core</Filter>
     </ClCompile>
@@ -31,30 +28,6 @@
     <ClCompile Include="..\Classes\modules\core\ExtensionMath.cpp">
       <Filter>Source Files\Classes\modules\core</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\FloorSurface.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicsConstants.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicsCue.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicsDispatcher.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicsEntities.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicSimulateResult.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicsRandom.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\modules\core\PhysicsWorld.cpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\modules\core-implement\Table.cpp">
       <Filter>Source Files\Classes\modules\core-implement</Filter>
     </ClCompile>
@@ -63,6 +36,72 @@
     </ClCompile>
     <ClCompile Include="..\Classes\data\GlobalVar.cpp">
       <Filter>Source Files\Classes\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\GameMgr.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core-implement\Cue.cpp">
+      <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\camera-view\CustomCamera.cpp">
+      <Filter>Source Files\Classes\modules\camera-view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\BallBody.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsConstants.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsCue.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsDispatcher.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsEntities.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicSimulateResult.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsRandom.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\PhysicsWorld.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\FloorSurface.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\utils\LerpUtils.cpp">
+      <Filter>Source Files\Classes\modules\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\camera-view\SphericalCamera.cpp">
+      <Filter>Source Files\Classes\modules\camera-view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\camera-view\utils\SphericalCoordinate.cpp">
+      <Filter>Source Files\Classes\modules\camera-view\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\DataStruct.cpp">
+      <Filter>Source Files\Classes\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\scene\UITestLayer.cpp">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\scene\UITestFactory.cpp">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\scene\TestBallIndicator.cpp">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\TrajectoryBuilder.cpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\DrawNode3D.cpp">
+      <Filter>Source Files\Classes\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\modules\core\TrajectoryElement.cpp">
+      <Filter>Source Files\Classes\modules\core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,9 +141,6 @@
     <ClInclude Include="..\Classes\data\Resource.h">
       <Filter>Source Files\Classes\data</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\BallBody.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\modules\core\BallGenerator.hpp">
       <Filter>Source Files\Classes\modules\core</Filter>
     </ClInclude>
@@ -117,30 +153,6 @@
     <ClInclude Include="..\Classes\modules\core\ExtensionMath.hpp">
       <Filter>Source Files\Classes\modules\core</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\FloorSurface.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicsConstants.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicsCue.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicsDispatcher.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicsEntities.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicSimulateResult.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicsRandom.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\modules\core\PhysicsWorld.hpp">
-      <Filter>Source Files\Classes\modules\core</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\modules\core-implement\Table.h">
       <Filter>Source Files\Classes\modules\core-implement</Filter>
     </ClInclude>
@@ -149,6 +161,72 @@
     </ClInclude>
     <ClInclude Include="..\Classes\data\GlobalVar.h">
       <Filter>Source Files\Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\GameMgr.h">
+      <Filter>Source Files\Classes\modules\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core-implement\Cue.h">
+      <Filter>Source Files\Classes\modules\core-implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\camera-view\CustomCamera.h">
+      <Filter>Source Files\Classes\modules\camera-view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\BallBody.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsConstants.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsCue.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsDispatcher.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsEntities.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicSimulateResult.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsRandom.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\PhysicsWorld.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\FloorSurface.hpp">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\utils\LerpUtils.h">
+      <Filter>Source Files\Classes\modules\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\camera-view\SphericalCamera.h">
+      <Filter>Source Files\Classes\modules\camera-view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\camera-view\utils\SphericalCoordinate.h">
+      <Filter>Source Files\Classes\modules\camera-view\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\DataStruct.h">
+      <Filter>Source Files\Classes\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\scene\UITestLayer.h">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\scene\UITestFactory.h">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\scene\TestBallIndicator.h">
+      <Filter>Source Files\Classes\modules\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\TrajectoryBuilder.h">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\DrawNode3D.h">
+      <Filter>Source Files\Classes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\modules\core\TrajectoryElement.h">
+      <Filter>Source Files\Classes\modules\core\physics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +273,18 @@
     </Filter>
     <Filter Include="Source Files\Classes\modules\core-implement">
       <UniqueIdentifier>{1af2206c-502c-41e4-aab4-95bb4de480f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\core\physics">
+      <UniqueIdentifier>{6948ce25-553f-4e3e-b407-d14bf339335d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\core\utils">
+      <UniqueIdentifier>{341b774e-81d2-46f3-85a7-ae7b2c1bc556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\modules\camera-view\utils">
+      <UniqueIdentifier>{d6f43858-2bf7-4926-8fd2-32deed456b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\base">
+      <UniqueIdentifier>{098e8afe-a41b-4f2c-8e04-ae1771051b55}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

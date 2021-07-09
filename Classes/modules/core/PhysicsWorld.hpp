@@ -144,6 +144,8 @@ namespace ps {
         void setRun(bool isRunning);
 
 		void setBreak(bool brk);
+
+        PhysicsDispatcher* getDispatcher();
     private:
         int _id;
         std::vector<BallBody *> _balls;

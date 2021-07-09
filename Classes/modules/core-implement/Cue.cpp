@@ -64,8 +64,6 @@ void Cue::loadModel(CueModelData paths)
 	if (!isDefault) {
 		_cue->setPosition3D(Vec3(Cue::OFFSET_DISTANCE, 0, 0));
 	}
-
-	updateCueRotate(ExtMath::vector(1,1,0));
 }
 
 void Cue::cueMoveByForce(double forcePercent) {

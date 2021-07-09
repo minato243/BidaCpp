@@ -41,10 +41,7 @@ public:
 	void onKeyReleased(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);
 	void rotationUpdate(float dt);
 	void cueRotationUpdate(float dt);
-
-public:
-	static cocos2d::Vec3 ROTATE_SIGN[250];
-	static double MAX_POWER = 500;
+	void updateCueOffset(ps::ExtMath::vector offset);
 
 private:
 	int rotateCount;
@@ -54,6 +51,10 @@ private:
 	double yaw = 0;
 	double pitch = 0;
 	UITestLayer* ui;
+
+public:
+	static cocos2d::Vec3 ROTATE_SIGN[250];
+	static const double MAX_POWER;
 };
 
 #endif // !GAMESCENE_H_

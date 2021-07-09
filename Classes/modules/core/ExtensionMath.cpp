@@ -59,6 +59,158 @@ double ps::ExtMath::simplifyRadian(double value)
     return 0.0;
 }
 
+std::vector<double> ps::ExtMath::resolveQuarticEquation(double a, double b, double c, double d, double e)
+{
+    if (a != 1) {
+        b = b / a;
+        c = c / a;
+        d = d / a;
+        e = e / a;
+    }
+
+    auto b2 = b * b;
+    auto b3 = b2 * b;
+
+    auto bias = -0.25 * b;
+
+    auto p = c - 0.375 * b2;
+    auto q = d - 0.5 * b * c + 0.125 * b3;
+    auto r = e + bias * d + 0.0625 * b2 * c - 0.01171875 * b3 * b;
+    std::vector<double> res;
+    if (ExtMath::isZeroNumber(q)) {
+        auto delta = p * p - 4 * r;
+        if (delta < 0) {
+            return res;
+        }
+        else if (delta == 0) {
+            if (p > 0) {
+                return res;
+            }
+            else {
+                auto sqrt_x2 = sqrt(-0.5 * p);
+                res.push_back(-sqrt_x2);res.push_back(sqrt_x2);
+            }
+        }
+        else {
+            auto sqrt_delta = sqrt(delta);
+            auto x1_2 = sqrt_delta - p;
+            auto x2_2 = -sqrt_delta - p;
+            
+            if (x1_2 == 0) {
+                res.push_back(bias);
+            }
+            else if (x1_2 > 0) {
+                auto sqrt_x1_2 = sqrt(0.5 * x1_2);
+                res.push_back(sqrt_x1_2 + bias); res.push_back(bias - sqrt_x1_2);
+            }
+            if (x2_2 == 0) {
+                res.push_back(bias);
+            }
+            else if (x2_2 > 0) {
+                auto sqrt_x2_2 = sqrt(0.5 * x2_2);
+                res.insert(res.end(), sqrt_x2_2 + bias, bias - sqrt_x2_2);
+            }
+            return res;
+        }
+    }
+
+    auto m = eq_resolveSimpleCubicEquation(1, -0.5 * p, -r, 0.5 * p * r - 0.125 * q * q);
+
+    auto v1 = 2 * m - p;
+
+    if (v1 < 0) {
+        return res;
+    }
+
+    auto sqrt_v1_p2 = 0.5 * sqrt(v1);
+
+    auto v2 = q / sqrt_v1_p2;
+    auto v3 = -2 * m - p;
+
+    std::vector<double>result;
+
+    auto vx12 = v3 - v2;
+    auto vx34 = v3 + v2;
+
+    if (vx12 >= 0) {
+        auto base12 = bias + sqrt_v1_p2;
+        if (vx12 == 0) {
+            result.push_back(base12);
+        }
+        else {
+            auto sqrt_vx12_p2 = 0.5 * sqrt(vx12);
+            result.push_back(base12 + sqrt_vx12_p2);result.push_back(base12 - sqrt_vx12_p2);
+        }
+    }
+    if (vx34 >= 0) {
+        auto base34 = bias - sqrt_v1_p2;
+        if (vx34 == 0) {
+            result.push_back(base34);
+        }
+        else {
+            auto sqrt_vx34_p2 = 0.5 * sqrt(vx34);
+            result.push_back(base34 + sqrt_vx34_p2);
+            result.push_back(base34 - sqrt_vx34_p2);
+        }
+    }
+
+    return result;
+}
+
+double ps::ExtMath::eq_resolveSimpleCubicEquation(double a, double b, double c, double d)
+{
+    if (a != 1) {
+        b = b / a;
+        c = c / a;
+        d = d / a;
+    }
+
+    auto b2 = b * b;
+    auto b3 = b2 * b;
+    auto delta = b2 - 3 * c;
+    
+    double x;
+
+    if (delta == 0) {
+        auto inside = b3 - 27 * d;
+        if (inside == 0) {
+            x = -b;
+        }
+        else {
+            x = -b + cbrt(inside);
+        }
+    }
+    else {
+        auto abs_delta = (delta < 0) ? -delta : delta;
+        auto sqrt_delta = sqrt(abs_delta);
+        auto k = (4.5 * b * c - b3 - 13.5 * d) / (sqrt_delta * abs_delta);
+
+        if (delta > 0) {
+            auto abs_k = (k < 0) ? -k : k;
+            if (abs_k > 1) {
+                auto right_cbrt = sqrt(k * k - 1);
+                auto cube_combine = cbrt(abs_k + right_cbrt) + cbrt(abs_k - right_cbrt);
+                if (abs_k == k) {
+                    x = sqrt_delta * cube_combine - b;
+                }
+                else {
+                    x = -sqrt_delta * cube_combine - b;
+                }
+            }
+            else {
+                x = 2 * sqrt_delta * cos(acos(k) / 3) - b;
+            }
+        }
+        else {
+            auto right_cbrt = sqrt(k * k + 1);
+            auto cube_combine = cbrt(k + right_cbrt) + cbrt(k - right_cbrt);
+            x = sqrt_delta * cube_combine - b;
+        }
+    }
+
+    return x / 3;
+}
+
 ExtMath::vector::vector() : x(0), y(0), z(0) {}
 
 ExtMath::vector::vector(double x, double y) : x(x), y(y), z(0) {}

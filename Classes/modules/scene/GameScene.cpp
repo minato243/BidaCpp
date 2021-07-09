@@ -8,12 +8,15 @@
 #include <modules/core/utils/LerpUtils.h>
 #include <modules/camera-view/SphericalCamera.h>
 #include <cmath>
+#include <base/DrawNode3D.h>
+#include <modules/camera-view/utils/ThiccDrawNode3D.h>
 
 USING_NS_CC;
 using namespace ui;
 using namespace ps;
 
 cocos2d::Vec3 GameScene::ROTATE_SIGN[250];
+const double  GameScene::MAX_POWER = 500;
 
 cocos2d::Scene* GameScene::createScene()
 {
@@ -55,32 +58,33 @@ void GameScene::initTable() {
     table->setCameraMask(2);
     this->addChild(table);
     this->_table = table;
+
+    //auto drawNode = DrawNode3D::create();
+    //drawNode->setCameraMask(2);
+    //drawNode->drawLine(Vec3(0, 0, 0), Vec3(100, 100, 100), Color4F(1,0,0,1));
+    //this->addChild(drawNode);
+
+    auto drawNode = ThiccDrawNode3D::create();
+    drawNode->setCameraMask(2, true);
+    drawNode->drawLine(Vec3(0, 0, 0), Vec3(100, 100, 100), Color3B(255,0,0));
+    drawNode->drawCircle(Vec3(0, 0, 0), 100, Vec3(1,1,0));
+    this->addChild(drawNode);
+
+    this->_table->initGuildLine();
 }
 
 void GameScene::initCue()
 {
     auto cue = Cue::create();
     cue->setCameraMask(2);
-    this->_table->addChild(cue);
-    cue->updateCueRotate(vector(1, 1, 0));
+    this->_table->addCue(cue); 
     this->_cue = cue;
 }
 
 void GameScene::initCamera()
 {
-    //auto visibleSize = Director::getInstance()->getVisibleSize();
-    ////use custom camera
-    //auto camera = Camera::createPerspective(35, visibleSize.width / visibleSize.height, 0.1f, 10000);
-    //camera->setCameraFlag(CameraFlag::USER1);
-    //this->setCameraMask(2);
-    //this->addChild(camera);
-    //this->_camera = camera;
-    //auto position = this->_camera->getPosition3D();
-    //camera->setPosition3D(Vec3(0, 350, 350));
-    //camera->lookAt(Vec3(0, 0, 0));
-    this->setCameraMask(2);
     auto camera = SphericalCamera::create();
-    camera->setPosition3D(Vec3(0, 350, 350));
+    camera->setPosition3D(Vec3(0, 350, 120));
     this->addChild(camera);
     this->_camera = camera;
 }
@@ -89,6 +93,8 @@ void GameScene::initUI()
 {
     this->ui = UITestLayer::create();
     this->addChild(this->ui);
+    //this->ui->getDelegate().indicatorCallback = CC_CALLBACK_1(GameScene::updateCueOffset, this);
+    this->ui->setBallIndicatorCallback(CC_CALLBACK_1(GameScene::updateCueOffset, this));
 }
 
 void GameScene::initListener()
@@ -158,7 +164,7 @@ void GameScene::clickEvent(cocos2d::Ref* pSender)
     auto force = rand() % 500;
     auto direction = vector::normalize(vector(rand(), rand()));
     auto offset = vector::normalize(vector(rand(), rand()));
-    this->_table->_world->shoot(0, 0, 300, direction, offset);
+    this->_table->getWorld()->shoot(0, 0, 300, direction, offset);
     std::function<void()> callback = std::bind(&GameScene::doShoot, this);
     //this->_cue->doShootAnimation(300., callback);
 }
@@ -201,10 +207,10 @@ void GameScene::right(cocos2d::Ref* pSender)
 void GameScene::doShoot()
 {
     CCLOG("doShoot");
-    auto force =PhysicsConstants::MAX_CUE_OFFSET * this->ui->getPowerValue() /100;
-    auto direction = vector::normalize(vector(rand(), rand()));
-    auto offset = vector::normalize(vector(rand(), rand()));
-    this->_table->_world->shoot(0, 0, force, direction, offset);
+    auto force = GameScene::MAX_POWER * this->ui->getPowerValue() /100;
+    auto direction = this->_cue->getDirection();
+    auto offset = this->_cue->getOffset();
+    this->_table->getWorld()->shoot(0, 0, force, direction, offset);
 }
 
 void GameScene::addButton(const char* text, cocos2d::Vec2 position, cocos2d::Size size, cocos2d::ui::Widget::ccWidgetClickCallback  callback)
@@ -285,4 +291,10 @@ void GameScene::cueRotationUpdate(float dt) {
         -std::sin(this->pitch)
         ));
     //this->updateTableDirection(this->ui.powerSlider.getPercent() * this->ui.maxForce / 100);
+}
+
+void GameScene::updateCueOffset(ps::ExtMath::vector offset)
+{
+    auto radius = PhysicsConstants::MAX_CUE_OFFSET;
+    _cue->setOffset(ps::ExtMath::vector(radius * offset.x, radius * offset.y));
 }

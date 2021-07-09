@@ -36,6 +36,8 @@ namespace ps {
 		vector getDirection();
 
 		void setOffset(const vector & offset);
+		
+		vector getOffset();
 
 		ResultVelocities calcCueBallVelocities(double force);
 

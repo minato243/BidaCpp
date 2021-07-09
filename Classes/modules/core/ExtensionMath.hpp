@@ -183,6 +183,9 @@ namespace ps {
             std::vector<vector> points;
             static const vector OUTSIDE_ORIGIN;
         };
+
+        std::vector<double> resolveQuarticEquation(double a, double b, double c, double d, double e);
+        double eq_resolveSimpleCubicEquation(double a, double b, double c, double d);
     };
 }
 #endif

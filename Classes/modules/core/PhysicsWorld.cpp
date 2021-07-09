@@ -1096,3 +1096,8 @@ void ps::PhysicsWorld::setRun(bool isRunning)
 void PhysicsWorld::setBreak(bool brk) {
 	_break = brk;
 }
+
+PhysicsDispatcher* ps::PhysicsWorld::getDispatcher()
+{
+    return this->_dispatcher;
+}

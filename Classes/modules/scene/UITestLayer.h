@@ -4,6 +4,11 @@
 
 #include <cocos2d.h>
 #include <cocos/ui/CocosGUI.h>
+#include "TestBallIndicator.h"
+
+struct UITestCallBack {
+	BallIndicatorCallback indicatorCallback;
+};
 
 class UITestLayer: public cocos2d::Layer{
 public:
@@ -17,7 +22,9 @@ public:
 	float getCueSpeedValue();
 	void setMaxPower(int force);
 	void sliderEvent(cocos2d::Ref* sender, cocos2d::ui::Slider::EventType type);
-	void setDelegate(int delegate);
+	void setDelegate(UITestCallBack delegate);
+	void setBallIndicatorCallback(BallIndicatorCallback callback);
+	UITestCallBack& getDelegate();
 	void initFoVSliders();
 	void updateFoVValues();
 	CREATE_FUNC(UITestLayer);
@@ -31,8 +38,8 @@ private:
 	cocos2d::ui::Text* timescaleText;
 	cocos2d::ui::Slider* cueSlider;
 	cocos2d::ui::Text* cueText;
-	int ballIndicator;
-	int delegate;
+	TestBallIndicator* ballIndicator;
+	UITestCallBack delegate;
 	cocos2d::ui::Slider* fovSlider_1;
 	cocos2d::ui::Slider* fovSlider_2;
 	cocos2d::ui::Slider* fovSlider_3;
